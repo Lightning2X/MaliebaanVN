@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Ropework/example/scenes/ropework_example_scene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
