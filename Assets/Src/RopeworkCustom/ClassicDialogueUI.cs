@@ -91,6 +91,7 @@ namespace Yarn.Unity.Example {
             // Hide the continue prompt if it exists
             if (continuePrompt != null)
                 continuePrompt.SetActive (false);
+            InputEnabled = true;
         }
 
         /// Show a line of dialogue, gradually
@@ -138,7 +139,8 @@ namespace Yarn.Unity.Example {
                     while ( timeWaited < textSpeed ) {
                         timeWaited += Time.deltaTime;
                         // early out / skip ahead
-                        if ( Input.anyKeyDown ) {
+                        if (Input.anyKeyDown && InputEnabled) {
+                            Debug.Log("skip!");
                             lineText.text = lineTextDisplay;
                             earlyOut = true;
                         }
@@ -156,7 +158,8 @@ namespace Yarn.Unity.Example {
                 continuePrompt.SetActive (true);
 
             // Wait for any user input
-            while (Input.anyKeyDown == false) {
+            while (!Input.anyKeyDown || !InputEnabled) {
+                Debug.Log("waiting....");
                 yield return null;
             }
 
@@ -255,6 +258,7 @@ namespace Yarn.Unity.Example {
             yield break;
         }
 
+        public bool InputEnabled { get; set; }
     }
 
 }
