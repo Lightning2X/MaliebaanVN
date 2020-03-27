@@ -1,0 +1,971 @@
+fileFormatVersion: 2
+guid: 4c6676e31bc95174587609fd90c1d27e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3852489088973494919
+    second: bluebuttons_0
+  - first:
+      213: -1878925545608508549
+    second: bluebuttons_1
+  - first:
+      213: -1110006908206582859
+    second: bluebuttons_2
+  - first:
+      213: -7699924452105815815
+    second: bluebuttons_3
+  - first:
+      213: -5486063330536113518
+    second: bluebuttons_4
+  - first:
+      213: -577413309398659812
+    second: bluebuttons_5
+  - first:
+      213: 4933303847529725440
+    second: bluebuttons_6
+  - first:
+      213: -7672229745879776306
+    second: bluebuttons_7
+  - first:
+      213: 2538640034767733228
+    second: bluebuttons_8
+  - first:
+      213: -8771798499763248726
+    second: bluebuttons_9
+  - first:
+      213: -3528116456405990295
+    second: bluebuttons_10
+  - first:
+      213: 6216874405178413256
+    second: bluebuttons_11
+  - first:
+      213: 1985104003823864484
+    second: bluebuttons_12
+  - first:
+      213: -4679043862518456127
+    second: bluebuttons_13
+  - first:
+      213: -1402339792948496765
+    second: bluebuttons_14
+  - first:
+      213: 2784802640486514708
+    second: bluebuttons_15
+  - first:
+      213: -208585734752540523
+    second: bluebuttons_16
+  - first:
+      213: -4912369416350220727
+    second: bluebuttons_17
+  - first:
+      213: 1136271728706937892
+    second: bluebuttons_18
+  - first:
+      213: 306255802476301499
+    second: bluebuttons_19
+  - first:
+      213: -7499111940184784988
+    second: bluebuttons_20
+  - first:
+      213: -4745332187314528957
+    second: bluebuttons_21
+  - first:
+      213: 6685848536146765791
+    second: bluebuttons_22
+  - first:
+      213: 1124717222429770857
+    second: bluebuttons_23
+  - first:
+      213: -5972014665871294744
+    second: bluebuttons_24
+  - first:
+      213: -7177026646181499172
+    second: bluebuttons_25
+  - first:
+      213: 699872803028756055
+    second: bluebuttons_26
+  - first:
+      213: -6756860752512490114
+    second: bluebuttons_27
+  - first:
+      213: 3606344151826327983
+    second: bluebuttons_28
+  - first:
+      213: 5480246066387584170
+    second: bluebuttons_29
+  - first:
+      213: -5127864625035600779
+    second: bluebuttons_30
+  - first:
+      213: 212110648655416315
+    second: bluebuttons_31
+  - first:
+      213: -4822150156336664102
+    second: bluebuttons_32
+  - first:
+      213: 2881362790041640320
+    second: bluebuttons_33
+  - first:
+      213: -1775541242780195340
+    second: bluebuttons_34
+  - first:
+      213: 4789561367651414525
+    second: bluebuttons_35
+  - first:
+      213: 734221766476746804
+    second: bluebuttons_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bluebuttons_0
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1508
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a55514a6ac67530800000000000000
+      internalID: 3852489088973494919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_1
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1508
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b0996db27bce5e0800000000000000
+      internalID: -1878925545608508549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_2
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1508
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3fd1a19967890f0800000000000000
+      internalID: -1110006908206582859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_3
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1508
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f873eab18f542590800000000000000
+      internalID: -7699924452105815815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_4
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1508
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a3910a7769dd3b0800000000000000
+      internalID: -5486063330536113518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_5
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1508
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dc5b487ad9cf7f0800000000000000
+      internalID: -577413309398659812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_6
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 1508
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eb31926bd967440800000000000000
+      internalID: 4933303847529725440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_7
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1508
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec386a102b3c68590800000000000000
+      internalID: -7672229745879776306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_8
+      rect:
+        serializedVersion: 2
+        x: 3508
+        y: 1508
+        width: 318
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce18aec49af0b3320800000000000000
+      internalID: 2538640034767733228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1104
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1ae4c4dbf444680800000000000000
+      internalID: -8771798499763248726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1104
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96406b196cc990fc0800000000000000
+      internalID: -3528116456405990295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_11
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1104
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c090e54556c64650800000000000000
+      internalID: 6216874405178413256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_12
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 1104
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa802ee2918c8b10800000000000000
+      internalID: 1985104003823864484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_13
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1104
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0ad1ec562b01fb0800000000000000
+      internalID: -4679043862518456127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_14
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 1104
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386f8e26363e98ce0800000000000000
+      internalID: -1402339792948496765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_15
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 1104
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410c4cb3f3b95a620800000000000000
+      internalID: 2784802640486514708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_16
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 1104
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5986cde1164fa1df0800000000000000
+      internalID: -208585734752540523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_17
+      rect:
+        serializedVersion: 2
+        x: 3508
+        y: 1104
+        width: 318
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94eb3fcea02c3dbb0800000000000000
+      internalID: -4912369416350220727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_18
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 696
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42465e5fd19d4cf00800000000000000
+      internalID: 1136271728706937892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_19
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 696
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc800d970a004400800000000000000
+      internalID: 306255802476301499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_20
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 696
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af35622c6dcde790800000000000000
+      internalID: -7499111940184784988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_21
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 696
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dd3e97481352eb0800000000000000
+      internalID: -4745332187314528957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_22
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 696
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7e71b02d7e8cc50800000000000000
+      internalID: 6685848536146765791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_23
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 696
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964c0b3da5ccb9f00800000000000000
+      internalID: 1124717222429770857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_24
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 696
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ee715f6d442f1da0800000000000000
+      internalID: -5972014665871294744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_25
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 696
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdea6d27a44166c90800000000000000
+      internalID: -7177026646181499172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_26
+      rect:
+        serializedVersion: 2
+        x: 3508
+        y: 696
+        width: 318
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7566c743b9276b900800000000000000
+      internalID: 699872803028756055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_27
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 288
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e6b9e1feca32a0800000000000000
+      internalID: -6756860752512490114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_28
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 288
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa96a6b16ee4c0230800000000000000
+      internalID: 3606344151826327983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_29
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 288
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa483c403cebd0c40800000000000000
+      internalID: 5480246066387584170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_30
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 288
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c1678ca4a26d8b0800000000000000
+      internalID: -5127864625035600779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_31
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 288
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb0f2ad28191f200800000000000000
+      internalID: 212110648655416315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_32
+      rect:
+        serializedVersion: 2
+        x: 2290
+        y: 288
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad175fd4bf7441db0800000000000000
+      internalID: -4822150156336664102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_33
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 288
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08dd5710138acf720800000000000000
+      internalID: 2881362790041640320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_34
+      rect:
+        serializedVersion: 2
+        x: 3102
+        y: 288
+        width: 316
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5e70c95a20c57e0800000000000000
+      internalID: -1775541242780195340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bluebuttons_35
+      rect:
+        serializedVersion: 2
+        x: 3508
+        y: 288
+        width: 318
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1fbcc00b0f77240800000000000000
+      internalID: 4789561367651414525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

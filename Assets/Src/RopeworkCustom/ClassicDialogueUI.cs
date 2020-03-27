@@ -29,6 +29,7 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Text;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
 namespace Yarn.Unity.Example {
     /// Displays dialogue lines to the player, and sends
@@ -91,7 +92,9 @@ namespace Yarn.Unity.Example {
             // Hide the continue prompt if it exists
             if (continuePrompt != null)
                 continuePrompt.SetActive (false);
+
         }
+
 
         /// Show a line of dialogue, gradually
         public override IEnumerator RunLine (Yarn.Line line)
@@ -138,7 +141,8 @@ namespace Yarn.Unity.Example {
                     while ( timeWaited < textSpeed ) {
                         timeWaited += Time.deltaTime;
                         // early out / skip ahead
-                        if ( Input.anyKeyDown ) {
+                        if (InputCheck) {
+                            Debug.Log("skip!");
                             lineText.text = lineTextDisplay;
                             earlyOut = true;
                         }
@@ -156,7 +160,8 @@ namespace Yarn.Unity.Example {
                 continuePrompt.SetActive (true);
 
             // Wait for any user input
-            while (Input.anyKeyDown == false) {
+            while (!InputCheck) {
+                Debug.Log("waiting....");
                 yield return null;
             }
 
@@ -255,6 +260,18 @@ namespace Yarn.Unity.Example {
             yield break;
         }
 
+
+        public bool InputCheck
+        {
+            get
+            {
+                if (GameController.InputController.UIActive)
+                    return false;
+                else
+                    return GameController.InputController.CheckGameClicked() || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return);
+            }
+        }
+    
     }
 
 }
