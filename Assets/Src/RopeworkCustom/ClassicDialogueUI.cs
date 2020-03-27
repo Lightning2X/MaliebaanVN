@@ -268,7 +268,7 @@ namespace Yarn.Unity.Example {
                 if (GameController.InputController.UIActive)
                     return false;
                 else
-                    return GameController.InputController.CheckGameClicked() || Input.GetKeyDown(KeyCode.Z);
+                    return GameController.InputController.CheckGameClicked() || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return);
             }
         }
     
