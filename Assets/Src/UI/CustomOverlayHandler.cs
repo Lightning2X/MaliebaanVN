@@ -2,27 +2,27 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapButtonHandler : MonoBehaviour
+public class CustomOverlayHandler : MonoBehaviour
 {
-    public GameObject map, blur;
+    public GameObject overlay, blur;
     public void Clicked()
     {
-        if (map.activeSelf)
-            CloseMap();
+        if (overlay.activeSelf)
+            CloseOverlay();
         else
-            OpenMap();
+            OpenOverlay();
     }
 
-    private void OpenMap()
+    private void OpenOverlay()
     {
-        map.SetActive(true);
+        overlay.SetActive(true);
         blur.SetActive(true);
         GameController.InputController.UIActive = true;
     }
 
-    private void CloseMap()
+    private void CloseOverlay()
     {
-        map.SetActive(false);
+        overlay.SetActive(false);
         blur.SetActive(false);
         GameController.InputController.UIActive = false;
     }
