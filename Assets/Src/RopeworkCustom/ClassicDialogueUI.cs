@@ -74,6 +74,9 @@ namespace Yarn.Unity.Example {
         /// dialogue is active and to restore them when dialogue ends
         public RectTransform gameControlsContainer;
 
+        private Queue<string> lastLines;
+        // Amount of lines to remember in the lastLines queue
+        private const int HistoryLength = 40;
         void Awake ()
         {
             // if Ropework manager is null, then find it
@@ -93,6 +96,7 @@ namespace Yarn.Unity.Example {
             if (continuePrompt != null)
                 continuePrompt.SetActive (false);
 
+            lastLines = new Queue<string>();
         }
 
 
@@ -126,13 +130,13 @@ namespace Yarn.Unity.Example {
             } else { // no speaker name found, so hide the nameplate
                 nameText.transform.parent.gameObject.SetActive(false);
             }
-
             // display dialog
             if (textSpeed > 0.0f) {
                 // Display the line one character at a time
                 var stringBuilder = new StringBuilder ();
 
                 bool earlyOut = false;
+
                 yield return 0; // give time for previous Input.anyKeyDown event to become false
                 foreach (char c in lineTextDisplay) {
                     float timeWaited = 0f;
@@ -161,7 +165,6 @@ namespace Yarn.Unity.Example {
 
             // Wait for any user input
             while (!InputCheck) {
-                Debug.Log("waiting....");
                 yield return null;
             }
 
@@ -171,6 +174,7 @@ namespace Yarn.Unity.Example {
             if (continuePrompt != null)
                 continuePrompt.SetActive (false);
 
+            AddLineToHistory(nameText.text + ": " + lineTextDisplay);
         }
 
         /// Show a list of options, and wait for the player to make a selection.
@@ -260,6 +264,12 @@ namespace Yarn.Unity.Example {
             yield break;
         }
 
+        private void AddLineToHistory(string line)
+        {
+            if (lastLines.Count + 1 > HistoryLength)
+                lastLines.Dequeue();
+            lastLines.Enqueue(line);
+        }
 
         public bool InputCheck
         {
@@ -271,7 +281,8 @@ namespace Yarn.Unity.Example {
                     return GameController.InputController.CheckGameClicked() || Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return);
             }
         }
-    
+
+        public Queue<string> LastLines => lastLines;
     }
 
 }
