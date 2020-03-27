@@ -5,7 +5,6 @@ using UnityEngine;
 public class MapButtonHandler : MonoBehaviour
 {
     public GameObject map, blur;
-    public DialogueHandler dialogueHandler;
     public void Clicked()
     {
         if (map.activeSelf)
@@ -18,13 +17,11 @@ public class MapButtonHandler : MonoBehaviour
     {
         map.SetActive(true);
         blur.SetActive(true);
-        dialogueHandler.DisableInput();
     }
 
     private void CloseMap()
     {
         map.SetActive(false);
         blur.SetActive(false);
-        dialogueHandler.EnableInput();
     }
 }
