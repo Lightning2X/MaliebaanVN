@@ -14,11 +14,6 @@ public class GameController : MonoBehaviour
         inputController = this.gameObject.GetComponent<InputController>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public static InputController InputController => _gameController.inputController;
 

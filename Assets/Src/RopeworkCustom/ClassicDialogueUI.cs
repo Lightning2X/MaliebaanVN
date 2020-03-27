@@ -29,6 +29,7 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Text;
 using System.Collections.Generic;
+using UnityEngine.EventSystems;
 
 namespace Yarn.Unity.Example {
     /// Displays dialogue lines to the player, and sends
@@ -73,7 +74,6 @@ namespace Yarn.Unity.Example {
         /// dialogue is active and to restore them when dialogue ends
         public RectTransform gameControlsContainer;
 
-        private bool inputRegistered = false;
         void Awake ()
         {
             // if Ropework manager is null, then find it
@@ -95,10 +95,6 @@ namespace Yarn.Unity.Example {
 
         }
 
-        void Start()
-        {
-            GameController.InputController.AddHandler(InputHandler, InputController.InputLayer.Dialogue);
-        }
 
         /// Show a line of dialogue, gradually
         public override IEnumerator RunLine (Yarn.Line line)
@@ -145,7 +141,7 @@ namespace Yarn.Unity.Example {
                     while ( timeWaited < textSpeed ) {
                         timeWaited += Time.deltaTime;
                         // early out / skip ahead
-                        if (CheckInput) {
+                        if (InputCheck) {
                             Debug.Log("skip!");
                             lineText.text = lineTextDisplay;
                             earlyOut = true;
@@ -164,7 +160,7 @@ namespace Yarn.Unity.Example {
                 continuePrompt.SetActive (true);
 
             // Wait for any user input
-            while (!CheckInput) {
+            while (!InputCheck) {
                 Debug.Log("waiting....");
                 yield return null;
             }
@@ -264,25 +260,18 @@ namespace Yarn.Unity.Example {
             yield break;
         }
 
-        private bool CheckInput
+
+        public bool InputCheck
         {
             get
             {
-                if (inputRegistered)
-                {
-                    inputRegistered = false;
-                    return true;
-                }
-                else
+                if (GameController.InputController.UIActive)
                     return false;
+                else
+                    return GameController.InputController.CheckGameClicked() || Input.GetKeyDown(KeyCode.Z);
             }
         }
-
-        public void InputHandler()
-        {
-            inputRegistered = Input.anyKeyDown;
-        }
-
+    
     }
 
 }

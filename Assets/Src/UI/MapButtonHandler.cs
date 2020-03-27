@@ -17,13 +17,13 @@ public class MapButtonHandler : MonoBehaviour
     {
         map.SetActive(true);
         blur.SetActive(true);
-        GameController.InputController.DisableLayer(InputController.InputLayer.Dialogue);
+        GameController.InputController.UIActive = true;
     }
 
     private void CloseMap()
     {
         map.SetActive(false);
         blur.SetActive(false);
-        GameController.InputController.EnableLayer(InputController.InputLayer.Dialogue);
+        GameController.InputController.UIActive = false;
     }
 }

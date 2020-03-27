@@ -8,65 +8,25 @@ using UnityEngine;
 /// </summary>
 public class InputController : MonoBehaviour
 {
-    private static InputController _inputController;
-
-    public enum InputLayer
-    {
-        UI,
-        Dialogue,
-        Game
-    }
-    private List<InputConstruct> _inputHandlers; 
-    // Start is called before the first frame update
+    private bool _gamepressed;
     void Awake()
     {
-        _inputHandlers = new List<InputConstruct>();
+        _gamepressed = false;
+        UIActive = false;
     }
 
-    void Update()
+    public bool CheckGameClicked()
     {
-        foreach (InputConstruct c in _inputHandlers)
+        if (_gamepressed)
         {
-            if (c.Enabled)
-                c.Handler();
+            _gamepressed = false;
+            return true;
         }
+        else
+            return false;
     }
 
-    public void AddHandler(Action handler, InputLayer layer)
-    {
-        InputConstruct construct = new InputConstruct(handler, layer);
-        _inputHandlers.Add(construct);
-    }
+    public void GameWasClicked() => _gamepressed = true;
 
-    public void DisableLayer(InputLayer layer)
-    {
-        for (int i = 0; i < _inputHandlers.Count; i++)
-        {
-            if (_inputHandlers[i].Layer == layer)
-                _inputHandlers[i].Enabled = false;
-        }
-    }
-
-    public void EnableLayer(InputLayer layer)
-    {
-        for (int i = 0; i < _inputHandlers.Count; i++)
-        {
-            if (_inputHandlers[i].Layer == layer)
-                _inputHandlers[i].Enabled = true;
-        }
-    }
-
-    public class InputConstruct
-    {
-        public Action Handler { get; set; }
-        public InputLayer Layer { get; set; }
-        public bool Enabled { get; set; }
-        public InputConstruct(Action handler, InputLayer layer)
-        {
-            this.Handler = handler;
-            this.Layer = layer;
-            Enabled = true;
-        }
-    }
-
+    public bool UIActive { get; set; }
 }
