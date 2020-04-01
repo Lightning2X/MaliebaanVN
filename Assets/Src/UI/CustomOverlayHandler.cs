@@ -9,7 +9,7 @@ public class CustomOverlayHandler : MonoBehaviour
     {
         if (overlay.activeSelf)
             CloseOverlay();
-        else
+        else if (!GameController.InputController.UIActive)
             OpenOverlay();
     }
 
