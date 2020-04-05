@@ -13,7 +13,7 @@ public class Touchable : Text
 }
  
 // Touchable_Editor component, to prevent treating the component as a Text object.
-
+#if (UNITY_EDITOR) 
 [CustomEditor(typeof(Touchable))]
 public class TouchableEditor : Editor
 {
@@ -22,3 +22,4 @@ public class TouchableEditor : Editor
         // Do nothing
     }
 }
+#endif

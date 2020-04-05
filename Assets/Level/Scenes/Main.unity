@@ -160,6 +160,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 82675393856402862, guid: 9e0841b82a4ebcd438730d23886e17e6,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.145
+      objectReference: {fileID: 0}
     - target: {fileID: 114107440089284736, guid: 9e0841b82a4ebcd438730d23886e17e6,
         type: 3}
       propertyPath: m_Padding.m_Top
@@ -268,6 +273,11 @@ PrefabInstance:
       propertyPath: loadAudio.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: 6076163f000d35246a5a23e13ae9de25, type: 3}
+    - target: {fileID: 114424206964999768, guid: 9e0841b82a4ebcd438730d23886e17e6,
+        type: 3}
+      propertyPath: textSpeed
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 114545994632442856, guid: 9e0841b82a4ebcd438730d23886e17e6,
         type: 3}
       propertyPath: m_FontData.m_FontSize
@@ -386,7 +396,12 @@ PrefabInstance:
     - target: {fileID: 224399975809603888, guid: 9e0841b82a4ebcd438730d23886e17e6,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 27.49939
+      value: 27.499512
+      objectReference: {fileID: 0}
+    - target: {fileID: 224510685833636184, guid: 9e0841b82a4ebcd438730d23886e17e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.2998047
       objectReference: {fileID: 0}
     - target: {fileID: 224615983262082226, guid: 9e0841b82a4ebcd438730d23886e17e6,
         type: 3}
@@ -397,6 +412,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224615983262082226, guid: 9e0841b82a4ebcd438730d23886e17e6,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.2998047
       objectReference: {fileID: 0}
     - target: {fileID: 224697056232409082, guid: 9e0841b82a4ebcd438730d23886e17e6,
         type: 3}

@@ -16,7 +16,7 @@ Eve: Why am I all alone...
 <<Flip @ Eve>>
 Eve: Yikes
 Eve: Guess I'll go to the next scene...
-<<Move @ Eve, 0.2, 0.2, 2>>
+<<Move @ Eve, 0.2, hide, 2>>
 Eve: YEET
 
 [[Go to next scene poggers|Test]]

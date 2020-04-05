@@ -24,6 +24,7 @@ SOFTWARE.
 
 */
 
+using System.CodeDom;
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
@@ -42,6 +43,7 @@ namespace Yarn.Unity.Example {
      */
     public class ClassicDialogueUI : Yarn.Unity.DialogueUIBehaviour
     {
+        private const string speechPath = "speech";
         // Ropework specific stuff
         public Ropework.RopeworkManager ropework;
         public Text nameText;
@@ -152,6 +154,8 @@ namespace Yarn.Unity.Example {
                         }
                         yield return 0;
                     }
+                    ropework.StopAudio("speech");
+                    ropework.PlayAudio("speech");
                     if ( earlyOut ) { break; }
                 }
             } else {
