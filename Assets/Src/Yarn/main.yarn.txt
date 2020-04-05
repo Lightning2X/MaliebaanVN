@@ -1,32 +1,34 @@
 title: Start
 tags: 
 colorID: 0
-position: -82,-1311
+position: -229,-3450
 ---
 
-Thursday 08:19, Sicherheitspolizei, General Office 
+<<set $suspicion to 0>>
 <<Scene @ bg_office>>
 <<Act @ Tom, cool-girl>>
 <<Act @ SiPoMember, cool-girl>>
+Thursday 08;19, Sicherheitspolizei, General Office 
 
 SiPoMember: Hey De Wit, there you are. Herr Wiegmann is looking for you.
 Tom: Great, another preach. Just what I need. First no breakfast, now this...
 SiPoMember: I don't think he realizes you are too late. 
 SiPoMember: Meyer is already in Herr Wiegmann's office though, probably flirted with the secretary again. 
 Tom: Yeah, hahaha thanks for the info. 
-[[General office new case|Generaloffice74]]
+[[Go to your desk|Generaloffice74]]
 
 ===
 title: Generaloffice74
 tags: 
 colorID: 0
-position: -81,-1017
+position: -228,-3156
 ---
 
-Thursday 08:25, Sicherheitspolizei, General Office
+
 <<Scene @ bg_office>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
+Thursday 08;25, Sicherheitspolizei, General Office
 
 Peter: Hey Tom, there you are.
 Tom: Ha Peter, back from Herr Wiegmann I see.
@@ -43,22 +45,22 @@ Tom: O help, that vague tip must have come from a desperate person of the NSB or
 Peter: He, don’t talk about our mates like that. Take the case serious Tom. We can proof ourselves!
 Tom: Alright, alright, I will. I only hope Mulder stops making it so difficult for himself.
 Peter: Hahaha, if he did we won’t have a job and we need food though.
-[[Interrogation pastor Mulder|InterroRoom74]]
+[[Go interrogate pastor Mulder|InterroRoom74]]
 
 ===
 title: InterroRoom74
 tags: 
 colorID: 0
-position: -90,-737
+position: -237,-2876
 ---
 
-Thursday 08:35, Sicherheitspolizei, Interrogation Room 
 <<Scene @ bg_office>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Mulder, cool-girl>>
+Thursday 08;35, Sicherheitspolizei, Interrogation Room 
 
-Peter: Investegation 2.39, Thursday morning around 08:35, the 14th of December, 1943. 
+Peter: Investegation 2.39, Thursday morning around 08;35, the 14th of December, 1943. 
 Peter: State your name and occupation please. You'd probably know the drill by now.
 Mulder: Jan Mulder, pastor at the local church here at the Lime Tree lane.
 Tom: Mr. Mulder? Do you know why you are here again?
@@ -72,7 +74,7 @@ Peter: You are not just helping poor people. You are helping Jews!
 Tom: This time you are not only helping but also giving them shelter. Is this true?!
 Mulder: ...
 Tom: Do you deny this?
-Noise: *Slams on the table* 
+*Slams on the table* 
 Peter: Answer the question!
 Mulder: I indeed help poor people and do not make difference between them. Although I am not give people shelter. 
 Peter: You maintain this feeble lie?
@@ -85,7 +87,7 @@ Mulder: Go and take a look. There is no evidence for this accusation.
 title: LimeTreeLane
 tags: 
 colorID: 0
-position: -141,-519
+position: -288,-2658
 ---
 
 <<Scene @ bg_office>>
@@ -107,13 +109,13 @@ Peter: If we actually find something in Mulder's house and finish this case prop
 title: HouseofMrMulder82
 tags: 
 colorID: 6
-position: -154,-234
+position: -301,-2373
 ---
 
-Thursday 10:55, Lime Tree Lane 82, front doors
 <<Scene @ bg_office>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
+Thursday 10;55, Lime Tree Lane 82, front doors
 
 Peter: Here we are.
 Tom: You can already go upstairs, I will finish my cigarette and join you in a bit. 
@@ -130,11 +132,8 @@ Tom: YEAH, SURE. I WILL TAKE A LOOK!
 title: NeighboursofMrMulder107
 tags: 
 colorID: 0
-position: -167,161
+position: -314,-1978
 ---
-
-Thursday 11:01, Lime Tree Lane 80, front doors
-<<Scene @ Neighbours of Mr. Mulder>>
 
 
 <<Scene @ bg_office>>
@@ -142,6 +141,7 @@ Thursday 11:01, Lime Tree Lane 80, front doors
 <<Act @ Peter, cool-girl>>
 <<Act @ Voice, cool-girl>>
 <<Hide @ Voice>>
+Thursday 11;01, Lime Tree Lane 80, front doors
 
 Man: ...
 Tom: ...
@@ -158,13 +158,15 @@ Voice: Hurry, they are already busy next door.
 title: sparehiders
 tags: 
 colorID: 0
-position: 167,214
+position: 20,-1925
 ---
 
-Thursday 11:08, Lime Tree Lane 82, front doors
+<<set $arrestedhiders to false>>
+<<set $suspicion to $suspicion + 5>>
 <<Scene @ bg_office>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
+Thursday 11;08, Lime Tree Lane 82, front doors
 
 Peter: And?
 Tom: Nothing special, the neighbours were cleaning their house and some stuff fell down.
@@ -173,11 +175,12 @@ Peter: Nothing really valuable as evidence or a lead. But I think we should take
 Peter: But first let's get back to the office and report our progress...
 Peter: Damn, this was our chance to proof ourselves to Herr Wiegmann. 
 
-Thursday 14:23, Sicherheitspolizei, General Office 
+// No need for a new node here so we continue on the current node.
 <<Scene @ bg_office>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Wiegmann, cool-girl>>
+Thursday 14;23, Sicherheitspolizei, General Office 
 
 Wiegmann: De Wit, Meyer, both in my office now!
 Both: Yes, Herr Wiegmann.
@@ -192,16 +195,17 @@ Both: Yes, Herr Wiegmann.
 title: arresthiders
 tags: 
 colorID: 0
-position: -636,311
+position: -783,-1828
 ---
 
-Thursday 11:08, Lime Tree Lane 82, front doors
+<<set $arrestedhiders to true>>
 <<Scene @ bg_office>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Huffelman, cool-girl>>
 <<Act @ Man, cool-girl>>
 <<Act @ Woman, cool-girl>>
+Thursday 11;08, Lime Tree Lane 82, front doors
 
 Tom puts his foot in the door opening.
 Tom: PETER!!!
@@ -220,29 +224,30 @@ Tom: Well what are you waiting for. Go and get it!
 Huffelman: I lost it...
 Tom: I will arrest you for not showing an identity card.
 Huffelman: No, No, please. I have a child. A little girl. Please don't do this. Don't you have a family?
--> Tom: Okay, let this be a warning and fix your stuff!
-    Peter: What are you doing?
-    Tom: Peter? Are you already here?
-    Peter: Yes, don't let that men go! Or you will arrest him or I will do it.
--> Tom: That's not my buisiness. I am arresting you and the rest of your family for not showing an identity card.
-    Peter: I see you managed to earn yourself a promotion, while I was gone.
-    Tom: I'm just doing my job, Peter
+-> Okay, let this be a warning and fix your stuff!
+   <<set $suspicion to $suspicion + 3>>
+   Peter: What are you doing?
+   Tom: Peter? Are you already here?
+   Peter: Yes, don't let that men go! Or you will arrest him or I will do it.
+-> That's not my buisiness. I am arresting you and the rest of your family for not showing an identity card.
+   Peter: I see you managed to earn yourself a promotion, while I was gone.
+   Tom: I'm just doing my job, Peter
 
 [[Go to general office|generalofficearrest]]
 
-// General Office
+// General Office arrest timeline
 ===
 title: generalofficearrest
 tags: 
 colorID: 0
-position: -656,626
+position: -803,-1513
 ---
 
-Thursday 12:13, Sicherheitspolizei, General Office 
 <<Scene @ bg_office>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Wiegman, cool-girl>>
+Thursday 12;13, Sicherheitspolizei, General Office 
 
 Wiegmann: De Wit, I heard you and Meyer caught some Jews.
 Wiegmann: Impressive work.
@@ -274,8 +279,662 @@ Peter: Yes, sir.
 title: timelineconverge1
 tags: 
 colorID: 0
-position: -55,611
+position: -202,-1528
 ---
 
-yesterday
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Dekker, cool-girl>>
+Friday 09;00, Lime Tree Lane 40, Front
+
+Tom: Let's get this over with.
+Peter: Not a fan of Dekker, are you?
+Tom: No, I am not. He always refused to help any the Winterhulp. 
+Peter: Hmmm... I can understand you, but he an important person of the church.
+Peter: I just hope we will find another lead again, otherwise Wiegmann will be furious again, especially because the focus is now on Dekker.
+Tom: Yes you are right!
+*Doorbell*
+Dekker: Welcome, what can I do for you.
+Tom: We are here to ask you some questions.
+Dekker: Sure come in, it's cold outside.
+
+[[Question archbishop Dekker|questionDekker]]
+
+===
+title: questionDekker
+tags: 
+colorID: 0
+position: -250,-1261
+---
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Dekker, cool-girl>>
+<<Act @ Peter, cool-girl>>
+Friday 09;03, Lime Tree Lane 40, Dekker's Office.
+
+Dekker: Take a seat.
+Tom: We'd rather stand.
+Dekker: If that is what you want.
+Peter: Let's get to business, shall we?
+Peter: We are here to ask you some questions about Jan Mulder.
+Peter: As you probably know by now, Mulder has been inprisoned, because of suspicion of involvement with the Dutch resistance.
+Tom: He claims he has no connection.
+Peter: You are a close friend of him, do you meet often?
+Dekker: Yes we do actually. However he is truly a good person.
+Peter: You know he was arrested and convicted for two months of prion?
+Dekker: I can assure you that he has no connection to the dutch resistance. 
+Dekker: He is a very busy man, however a always makes time for me.
+Dekker: I don't see how he could juggle both his time working for the resistance and his his obligations as pastor.
+Peter: Then how do you explain the tip leading to Mulder?
+Dekker: Whoever sent that tip, the pastor is an easy target, because arrested before.
+Dekker: He helps the poor, like he always has done. It's a pity that he is suspected instead of rewarded for helping the poors.
+Peter: He is not the victim here!
+Dekker: All he is trying to do is help people, he does not want to offend anybody.
+Tom: Unlike you. 
+Dekker: Me?
+Tom: You have multuple times refused to support organisations that could really use the money, like the Winterhulp for example.
+Dekker: I refuse to give money to those who prioritizes one person above the other. 
+Tom: Maybe if you gave some money, there would be no destinction between the two because there would be enough for everyone.
+Dekker: I admire your optimism.
+Dekker: If this is all you have on Mr. Mulder, I am looking forward to his release soon.
+<<if $arrestedhiders>>
+Peter: Yesterday a family was taken in next to the pastor's house. They told us about your secret meetings.
+Tom: According to the family they could hear you talk, quite frequently.
+Dekker: What's meaning of this? We are just friends.
+Peter: We will watch you. Know which side you are on...
+<<endif>>
+Peter: This will be all for now. We will take a look in the Westernchurch.
+Dekker: Go ahead. God's house is always open everyone.
+[[Walk to house of archbishop Dekker|garagegirl]]
+
+===
+title: garagegirl
+tags: 
+colorID: 0
+position: -251,-1010
+---
+
+// After the interview
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+Friday 10;30, Lime Tree Lane 40, Front
+
+Peter: We can't get back to Wiegmann without new leads or evidence.
+Tom: You are right! I think your suggestion is right.
+Tom: Both suspects are connected to the church, so maybe the Westernchurch will give us some new info.
+
+// At the Garage
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ SiPoMember, cool-girl>>
+Friday 10;40, garage, Lime Lree Lane 71
+
+SiPoMember: Hey Peter and Tom, over here.
+Tom: Hey, out of petrol?
+SiPoMember: Yes, our daily stop at this petrol station. That guy's always here to refill our car.
+Tom: Hahaha, boy you could use a new pen. Your hands are completely blue!
+SiPoMember: So where are you heading towards?
+Tom: Mulder's office at the Westernchurch.
+A girl sticks out her tongue and runs away
+Peter: ... YOU COME BACK HERE.
+Girl: Aaaagh.
+Tom: What are you doing Peter!? Don't just grab a random girl of the street. 
+Peter: How dare you!? She, she... stuck out her tongue to me!
+Girl: You're hurting me. 
+Tom: Come on, give her to me. We will handle this.
+Peter: She is coming with me. Let's see haw she feels after staying a night in jail.
+Tom: C'mon Peter we have more important things to do. Let her go.
+Peter: How can you say that! Let's see how you feel after stying a night in jail.
+
+[[Interrogate the girl|interrogategirl]]
+
+===
+title: interrogategirl
+tags: 
+colorID: 0
+position: -251,-750
+---
+
+// Interrogation room
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Anna, cool-girl>>
+Friday 12;10, Sicherheitspolizei, Interrogation Room 
+
+Tom: Investigation 2.53, Saturday just after 12:00, the 16th of January, 1943.
+Tom: Interrogation on the charge of offence of an officer in function.
+Tom: State your name and occupation please. 
+Anna: Anna Koning, s-s-student.
+Tom: Miss, do you know why you are here?
+Anna: It... It was just something innocent, there is no need to get so angry.
+Tom: There is no need to cry.
+Tom: If you apologize I'm sure he will you. 
+Anna: I'm not sorry though.
+Tom: Don't waste a day in jail.
+Peter: You're a student, did you sign the loyalty contract?
+Anna: Yes I did, but most of my teachers are gone. My father works as professor at Utrecht University though. He teaches me some stuff every now and then.
+Tom: Well you are lucky then.
+Anna: No I am not, you took all the students and teachers to work in Germany. 
+Peter: Even so, do something productive in your life, instead of complaining. Help the church, go to work.
+Anna: I'm not really the religeous type and you dont have time for work when so much time is spent on keeping up with work that has not teacher to teach us. 
+Peter: You know what, why don't you stay for the night? Let's see how you talk tomorrow?
+Anna: I...
+Tom: If you do not want to apologize for your actions. I will have to take you into custody. 
+Anna: ...
+
+[[Update Wiegmann on the current situation|updatewiegmann]]
+
+===
+title: updatewiegmann
+tags: 
+colorID: 0
+position: -233,-495
+---
+
+// In the main office of the Sicherheitspolizei
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Wiegman, cool-girl>>
+<<Act @ Rector, cool-girl>>
+Saturday; 16:15, Sicherheitspolizei, main office 
+
+Wiegmann: Meyer, De Wit, WHY ARE YOU HERE?!
+Tom: This girl stuck out her tongue to Peter, so we were interrogating her.
+Wiegmann: Oh, you guys can't even focus on important things. 
+Wiegmann: Just put her in a cell and call her parents!
+Peter: We already did, sir.
+Wiegmann: Then go on with the investigation of Mulder's case!
+*BAM* The door slams open.
+Tom: Put that girl in a cell Peter, we really have to get on before Wiegmann comes out of his office again.
+Peter: Yes I would love to put her in a cell.
+Rector: Sir, I came here to request the release of Anna Koning.
+Tom: You are not allowed to see Herr Wiegmann, he is very busy at the moment.
+*The door opens*
+Wiegmann: What are you stil doing here Tom! Who is this man?
+Tom: He is-
+Rector: I am the rector magnificus of Utrecht University and I am here to request you the release of Anna Koning.
+Wiegmann: Follow me.
+*Wiegmann goes through the door*
+Tom: ...
+*KABLAM* - The door slams open!
+Wiegmann: GET THIS MAN OUT OF MY SIGHT AND IN A CELL.
+Tom: Yes, sir.
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+Saturday 18;15, Sicherheitspolizei, General Office 
+
+Peter: Ready to go to the church?
+Tom: No, I'm sorry we will have to wait untill tomorrow.
+Peter: How so?
+Tom: My shift is over and I want to get to the winterhulp before all the coupons are gone.
+Peter: I understand. I will finish up and see you tomorrow then.
+Tom: Yes, have a nice evening!
+Peter: You too.
+
+[[Go to the Winterhulp building|winterhulp]]
+
+===
+title: winterhulp
+tags: 
+colorID: 0
+position: -230,-237
+---
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ NSBmember, cool-girl>>
+<<Act @ Woman, cool-girl>>
+Friday 18;25, Winterhulp building, front
+
+Tom: Good evening, I'm here for the Winterhulp coupons. 
+NSBmember: Ah a fellow SiPo member I see.
+NSBmember: Here is the coupon for this week.
+Tom: Thank you very much.
+NSBmember: You are lucky, these are the last ones.
+Woman: That's unfair we were earlier than him! 
+NSBmember: It is how it is. They protect us everyday, to ensure that they can keep doing this, they must stay well fed.
+NSBmember: Don't you agree?
+Tom: Yes, I need them. You wouldn't want me to starve during a job would you?
+Woman: You can't just do this... My family, they need food, new clothes against-
+-> Everyone has a family. It doesn't make you special.
+   Woman: You bastard!
+   NSBmember: Move along now or worse consequences will follow ma'am....
+-> I know how you feel... Here, but only this time alright. Keep your children well fed. 
+   <<set $suspicion to $suspicion + 1>>
+   Woman: Thank you so much kind man!
+   NSBmember: You will end up starving your own mother to death, if you keep believing in their exaggerated stories. Everybody is hungry. 
+
+// Add a line of tom praying or something here? why would he go to the western church
+[[Go to the Western Church|westernchurch]]
+
+===
+title: westernchurch
+tags: 
+colorID: 0
+position: -224,21
+---
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Anna, cool-girl>>
+Saturday 8;45, Inside the Westernchurch, Lime Tree Lane 90
+
+Tom: I came to ask for good fortune and for the health of my family, friends and colleges. 
+You hear a familiar voice; "No.... look.... taken.... agreed."
+Tom:...
+Anna:...
+Tom: Funny to see you here.
+Anna: Oh, uhm yes. I-I didn't see you.
+Tom: They let you out, I see.
+Anna: Yes... My father persuaded your chef.
+Tom: You're lucky, to have such a good father. 
+Anna: Yes, I know.
+Anna: I really need to get going now. 
+Tom: Wait!
+Tom: What brings you here exactly?
+Man: Come on Anna we need to go.
+Tom: She hasn't answered the question yet.
+Anna: Just trying to make me forget my sins.
+Tom: You don't need an entire group for that.
+Anna: We are a bible study group. So we discuss the bible for our studies and stuff. As I already told you, I'm a student.
+Tom: You also told me, you weren't religious. I believe your precise words were: not being a religeous type.
+Peter: Hé, you here again?
+Anna: Sorry I have to go now *runs away*
+
+//Two choices once again: Let Anna go or take her in.
+// Choice 1: Let her go
+[[Let her go|letannago]]
+[[After her!|afteranna]]
+
+===
+title: letannago
+tags: 
+colorID: 0
+position: 122,218
+---
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+
+Tom: ...
+Peter: Damnit, after her!
+Tom: Let her go Peter, we have lost her already.
+Peter: What was that? You just stood there.
+Tom: They caught me off guard...
+Peter: Nonsense, you better run next time. They are part of the resistance. I just heard them talking.
+Peter: Let's just get back for now. Wiegmann has to know about this.
+
+[[Go back to the SiPo|generalofficeanna]]
+
+===
+title: generalofficeanna
+tags: 
+colorID: 0
+position: 138,479
+---
+
+<<Scene @ bg_office>>
+<<Act @ Wiegmann, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Tom, cool-girl>>
+<<Act @ SiPoMember, cool-girl>>
+Saturday; 13;10, Sicherheitspolizei, General Office 
+
+Wiegmann: DE WIT, YOU LOST A MEMBER OF THE DUTCH RESISTANCE AND YOU DIDN'T EVEN LOOK IN MULDER'S OFFICE?
+Wiegmann: THE WORD INCOMPETENCE IS TOO GOOD FOR YOU.
+Wiegmann: Meyer, at least you have something that resembles competence. I will sent you to investigate Mulder's office alone.
+Wiegmann: As for you, De Wit. Paper work, That's something you at least will not be able to screw up.
+Tom: Sir.
+*Door closes*
+Tom: You were there too you know, it's not only me that let Anna escape. 
+Peter: You were right next to her. I would almost think you did it on purpose.
+Peter: Just be glad I didn't elaborate further.
+Peter: Have fun with your paper work.
+Tom: Hope you find somthing in Mulder's office.
+
+The next day...
+Sunday 13;10, Sicherheitspolizei, General Office 
+Peter: Still stuck doing paper work, huh?
+Tom: Yes.
+Tom: I...I-
+*DOOR swings open*
+Wiegmann: DE WIT, MEYER, FOLLOW ME!!!
+Peter: Sir!
+Tom: Sir!
+SiPoMember: Where is Herr Weigmann running off to with a gun?!
+
+You hear some commotion coming from outside
+[[Go outside and check it out|sipofrontanna]]
+
+===
+title: sipofrontanna
+tags: 
+colorID: 0
+position: 130,794
+---
+
+<<Scene @ bg_office>>
+<<Act @ Wiegmann, cool-girl>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Man, cool-girl>>
+<<Act @ Anna, cool-girl>>
+Sunday 13;12, Sicherheitspolizei, SiPo front 
+
+Wiegmann: STOP I arrest you on suspicion of spionage.
+Peter: The girl's name is Anna Koning, she was the girl that stuck out her tongue and ran out of the church, sir.
+Tom: Another ran away, but other officers are after him. This man is unknown.
+Wiegmann: I see. I see.
+Anna: There is no need for the gun.
+Man: We were just standing here.
+Wiegmann: Doing what? I know what you were doing. You were spying, maybe even to plan an assassination on me.
+Wiegmann: Officers take them back to the office, I will keep them under shot.
+
+[[Go back to the office|annainsidetheoffice]]
+
+===
+title: annainsidetheoffice
+tags: 
+colorID: 0
+position: 139,1092
+---
+
+<<Scene @ bg_office>>
+<<Act @ Wiegmann, cool-girl>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Anna, cool-girl>>
+<<Act @ SiPoMember, cool-girl>>
+Sunday 13;17, Sicherheitspolizei, General Office
+
+<<Scene @ General Office>>
+Wiegmann: Search them!
+Anna: Keep your-
+Wiegmann: The more you talk, the closer I am to pulling the trigger.
+Anna: ...
+Tom: There is nothing on her.
+Peter: I-I, this man had a gun in his pocket!
+Wiegmann: WHAT!
+SiPoMember: What?!
+Wiegmann: Take them into a cell.
+*Anna takes aim at the window!*
+*BANG!*
+Noice: Glass shattering
+SiPomember: She jumped out of the window!
+Wiegmann: GO GET HER!
+Wiegmann: She's too far away to chase, shoot her!
+
+//2 choices 1 shot Anna, 2 Let her go.
+//Choice 1/2    -     1       -       1
+[[Take aim|shootanna]]
+[[Refuse to take the shot|letannagoagain]]
+
+===
+title: shootanna
+tags: 
+colorID: 0
+position: 470,1218
+---
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Anna, cool-girl>>
+Sunday 13;20, Lime Tree Lane 
+
+<<Scene @ Westernchurch>>
+**BANG**
+Anna: Aaaagh
+Tom: You're hereby under arrest for for possession of a firearm and conspericy.
+Peter: Nice shot!
+Anna: ...
+Peter: Let's get this her back.
+Anna: Shut up.
+*Peter kicks Anna*
+Tom: No need for that, she is already out cold. Let's get back.
+
+[[Take Anna back to the General Office|woundedannageneraloffice]]
+
+===
+title: woundedannageneraloffice
+tags: 
+colorID: 0
+position: 764,1474
+---
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Anna, cool-girl>>
+<<Act @ Wiegmann, cool-girl>>
+Sunday 13;27, Sicherheitspolizei, Interrogation Room
+
+Tom: Investigation 2.58, Sunday just before 13:27, the 16th of January, 1943. 
+Tom: Interrogation on the charge of possesion of guns and violence against members of the Sicherheitspolizei.
+Anna: I-I...
+Wiegmann: SHUT UP.
+*Wiegmann slaps Anna on her fingers with a ruler*
+Anna: Aaaagh.
+Wiegmann: Tell me the names off your "friends"!
+Anna: I-I won't.
+*Anna gets hit with a ruler*
+Anna: Please stop. 
+Wiegmann: Tell. Me. The. Names.
+Anna: ...
+Peter: We already heard you in the Westernchurch. 
+Peter: You are conspiring against us. You are spies trying to deciper how much men power and money we have.
+Wiegmann: I knew the moment I saw you, that you were up to no good. 
+Peter: She has a father doesn't she?
+Wiegmann: Your father asked for you. He begged me to set you free, but I knew we would soon meet again.
+Tom: Maybe her father wants to talk in her stead?
+Anna: ....
+Anna: Y-You disgust me.
+Tom: What is it you came here to do today?
+Anna: I came to save my friends who are held here unjustly.
+Wiegmann: UNJUSTLY!
+*Wiegmann slaps Anna on her fingers with a ruler*
+Anna: You disgust me. There is nothing you can do about this. I will tell you nothing. 
+Wiegmann: Nothing I can do?
+Anna: You failed to see us when we were meeting right under your noses. 
+Anna: You're just incompetent and we all know it!
+Wiegmann: THAT'S ENOUGH! You think you can just waltz in here and kill us all, don't you?
+*Wiegmann slaps Anna in her face with a ruler*
+Wiegmann: But I know just the remedy.
+*Wiegmann leaves the room in a hurried pace*
+Peter: I suppose this was your last day.
+Peter: *Peter leaves
+Tom: You tried to kill us. 
+Anna: I-I'm sorry... 
+*Anna starts crying*
+Anna: Can you please contact my father and tell him to run
+-> Perhaps.
+   <<set $suspicion to $suspicion + 1>>
+   Anna: Please tell him I beg you...
+-> No. 
+   *Anna looks at the ground defeated*
+*You go outside to take a break and some time passes*
+Sunday 14;17, Sicherheitspolizei, General Office 
+Peter: The other officers caught the resistance member that ran away.
+Tom: I wonder what Herr Wiegmann meant...
+Peter: I don't know, but I hope it's effective.
+Peter: They were planning on killing us. 
+Tom:Just what is Herr Wiegmann planning now. 
+Peter: he has been in his office rather long?
+Wiegmann: BRING THE RESISTANCE PRISONERS TO THE GARDEN!
+Peter: Sir!
+*All Sipo members scream huraah!*
+Wiegmann: Follow me.
+Tom: ...
+Tom: *Stays behind.
+**BANG BANG BANG**
+
+// This goes to an ending
+
+//Choice 1/2    -     1       -       2
+===
+title: letannagoagain
+tags: 
+colorID: 0
+position: -194,1201
+---
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Wiegmann, cool-girl>>
+<<set $suspicion to $suspicion + 5>>
+Sunday 13;20, Lime Tree Lane 
+
+Peter: She is getting away!
+Tom: I know, what way did she go?
+Peter: You let her go!
+Peter: She and her mates brought a gun!
+Peter: She was planning on using it for an assassination at the SiPo office.
+Tom: We lost her... 
+Peter: I'm not taking the blame for this, you had her perfectly in shot as well.
+Tom: Let's go back.
+
+Sonday: 13:17, Sicherheitspolizei, General Office 
+<<Scene @ General Office>>
+Wiegmann: De Wit, you imbicle.
+Wiegmann: I hope for your sake, De Wit, that the other two resistance members will be caught. Otherwise it can be your last day.
+Peter: *Comes in*
+Peter: The other member says nothing valuable at the moment. He does claim that this thing was her idea. 
+Wiegmann: Find that girl, now! I don't care how you do it!
+Tom: I just heard that the other resistance member has been shot two streets further by officers. 
+Wiegmann: So the other officers are doing good work, while you are just standing her. Get that girl!
+Peter: Sir!
+Tom: Sir.
+
+[[Go search for Anna|searchanna]]
+
+===
+title: searchanna
+tags: 
+colorID: 0
+position: -385,1490
+---
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Anna, cool-girl>>
+<<Act @ Wiegmann, cool-girl>>
+Sunday 13;17, Sicherheitspolizei, General Office 
+
+Peter: Couldn't find Anna Koning, sir.
+Wiegmann: You guys have to search for her these days. Forget Mr. Mulder. 
+Wiegman: I called with the main office in Amsterdam, and I have permission.
+Tom: What for?
+Wiegmann: No questions, BRING THE RESISTANCE PRISONERS TO THE GARDEN!
+Peter: Sir!
+Tom: Sir!
+*All Sipo Members scream Sir in unison*
+Wiegmann: Follow me! 
+Tom: ...
+Tom: *Stays inside.
+*BANG BANG BANG*
+
+// Connect to an ending
+
+//Choice 1/2     -      2
+===
+title: afteranna
+tags: 
+colorID: 0
+position: -584,204
+---
+
+<<Scene @ bg_office>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Anna, cool-girl>>
+
+Tom: Anna Koning, I'm taking you in because of incorrect statements during interrogation.
+Anna: Damnit, let me go!
+Tom: I don't think so.
+Peter: Tom!
+Tom: Peter?!
+Peter: I knew she was a liar.
+Peter: Let's take her to the office. I think her father can't help her for a second time.
+
+[[Interrogate Anna|annainterrogationagain]]
+
+===
+title: annainterrogationagain
+tags: 
+colorID: 0
+position: -896,354
+---
+
+// Inside the general office
+<<Scene @ bg_office>>
+<<Act @ Wiegmann, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Anna, cool-girl>>
+Saturday 11;10, Sicherheitspolizei, General Office 
+
+Wiegmann: So let's get this clear?! You again took this useless girl in, while you actually had to inspect Mulder's office!
+Peter: This girl might be related to the resistance.
+Wiegmann: She better is, for your sake! Get out of my sight!
+Both: Yes, sir!
+Peter: Shall we interrogate her first, before we go look into that office?
+Tom: Sure. 
+Tom: Why are you so sure she is part of the resistance? I don't know for sure.
+Peter: I saw her proabably before you did. I hid behind a pillar and heard their entire conversation. 
+Tom: What are you doing there anyway? 
+Peter: I can ask you the same thing? I always try to pray at least once a day, what's your excuse?
+Tom: Praying before work, I always try to do that. Although I usually sleep in. Hahaha.
+Peter: That's a step in the right direction. Who knows, maybe we will make a devout catholic of you yet.
+
+<<Scene @ bg_office>>
+<<Hide @ Wiegmann>>
+Saturday 12;10, Sicherheitspolizei, Interrogation Room
+
+Anna:...
+Peter: It doesn't look so good for you. 
+Tom: Investegation 2.58, Saturday just after 12:00, the 16th of January, 1943. 
+Tom: Interrogation on charge of incorrect statements during interrogation and suspected involvement with the Dutch resistance.
+Tom: State your name and occupation please.
+Anna: Anna Koning, Student.
+Peter: So can you explain why you were in the Westernchurch?
+Anna: I have already told you why.
+Peter: We have a clip of you stating that you are not religious.
+Peter: I don't have the patience to talk in circles. I heard your entire little conversation.
+Peter: Trying to play spies are you? Spying on the NSB and our men power. 
+Anna: Wha- What are you taking about?
+Peter: You're involvement in the Dutch resistance.
+Anna: I'm not part of the Dutch resistance.
+Peter: Then prove it, give me the names of the people in you're so called bible group and I will go ask them.
+Anna: I-I...
+Anna: Do you have proof?
+Peter: I don't need any. Unlike you, I'm not a liar. 
+Anna: You can't just make up evidence?
+Peter: ARE YOU CALLING ME A LIAR?
+Tom: Anna, it's over. 
+Anna: I-I don't know what you are talking about. I swear. 
+Peter: You're father maybe does. I feel like we should pay him a visit.
+Anna: Leave my father out of this, he has done nothing wrong.
+Peter: That is for us to decide, not you. Maybe you can share a cell together. 
+Tom: It doesn't have to be this way. If you give us the names of the other members. 
+Tom: You are done for either way.
+Tom: We will find the other members soon enough anyway. 
+Peter: You probably still have some contact information at home.
+Tom: You can save your father. 
+Anna: No... I won't. 
+Peter: Fine. I hoped you'd say that. I will tell your father you said goodbye!
+Tom: Anna being noble isn't worth it.
+Anna: We will see. Won't we.
+
+// Connect to an ending
+
 ===
