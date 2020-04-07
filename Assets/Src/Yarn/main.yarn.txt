@@ -1,7 +1,7 @@
 title: Start
 tags: 
 colorID: 0
-position: -229,-3450
+position: 1933,-7788
 ---
 
 <<Scene @ blackscreen>>
@@ -26,7 +26,7 @@ Choose wisely.
 title: ready
 tags: 
 colorID: 0
-position: -229,-3450
+position: 1933,-7788
 ---
 
 <<set $suspicion to 0>>
@@ -46,7 +46,7 @@ Tom: Yeah, hahaha thanks for the info.
 title: Generaloffice74
 tags: 
 colorID: 0
-position: -228,-3156
+position: 1934,-7494
 ---
 
 <<Scene @  insidesipooffice>>
@@ -75,7 +75,7 @@ Peter: Hahaha, if he did we won’t have a job and we need food though.
 title: InterroRoom74
 tags: 
 colorID: 0
-position: -237,-2876
+position: 1925,-7214
 ---
 
 <<Scene @ interrogationroom>>
@@ -109,7 +109,7 @@ Mulder: Go and take a look. There is no evidence for this accusation.
 title: LimeTreeLane
 tags: 
 colorID: 0
-position: -288,-2658
+position: 1874,-6996
 ---
 
 <<Scene @ insidesipooffice>>
@@ -131,7 +131,7 @@ Peter: If we actually find something in Mulder's house and finish this case prop
 title: HouseofMrMulder82
 tags: 
 colorID: 6
-position: -301,-2373
+position: 1861,-6711
 ---
 
 <<Scene @ maliebaan82>>
@@ -153,7 +153,7 @@ Tom: YEAH, SURE. I WILL TAKE A LOOK!
 title: NeighboursofMrMulder107
 tags: 
 colorID: 0
-position: -314,-1978
+position: 1848,-6316
 ---
 
 <<Scene @ maliebaan107>>
@@ -178,7 +178,7 @@ Voice: Hurry, they are already busy next door.
 title: sparehiders
 tags: 
 colorID: 0
-position: 20,-1925
+position: 2182,-6263
 ---
 
 <<set $arrestedhiders to false>>
@@ -214,7 +214,7 @@ Both: Yes, Herr Wiegmann.
 title: arresthiders
 tags: 
 colorID: 0
-position: -783,-1828
+position: 1379,-6166
 ---
 
 <<set $arrestedhiders to true>>
@@ -258,7 +258,7 @@ Huffelman: No, No, please. I have a child. A little girl. Please don't do this. 
 title: generalofficearrest
 tags: 
 colorID: 0
-position: -803,-1513
+position: 1359,-5851
 ---
 
 <<Scene @ insidesipooffice>>
@@ -297,7 +297,7 @@ Peter: Yes, sir.
 title: timelineconverge1
 tags: 
 colorID: 0
-position: -202,-1528
+position: 1960,-5866
 ---
 
 <<Scene @ maliebaan40>>
@@ -322,7 +322,7 @@ Dekker: Sure come in, it's cold outside.
 title: questionDekker
 tags: 
 colorID: 0
-position: -250,-1261
+position: 1912,-5599
 ---
 
 <<Scene @ dekkerhouseinside>>
@@ -370,7 +370,7 @@ Dekker: Go ahead. God's house is always open everyone.
 title: garagegirl
 tags: 
 colorID: 0
-position: -251,-1010
+position: 1911,-5348
 ---
 
 // After the interview
@@ -413,7 +413,7 @@ Peter: How can you say that! Let's see how you feel after staying a night in jai
 title: interrogategirl
 tags: 
 colorID: 0
-position: -251,-750
+position: 1911,-5088
 ---
 
 // Interrogation room
@@ -450,7 +450,7 @@ Anna: ...
 title: updatewiegmann
 tags: 
 colorID: 0
-position: -233,-495
+position: 1929,-4833
 ---
 
 // In the main office of the Sicherheitspolizei
@@ -501,7 +501,7 @@ Peter: You too.
 title: Winterhulp
 tags: 
 colorID: 0
-position: -230,-237
+position: 1932,-4575
 ---
 
 <<Scene @ maliebaan90>>
@@ -535,7 +535,7 @@ Woman: You can't just do this... My family, they need food, new clothes against-
 title: Westernchurch
 tags: 
 colorID: 0
-position: -224,21
+position: 1938,-4317
 ---
 
 <<Scene @ insidewesternchurch>>
@@ -575,7 +575,7 @@ Anna: Sorry I have to go now *runs away*
 title: letannago
 tags: 
 colorID: 0
-position: 122,218
+position: 2284,-4120
 ---
 
 <<Scene @ insidewesternchurch>>
@@ -595,7 +595,7 @@ Peter: Let's just get back for now. Wiegmann has to know about this.
 title: generalofficeanna
 tags: 
 colorID: 0
-position: 138,479
+position: 2300,-3859
 ---
 
 <<Scene @ insidesipooffice>>
@@ -635,7 +635,7 @@ You hear some commotion coming from outside
 title: sipofrontanna
 tags: 
 colorID: 0
-position: 130,794
+position: 2292,-3544
 ---
 
 <<Scene @ maliebaan74>>
@@ -660,7 +660,7 @@ Wiegmann: Officers take them back to the office, I will keep them under shot.
 title: annainsidetheoffice
 tags: 
 colorID: 0
-position: 139,1092
+position: 2283,-3235
 ---
 
 <<Scene @ insidesipooffice>>
@@ -697,7 +697,7 @@ Wiegmann: She's too far away to chase, shoot her!
 title: shootanna
 tags: 
 colorID: 0
-position: 470,1218
+position: 2697,-3142
 ---
 
 <<Scene @ maliebaan53>>
@@ -723,7 +723,7 @@ Tom: No need for that, she is already out cold. Let's get back.
 title: woundedannageneraloffice
 tags: 
 colorID: 0
-position: 764,1474
+position: 2297,-2662
 ---
 
 <<Scene @ interrogationroom>>
@@ -800,7 +800,7 @@ Tom: *Stays behind*
 title: letannagoagain
 tags: 
 colorID: 0
-position: -194,1201
+position: 2012,-3021
 ---
 
 <<Scene @ maliebaan53>>
@@ -824,7 +824,7 @@ Tom: Let's go back.
 title: wiegmannangry
 tags: 
 colorID: 0
-position: -194,1201
+position: 1779,-2731
 ---
 
 <<Scene @ insidesipooffice>>
@@ -848,7 +848,7 @@ Tom: Sir.
 title: searchanna
 tags: 
 colorID: 0
-position: -385,1490
+position: 1784,-2423
 ---
 
 <<Scene @ insidesipooffice>>
@@ -878,7 +878,7 @@ Tom: *Stays inside.
 title: afteranna
 tags: 
 colorID: 0
-position: -584,204
+position: 1578,-4134
 ---
 
 <<Scene @ insidewesternchurch>>
@@ -900,7 +900,7 @@ Peter: Let's take her to the office. I think her father can't help her for a sec
 title: annainterrogationagain
 tags: 
 colorID: 0
-position: -896,354
+position: 1266,-3984
 ---
 
 // Inside the general office
@@ -971,7 +971,7 @@ Anna: We will see. Won't we.
 title: Theend
 tags: 
 colorID: 0
-position: -896,354
+position: 1682,-1906
 ---
 
 <<Scene @ insidesipooffice>>
@@ -994,7 +994,7 @@ Peter: Yeah, until tomorrow.
 title: Susending
 tags: 
 colorID: 0
-position: -896,354
+position: 2161,-1483
 ---
 
 <<Scene @ insidesipooffice>>
@@ -1017,7 +1017,7 @@ Tom: This must be a misunderstanding.
 title: Interrogationtom
 tags: 
 colorID: 0
-position: -896,354
+position: 2149,-1145
 ---
 
 <<Scene @ interrogationroom>>
@@ -1048,7 +1048,7 @@ You got the Suspicion ending.
 title: neutral
 tags: 
 colorID: 0
-position: -896,354
+position: 1634,-1486
 ---
 
 <<Scene @ insidesipooffice>>
@@ -1066,8 +1066,7 @@ peter: Finally in time I see.
    Tom: I finally got the bonus I wanted.
    Peter: We were just doing our jobs.
    Tom: Maybe I can give my coupons to my Neighbour.
-<<endif>>
-<<if $suspicion < 20 & $suspicion > 8>>
+<<else>>
    Tom: A week full of missed chances.
    Peter: No kidding. 
    Tom: I guess in the end It was all worth it.
@@ -1081,7 +1080,7 @@ You got the neutral ending.
 title: resistance
 tags: 
 colorID: 0
-position: -896,354
+position: 1294,-1472
 ---
 
 <<Scene @ blackscreen>>
@@ -1098,8 +1097,8 @@ Tom: I wonder what this is all about?
 ===
 title: resistanceenddekker
 tags: 
-colorID: 0
-position: -896,354
+colorID: 6
+position: 1211,-1118
 ---
 
 <<Scene @ dekkerhouseinside>>
@@ -1143,3 +1142,4 @@ End...
 You got the resistance ending.
 
 .....................
+===
