@@ -369,7 +369,7 @@ Tom: According to the family they could hear you talk, quite frequently.
 Dekker: What's meaning of this? We are just friends.
 Peter: We will watch you. Know which side you are on...
 <<endif>>
-Peter: This will be all for now. We will take a look in the Westernchurch.
+Peter: This will be all for now. We will take a look in the Easternchurch.
 Dekker: Go ahead. God's house is always open everyone.
 [[Walk to house of archbishop Dekker|garagegirl]]
 
@@ -388,7 +388,7 @@ Friday 10;30, Lime Tree Lane 40, Front
 
 Peter: We can't get back to Wiegmann without new leads or evidence.
 Tom: You are right! I think your suggestion is right.
-Tom: Both suspects are connected to the church, so maybe the Westernchurch will give us some new info.
+Tom: Both suspects are connected to the church, so maybe the Easternchurch will give us some new info.
 
 // At the Garage
 <<Scene @ maliebaan71>>
@@ -402,7 +402,7 @@ Tom: Hey, out of petrol?
 SiPoMember: Yes, our daily stop at this petrol station. That guy's always here to refill our car.
 Tom: Hahaha, boy you could use a new pen. Your hands are completely blue!
 SiPoMember: So where are you heading towards?
-Tom: Mulder's office at the Westernchurch.
+Tom: Mulder's office at the Easternchurch.
 A girl sticks out her tongue and runs away
 Peter: ... YOU COME BACK HERE.
 Girl: Aaaagh.
@@ -536,23 +536,23 @@ Woman: You can't just do this... My family, they need food, new clothes against-
    NSBmember: You will end up starving your own mother to death, if you keep believing in their exaggerated stories. Everybody is hungry. 
 
 // Add a line of tom praying or something here? why would he go to the western church
-[[Go to the Western Church|Westernchurch]]
+[[Go to the Western Church|Easternchurch]]
 
 ===
-title: Westernchurch
+title: Easternchurch
 tags: 
 colorID: 0
 position: 1938,-4317
 ---
 <<Scene @ blackscreen>>
-Saturday 7;45, Inside the Westernchurch, Lime Tree Lane 90
+Saturday 7;45, Inside the Easternchurch, Lime Tree Lane 90
 Third day...
 
-<<Scene @ insidewesternchurch>>
+<<Scene @ insideeasternchurch>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Anna, cool-girl>>
-Saturday 7;45, Inside the Westernchurch, Lime Tree Lane 90
+Saturday 7;45, Inside the Easternchurch, Lime Tree Lane 90
 
 Tom: I came to ask for good fortune and for the health of my family, friends and colleges. 
 You hear a familiar voice; "No.... look.... taken.... agreed."
@@ -588,7 +588,7 @@ colorID: 0
 position: 2284,-4120
 ---
 
-<<Scene @ insidewesternchurch>>
+<<Scene @ insideeasternchurch>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
 
@@ -760,7 +760,7 @@ Anna: I-I won't.
 Anna: Please stop. 
 Wiegmann: Tell. Me. The. Names.
 Anna: ...
-Peter: We already heard you in the Westernchurch. 
+Peter: We already heard you in the Easternchurch. 
 Peter: You are conspiring against us. You are spies trying to decipher how much men power and money we have.
 Wiegmann: I knew the moment I saw you, that you were up to no good. 
 Peter: She has a father doesn't she?
@@ -896,7 +896,7 @@ colorID: 0
 position: 1578,-4134
 ---
 
-<<Scene @ insidewesternchurch>>
+<<Scene @ insideeasternchurch>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Anna, cool-girl>>
@@ -949,7 +949,7 @@ Tom: Investigation 2.58, Saturday just after 12:00, the 16th of January, 1943.
 Tom: Interrogation on charge of incorrect statements during interrogation and suspected involvement with the Dutch resistance.
 Tom: State your name and occupation please.
 Anna: Anna Koning, Student.
-Peter: So can you explain why you were in the Westernchurch?
+Peter: So can you explain why you were in the Easternchurch?
 Anna: I have already told you why.
 Peter: We have a clip of you stating that you are not religious.
 Peter: I don't have the patience to talk in circles. I heard your entire little conversation.
@@ -1140,7 +1140,7 @@ Dekker: Because I think I can trust you. The family on number 80 vouched for you
 Tom: You mean that family that lives next to Mulder?
 Dekker: The very same, you see I help families like them.
 Dekker: Because you let these people go, their child could be saved.
-Dekker: You also released the resistance girl in the Westernchurch that day.
+Dekker: You also released the resistance girl in the Easternchurch that day.
 Tom: How do you know that?
 Dekker: I was in the church that day. It's part of being an archbishop.
 Dekker: You have shown courage and truly tried to save those who are unjustly prosecuted. 
