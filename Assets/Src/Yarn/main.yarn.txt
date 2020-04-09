@@ -87,7 +87,7 @@ position: 1925,-7214
 <<HideAll @>> 
 <<Scene @ interrogationroom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl, right, bottom>>
+<<Act @ Peter, anna, right, bottom>>
 <<Act @ Mulder, cool-girl, right, bottom>>
 Thursday 08;35, Sicherheitspolizei, Interrogation Room 
 

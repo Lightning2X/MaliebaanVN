@@ -79,7 +79,7 @@ namespace Yarn.Unity.Example {
         private Queue<string> lastLines;
         // Amount of lines to remember in the lastLines queue
         private const int HistoryLength = 40;
-        private const string mainCharacterName = "Tom";
+        
         private string previousSpeaker = "";
         void Awake ()
         {
@@ -128,10 +128,14 @@ namespace Yarn.Unity.Example {
                     nameText.transform.parent.GetComponent<Image>().color = ropework.actorColors[speakerName];
                     //Main character is always on the right and should be ignored for the hide code
                     // Furthermore, previous speaker is "" in the beginning so that should be checked too
-                    if (speakerName != mainCharacterName && previousSpeaker != speakerName && previousSpeaker != "")
+                    if (speakerName != ropework.mainCharacterName && previousSpeaker != speakerName)
                     {
-                       // ropework.HideSprite(ropework.actors[previousSpeaker].sprite.name);
-                       // ropework.SetSprite(speakerName, ropework.actors[speakerName].sprite.name, "right", "bottom");
+                        // Previous speaker might have been from another scene or might just be "" as it was an inbetween message. Can probably be done cleaner.
+                        if (ropework.actors.ContainsKey(previousSpeaker))
+                        {
+                            ropework.actors[previousSpeaker].gameObject.SetActive(false);
+                        }
+                        ropework.actors[speakerName].gameObject.SetActive(true);
                         previousSpeaker = speakerName;
                     }
                     // Highlight actor's sprite (if on-screen) using RopeworkManager
