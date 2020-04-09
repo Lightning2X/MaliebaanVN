@@ -479,9 +479,7 @@ Tom: Don't waste a day in jail.
 Peter: You're a student, did you sign the loyalty contract?
 Anna: Yes, I did, but most of my teachers are gone. My father works as professor at Utrecht University, though. He teaches me some stuff every now and then.
 Tom: Well, you are lucky then.
-Anna: No, I am not. You took all the students and teachers to work in Germany. 
-Peter: Even so, you can do something productive in your life instead of complaining. Help the church, go to work.
-Anna: I'm not really the religious type. And I don't have time for work when so much time is spent on keeping up with a study without a teacher to teach us. 
+Anna: No, I am not. You took all the students and teachers to work in Germany.
 Peter: You know what, why don't you stay for the night? Let's see how you talk tomorrow?
 Anna: I...
 Tom: If you do not want to apologize for your actions, I will have to take you into custody.
@@ -609,30 +607,31 @@ Tom: I came to ask for good fortune and for the health of my family, friends and
 You hear a familiar voice; "No.... look.... taken.... agreed."
 Tom: ...
 Anna: ...
-Tom: Funny to see you here.
+Tom: Funny to see you here with such a large group.
 Anna: Oh, uhm, yes. I-I didn't see you.
 Tom: They let you out, I see.
 Anna: Yes... My father persuaded your chief.
 Tom: You're lucky, to have such a good father. 
 Anna: Yes, I know.
-Anna: I really need to get going now. 
-Tom: Wait!
 Tom: What brings you here exactly?
 Man: Come on Anna, we need to go.
 Tom: She hasn't answered the question yet.
 Anna: Just trying to make me forget my sins.
 Tom: You don't need an entire group for that.
 Anna: We are a bible study group. So we discuss the bible for our studies and stuff. As I already told you, I'm a student.
-Tom: You also told me that you weren't religious. I believe your precise words were: "not being a religeous type."
+Anna: I really need to get going now. *paper falls out of her bible*
+Tom: Hé wait, you lost something!
+Anna: Please give it to me... *Tom looks at the content of the paper*
+Tom: Wait! It's a resistance pamphlet.
 Peter: Hey, you here again?
 <<PlayAudio @ runningchase, 1.0>>
 Anna: Sorry, I have to go now *runs away*
 
 
 //Two choices once again: Let Anna go or take her in.
-// Choice 1: Let her go
-[[Let her go|letannago]]
-[[After her!|afteranna]]
+// Choice 1: Let Anna escape
+[[Let Anna escape|letannago]]
+[[Grab Anna's arm|afteranna]]
 
 ===
 title: letannago
@@ -651,7 +650,9 @@ Peter: Damnit, after her!
 Tom: Let her go Peter, we have lost her already.
 Peter: What was that? You just stood there.
 Tom: They caught me off guard...
-Peter: Nonsense, you better run next time. They are part of the resistance. I just heard them talking.
+Peter: Nonsense, you better run next time. This pamplet just fell out of one of their bibles.
+Tom: So they aren't just a bible group?
+Peter: They are part of the resistance!
 Peter: Let's just get back for now. Wiegmann has to know about this.
 [[Go back to the SiPo|generalofficeanna]]
 
@@ -723,11 +724,11 @@ Saturday 13;12, Sicherheitspolizei, SiPo front
 
 Wiegmann: STOP! I arrest you on suspicion of espionage.
 Peter: The girl's name is Anna Koning - she was the girl that stuck out her tongue and ran out of the church, sir.
-Tom: Another ran away, but officers are after him. This man is unknown.
+Tom: I saw our colleague Hans running after another mann. This man is unknown.
 Wiegmann: I see. I see.
 Anna: There is no need for the gun.
 Man: We were just standing here.
-Wiegmann: Doing what? I know what you were doing. You were spying, maybe even to plan an assassination on me.
+Wiegmann: Doing what? I know what you were doing. You were watching the backyard of the office. You were spying, maybe even to plan an assassination on the SiPo office.
 Wiegmann: Officers, take them back to the office. I will keep them under shot.
 
 [[Go back to the office|annainsidetheoffice]]
@@ -794,7 +795,7 @@ Sunday 13;20, Lime Tree Lane
 <<PlayAudio @ gunshot, 0.5>>
 *BANG*
 Anna: AAAGH
-Tom: You're hereby under arrest for possession of a firearm and conspiracy.
+Tom: You're hereby under arrest for possession of a esponiage and conspiracy.
 Peter: Nice shot!
 Anna: ...
 Peter: Let's get her back.
@@ -836,7 +837,6 @@ Anna: ...
 Peter: We already heard you in the Easternchurch. 
 Peter: You are conspiring against us. You are spies trying to decipher how much men power and money we have.
 Wiegmann: I knew the moment I saw you, that you were up to no good. 
-Peter: She has a father doesn't she?
 Wiegmann: Your father asked for you. He begged me to set you free, but I knew we would soon meet again.
 Tom: Maybe her father wants to talk in her stead?
 Anna: ....
@@ -846,11 +846,15 @@ Anna: I came to save my friends who are held here unjustly.
 Wiegmann: UNJUSTLY!
 <<PlayAudio @ slap2, 1.0>>
 *Wiegmann slaps Anna on her fingers with a ruler*
-Anna: You disgust me. There is nothing you can do about this. I will tell you nothing. 
+Anna: You disgust me. I will tell you nothing. 
 Wiegmann: Nothing I can do?
 Anna: You failed to see us when we were meeting right under your noses.
 Anna: You're just incompetent and we all know it!
 Wiegmann: THAT'S ENOUGH! You think you can just waltz in here and kill us all, don't you?
+-> That's a little biased. It wasn't she who had the pistol.
+   <<set $suspicion to $suspicion + 3>>
+   Wiegmann: Shut up! They are all the same.
+-> And we had warned her before...
 <<PlayAudio @ slap1, 1.0>>
 *Wiegmann slaps Anna in her face with a ruler*
 Wiegmann: But I know just the remedy.
@@ -859,13 +863,12 @@ Wiegmann: But I know just the remedy.
 Peter: I suppose this was your last day.
 <<PlayAudio @ frontdooropen, 1.0>>
 *Peter leaves the room*
-Tom: You tried to kill us. 
 Anna: I-I'm sorry... 
 <<PlayAudio @ crying, 1.0>>
 *Anna starts crying*
 Anna: Can you... please contact my father and tell him to run?
--> Perhaps.
-   <<set $suspicion to $suspicion + 1>>
+-> I will see what I can do for you.
+   <<set $suspicion to $suspicion + 2>>
    Anna: Please tell him I beg you...
 -> No. 
    *Anna looks at the ground defeated*
@@ -1006,12 +1009,12 @@ position: 1578,-4134
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
 
-Tom: Anna Koning, I'm taking you in because of incorrect statements during interrogation.
+Tom: Anna Koning, I will take you in because of posession of illegal pamphlets.
 Anna: Damnit, let me go!
 Tom: I don't think so.
 Peter: Tom!
 Tom: Peter?!
-Peter: I knew she was a liar.
+Peter: I was in front of the church when a few guys ran away. Now I see why...
 Peter: Let's take her to the office. Her father can't help her for a second time.
 
 [[Interrogate Anna|annainterrogationagain]]
@@ -1059,8 +1062,7 @@ Tom: Interrogation on charge of incorrect statements during interrogation and su
 Tom: State your name and occupation please.
 Anna: Anna Koning, Student.
 Peter: So can you explain why you were in the Easternchurch?
-Anna: I have already told you why.
-Peter: We have a clip of you stating that you are not religious.
+Anna: I have already told you why. I was with my study group.
 Peter: Anyway, I don't have the patience to talk in circles. I listened in on your little conversation in the church.
 Peter: Trying to play spies, are you? Spying on the NSB and our manpower. 
 Anna: Wha- What are you taking about?
