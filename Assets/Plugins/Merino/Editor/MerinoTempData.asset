@@ -16,9 +16,9 @@ MonoBehaviour:
   timestamp: 3899.6301554
   viewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 03000000
-    m_LastClickedID: 3
-    m_ExpandedIDs: 0000000001000000
+    m_SelectedIDs: 01000000
+    m_LastClickedID: 1
+    m_ExpandedIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: Test
@@ -62,56 +62,803 @@ MonoBehaviour:
     m_Name: Start
     m_Depth: 1
     nodeTags: 
-    nodeBody: '
-
-      // sets background image to sprite called "bg_office"
-
-      <<Scene
-      @ bg_office>>
-
-
-      // creates a new actor named "Eve" using a sprite called
-      "cool-girl"
-
-      <<Act @ Eve, cool-girl>>
-
-      Eve: I''m in an office.
-
-      Eve:
-      Why am I all alone...
-
-      <<Flip @ Eve>>
-
-      Eve: Yikes
-
-      Eve: Guess
-      I''ll go to the next scene...
-
-      <<Move @ Eve, 0.2, 0.2, 2>>
-
-      Eve:
-      YEET
-
-
-      [[Go to next scene poggers|Test]]
-
-
-
-
-      // DON''T DELETE THE
-      " "'
+    nodeBody: "<<HideAll @>> \n<<Scene @ blackscreen>>\n\nThis story is based on
+      real life events.\nHowever, all characters appearing in this work - while inspired
+      by history - are fictitious.\nAfter the story ends, we will tell you what really
+      happened.\n\nIt's the winter of 1943. A little more than three years ago, the
+      German forces invaded the Netherlands in what is now described as World War
+      II.\nResources are scarce and your mother fell ill last winter. Her recovery
+      is slow. The only chance to provide her with the medicine and food she needs
+      is to throw others to the very wolves that feed you.\nThis is the situation
+      of Tom De Wit, a member of the Sicherheitspolizei.\nThe Sicherheitspolizei
+      was the state's security agency for political and criminal investigation.\nTom
+      is rather conflicted. He primarily joined the SiPo because of the lifesaving-perks
+      it offered in these cold winters, but also found his work to be to the detriment
+      of prosecuted minorities.\nIn this coming week your actions will decide the
+      fate of various people, including your own and you mother's...\nIn life there
+      is no good ending, there are only choices. And we decide if the consequences
+      are worth it.\nChoose wisely.\n\n\n[[Go to work|ready]]\n"
     leafType: 0
-    nodePosition: {x: -107, y: -138}
+    nodePosition: {x: 1933, y: -7788}
     cachedParentID: 1
-    cachedSize: 0
+    cachedSize: 100
   - m_ID: 3
-    m_Name: Test
+    m_Name: ready
     m_Depth: 1
     nodeTags: 
-    nodeBody: "<<Fadein @>>\n<<Scene @ bg_fire>>\n<<Act @ Dio, dio, right, center,
-      green>>\n<<Flip @ Dio>> \nDio: YOU WERE EXPECTING ANOTHER SCENE BUT IT WAS
-      ME DIO!\n<<Shake @ Dio, 2>>\nDio: HAHAHAHHAHAHAH"
+    nodeBody: "<<HideAll @>> \n<<Scene @ blackscreen>>\n<<set $suspicion to 0>>\nThursday
+      08;19, Sicherheitspolizei, General Office \nFirst day...\n\n<<HideAll @>> \n<<Scene
+      @ sipo_office>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ SiPoMember, sipomember,
+      right, bottom>>\nThursday 08;19, Sicherheitspolizei, General Office \n\nSiPoMember:
+      De Wit, there you are. Herr Wiegmann is looking for you.\nTom: Great, another
+      preach. Just what I needed. First no breakfast, now this...\nSiPoMember: I
+      don't think he realizes you are too late. \nSiPoMember: Meyer is already in
+      Herr Wiegmann's office though, probably flirting with the secretary again.\nTom:
+      Yeah, hahaha! Thanks for the info. \n\n[[Go to your desk|Generaloffice74]]\n"
     leafType: 0
-    nodePosition: {x: -84, y: 26}
+    nodePosition: {x: 1833, y: -7788}
     cachedParentID: 1
-    cachedSize: 0
+    cachedSize: 100
+  - m_ID: 4
+    m_Name: Generaloffice74
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\nThursday 08;25, Sicherheitspolizei,
+      General Office\n\nPeter: Hey Tom, there you are.\nTom: Hi Peter, back from
+      Herr Wiegmann I see.\nPeter: No, actually... We got a new case.\nTom: We do?
+      What is our task?\nPeter: Apparently pastor Mulder is taken in again.\nTom:
+      That's his second arrest, isn't it?\nPeter: Well, well. You can count! However,
+      it's our turn to interrogate him.\nTom: What is he arrested for this time?\nPeter:
+      Have you already heard of the anonymous tip that we received yesterday?\nTom:
+      No, what is it about?\nPeter: The person that tipped us about pastor Mulder
+      thinks he has a connection with the resistance.\nTom: Why would you make it
+      worse for yourself after you have been arrested once?\nPeter: I don't understand
+      it either. Take the case serious Tom. We can prove ourselves here!\nTom: Alright,
+      alright, I will. I only hope Mulder stops making it so difficult for himself.\nPeter:
+      Hahaha, if he did we wouldn't have a job. And we do need those food rations...\n[[Go
+      interrogate pastor Mulder|InterroRoom74]]\n"
+    leafType: 0
+    nodePosition: {x: 1934, y: -7494}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 5
+    m_Name: InterroRoom74
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_interro>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @ Mulder, pastoor, right,
+      bottom>>\nThursday 08;35, Sicherheitspolizei, Interrogation Room \n\nPeter:
+      Investigation 2.39. Thursday morning around 08;35, the 14th of December, 1943.\nPeter:
+      State your name and occupation please. You probably know the drill by now.\nMulder:
+      Jan Mulder, pastor at the local church here at the Lime Tree Lane.\nTom: Mr.
+      Mulder? Do you know why you are here again?\nMulder: No, not really. Just like
+      the last time.\nPeter: Don't act innocent! You know what you have done. The
+      fact that you are a pastor does not mean that you are untouchable!\nTom: Are
+      you aware, Mr. Mulder, that you are suspected of involvement with the resistance.\nMulder:
+      That's news to me. Last time I was also imprisoned under false accusation.
+      I think this is - once again - a misunderstanding.\nPeter: I am sorry!? Last
+      time you were imprisoned for two months because of helping Jews. That's not
+      a false accusation, that's just a fact.\nMulder: I am only helping poor people
+      to survive these cold winters.\nPeter: You are not just helping poor people.
+      You are helping Jews!\nTom: This time you are not just helping them - you are
+      giving them shelter. Or, at least, that's what I'm reading here. Is that true?!\nMulder:
+      ...\nTom: Do you deny this?\n*Slams on the table* \nPeter: Answer the question!\nMulder:
+      I help poor people and do not make a distinction between them. However, I am
+      not sheltering people. \nPeter: You maintain this feeble lie?\nTom: If you
+      have nothing to hide, then we will take a look in your house!\nMulder: Go and
+      take a look. There is no evidence for this accusation.\n[[Walk to pastor Mulder's
+      house|LimeTreeLane]]\n"
+    leafType: 0
+    nodePosition: {x: 1925, y: -7214}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 6
+    m_Name: LimeTreeLane
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\nThursday 09;14, Sicherheitspolizei,
+      General Office\n\nPeter: Why were you so easy on him?\nTom: Mr. Mulder used
+      to do a lot of charity work in the Sterrenwijk. He helped us, while others
+      blamed us for being poor. \nTom: I feel like I owe him at least some politeness.
+      \nPeter: Ah, I can respect that. But we do have a job to do. This case can
+      help us both!\nPeter: How is your mom doing?\nTom: Fine, same as usual. \nPeter:
+      Still ill, is she? If you need me to jump in, just say it. \nTom: Thanks!\nPeter:
+      If we actually find something in Mulder's house and finish this case properly
+      we might receive a reward. \n[[Research at Mr. Mulder's house|HouseofMrMulder82]]\n"
+    leafType: 0
+    nodePosition: {x: 1874, y: -6996}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 7
+    m_Name: HouseofMrMulder82
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ maliebaan82>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\nThursday 10;55, Lime Tree
+      Lane 82, front doors\n\nPeter: Here we are.\nTom: You can already go upstairs.
+      I'll finish my cigarette and will join you in a bit. \nPeter: Alright.\n*BAM*\nTom:
+      ...\n*BAM*\nPeter: HEY, CAN YOU CHECK NEXT DOOR, I THOUGHT I HEARED SOMETHING
+      STRANGE!\nTom: THAT'S JUST MRS. HOLLAND!\npeter: NO, I HEARD SOMETHING STRANGE!
+      GO AND TAKE A LOOK!\nTom: FINE, I WILL TAKE A LOOK!\n[[Go to the neighbours|NeighboursofMrMulder107]]\n"
+    leafType: 0
+    nodePosition: {x: 1861, y: -6711}
+    cachedParentID: 1
+    cachedSize: 108
+  - m_ID: 8
+    m_Name: NeighboursofMrMulder107
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ maliebaan80>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @ Voice, voice, right,
+      bottom>>\n<<Act @ Man, huffelman, right, bottom>>\n<<Hide @ Voice>>\nThursday
+      11;01, Lime Tree Lane 80, front doors\n\nMan: ...\nTom: ...\nTom: Who are you?
+      Where is Mrs. Holland?\nMan: I... I...\nVoice: Hurry, they are already busy
+      next door.\n\n//Two choices can be made. 1: Tom hesitates and the door closes.
+      2: Tom puts his foot in the door opening and shouts for Peter.\n\n[[Let hiders
+      get inside|sparehiders]]\n[[Arrest hiders|arresthiders]]\n// Choice 1."
+    leafType: 0
+    nodePosition: {x: 1848, y: -6316}
+    cachedParentID: 1
+    cachedSize: 143
+  - m_ID: 9
+    m_Name: sparehiders
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<set $arrestedhiders to false>>\n<<set $suspicion
+      to $suspicion + 2>>\n<<Scene @ maliebaan80>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act
+      @ Peter, peter, right, bottom>>\nThursday 11;08, Lime Tree Lane 82, front doors\n\nPeter:
+      And?\nTom: Nothing special. The neighbours were cleaning their house and some
+      stuff fell down.\nTom: Did you find anything?\nPeter: Nothing really valuable
+      as evidence or a lead. But I think we should take a look at his room in the
+      church.\nPeter: But, let's first get back to the office and report on our progress...\nPeter:
+      Damn, this was our chance to prove ourselves to Herr Wiegmann. \n\n// No need
+      for a new node here so we continue on the current node.\n<<HideAll @>> \n<<Scene
+      @ sipo_office>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right,
+      bottom>>\n<<Act @ Wiegmann, wiegmann, right, bottom>>\nThursday 14;23, Sicherheitspolizei,
+      General Office \n\nWiegmann: De Wit, Meyer, both in my office. NOW.\nBoth:
+      Yes, Herr Wiegmann.\nPeter: We did not find anything that is valuable as evidence
+      or as a lead. But I think we should take a look at his room in the church.\nWiegmann:
+      Let me do the thinking, Meyer! We received new intel about Mr. Mulder. He is
+      a really close friend of archbishop Dekker. So you both get out of my office
+      and go question him.\nBoth: Yes, Herr Wiegmann.\n[[Walk to house of archbishop
+      Dekker|timelineconverge1]]\n\n// Choice 2."
+    leafType: 0
+    nodePosition: {x: 2182, y: -6263}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 10
+    m_Name: arresthiders
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<set $arrestedhiders to true>>\n<<Scene @ maliebaan80>>\n<<Act
+      @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @
+      Huffelman, huffelman, right, bottom>>\n<<Act @ Man, man, right, bottom>>\n<<Act
+      @ Woman, woman, right, bottom>>\nThursday 11;08, Lime Tree Lane 80, front doors\n\nTom
+      puts his foot in the door opening.\nTom: PETER!!!\nTom: Please step outside
+      and don't resist.\nMan: You don't understand, this is just a big misunderstanding.\nTom:
+      Is it?\nHuffelman: My name is Boris Huffelman. This is my wife Marie. She is
+      just a little upset because of the war.\nWoman: ...\nTom: Can you explain what
+      you are doing here?\nHuffelman: Why should I explain what I am doing here?
+      It's my house.\nTom: I know for sure that it is not. I know the lady who lives
+      here. You don't look like Mrs. Holland.\nTom: Show me your identity card.\nHuffelman:
+      I don't have it with me.\nHuffelman: I lost it...\nTom: I'm afraid I'll need
+      to arrest you for not showing an identity card.\nHuffelman: No, No, please.
+      I have a child. A little girl. Please don't do this. Don't you have a family?\n->
+      Okay, let this be a warning and fix your stuff!\n   <<set $suspicion to $suspicion
+      + 6>>\n   Peter: What are you doing?\n   Tom: Peter? Are you already here?\n  
+      Peter: Yes, don't let that man go! Either you will arrest him or I will.\n->
+      That's not my business. I am arresting you and the rest of your family for
+      not showing an identity card.\n   Peter: Who are these people?\n   Tom: I think
+      they are hiders, but we have to find out.\n   Peter: Good job Tom, I knew there
+      was something strage.\n   Tom: I'm just doing my job, Peter.\n\n[[Go to general
+      office|generalofficearrest]]\n\n// General Office arrest timeline"
+    leafType: 0
+    nodePosition: {x: 1379, y: -6166}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 11
+    m_Name: generalofficearrest
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @ Wiegmann, wiegmann,
+      right, bottom>>\nThursday 12;13, Sicherheitspolizei, General Office\n\nWiegmann:
+      De Wit, I heard you and Meyer caught some Jews.\nWiegmann: Impressive work.\nWiegmann:
+      Unlike all the others, you actually managed to achieve something.\nWiegmann:
+      Not bad for a translator.\nWiegmann: Where is Meyer?\nTom: Interrogating the
+      witness.\nTom: I'm instead focusing on the case of pastor Mulder, sir.\nWiegmann:
+      That's what I like to hear.\n*Peter enters the room*\nPeter: Sir!\nWiegmann:
+      Meyer. Good work today. \nPeter: Thank you, sir.\nTom: Any updates on the case?\nPeter:
+      I confirmed that they are indeed Jews in hiding, sir.\nWiegmann: Yes of course,
+      I could see that when they were taken in! Only valuable information, please.\nWiegmann:
+      Did you ask about pastor Mulder? And have the residents already been found?\nPeter:
+      The residents have not been found... yet. We will try to get more information
+      out of the captives.\nPeter: However, the Jews said they heard the pastor talk
+      to someone very often. They didn't know his name, though.\nTom: Oh, I just
+      received more info about Mr. Mulder. He is a really close friend of archbishop
+      Dekker.\nWiegmann: That would be very likely, yes!\nTom: We are not certain
+      that it is Mr. Dekker, though, sir. \nWiegmann: I give the orders! Go question
+      Dekker. Tommorow morning, first thing!\nPeter: Yes, sir.\n\n//Timelines converges
+      (1. & 2. come together)\n[[Walk to house of archbishop Dekker|timelineconverge1]]\n"
+    leafType: 0
+    nodePosition: {x: 1359, y: -5851}
+    cachedParentID: 1
+    cachedSize: 103
+  - m_ID: 12
+    m_Name: timelineconverge1
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "<<HideAll @>> \n<<Scene @ blackscreen>>\nFriday 09;00, Lime Tree Lane
+      40, Front\nSecond day...\n\n<<HideAll @>> \n<<Scene @ maliebaan40>>\n<<Act
+      @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @
+      Dekker, aartsbisschop, right, bottom>>\nFriday 09;00, Lime Tree Lane 40, Front\n\nTom:
+      Let's get this over with.\nPeter: Not a fan of Dekker, are you?\nTom: No, I
+      am not. He has always refused to help the Winterhulp.\nTom: My family is very
+      dependent on that charity organization. During winters we always can get food
+      and provisions there.\nPeter: Hmmm... I can understand you, but he is an important
+      person of the church.\nPeter: I just hope we will find a new lead again, otherwise
+      Wiegmann will be furious. Especially because the focus is now on Dekker.\nTom:
+      Yes, I can understand that, Dekker always gets away with violations of the
+      law while other people are taken in for that.\n*Doorbell*\nDekker: Welcome.
+      what can I do for you?\nTom: We are here to ask you some questions.\nDekker:
+      Sure, come in. It's cold outside.\n\n[[Question archbishop Dekker|questionDekker]]\n"
+    leafType: 0
+    nodePosition: {x: 1960, y: -5866}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 13
+    m_Name: questionDekker
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ bisschophuis>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Dekker, aartsbisschop, right, bottom>>\n<<Act @ Peter, peter,
+      right, bottom>>\nFriday 09;03, Lime Tree Lane 40, Dekker's Office.\n\nDekker:
+      Take a seat.\nTom: We'd rather stand.\nDekker: If that is what you want.\nPeter:
+      Let's get to business, shall we?\nPeter: We are here to ask you some questions
+      about Jan Mulder.\nPeter: As you probably know by now, Mulder has been arrested,
+      because of suspicion of involvement with the resistance.\nTom: He claims he
+      has no connection.\nPeter: You are a close friend of him, we've heard. Do you
+      meet often?\nDekker: Yes, we do actually. He is truly a good person.\nPeter:
+      You know he was arrested and convicted for helping Jews, spending two months
+      in prison?\nDekker: I can assure you that he has no connection to the resistance.
+      \nDekker: He is a very busy man, despite always making time for me.\nDekker:
+      I don't see how he could juggle both his obligations as pastor and working
+      for the resistance.\nPeter: Then, how do you explain the tip leading to Mulder?\nDekker:
+      Whoever sent that tip, the pastor is an easy target. He has been arrested before.\nDekker:
+      He helps the poor, like he always has done. It's a pity that he is suspected
+      instead of rewarded for helping the poors.\nPeter: He is not the victim here!\nDekker:
+      All he is trying to do is help people. He does not mean to offend anybody.\nTom:
+      Unlike you. \nDekker: Me?\nTom: You have refused to support organisations that
+      could really use the money, like the Winterhulp. Multiple times too.\nDekker:
+      I refuse to give money to those who prioritize one person above the other.
+      \nTom: Maybe if you gave some money, there would be no distinction between
+      the two as there would be enough for everyone.\nDekker: I admire your optimism.\nDekker:
+      If this is all you have on Mr. Mulder, I am looking forward to his release
+      soon.\n<<if $arrestedhiders>>\nPeter: Yesterday, a family was taken in next
+      to the pastor's house. They told us about your secret meetings.\nTom: According
+      to the family they could hear you talk, quite frequently.\nDekker: What are
+      you insinuating? We are just friends.\nPeter: We will watch you. Know which
+      side you are on...\n<<endif>>\nPeter: This will be all for now. We will take
+      a look in the Easternchurch.\nDekker: Go ahead. God's house is always open
+      everyone.\n[[Walk to house of archbishop Dekker|garagegirl]]\n"
+    leafType: 0
+    nodePosition: {x: 1912, y: -5599}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 14
+    m_Name: garagegirl
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n// After the interview\n<<HideAll @>> \n<<Scene @ maliebaan40>>\n<<Act
+      @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right, bottom>>\nFriday 10;30,
+      Lime Tree Lane 40, Front\n\nPeter: We can't get back to Wiegmann without new
+      leads or evidence.\nTom: You are right! I think your suggestion is right.\nTom:
+      Both suspects are connected to the church, so maybe the Easternchurch will
+      give us some new info.\n\n// At the Garage\n<<HideAll @>> \n<<Scene @ maliebaan71>>\n<<Act
+      @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @
+      Girl, anna, right, bottom>>\n<<Act @ SiPoMember, sipomember, right, bottom>>\nFriday
+      10;40, garage, Lime Tree Lane 71\n\nSiPoMember: Peter! Tom!\nSiPoMember: Over
+      here!\nTom: Hey Hans, out of petrol?\nSiPoMember: Yes, it's our daily stop
+      at this petrol station.\nSiPoMember: So, where are you heading?\nTom: Mulder's
+      office at the Easternchurch.\nA girl sticks out her tongue and runs away\nPeter:
+      ... YOU COME BACK HERE.\nGirl: Aaaagh.\nTom: What are you doing Peter!? Don't
+      just grab a random girl of the street. \nPeter: How dare you!? She, she...
+      stuck out her tongue to me!\nGirl: You're hurting me. \nTom: Come on, give
+      her to me. We will handle this.\nPeter: She is coming with me. Let's see how
+      she feels after staying a night in jail.\nTom: C'mon Peter, we have more important
+      things to do. Let her go.\nPeter: How can you say that! Let's see how you feel
+      after staying a night in jail.\n\n[[Interrogate the girl|interrogategirl]]\n"
+    leafType: 0
+    nodePosition: {x: 1911, y: -5348}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 15
+    m_Name: interrogategirl
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n// Interrogation room\n<<HideAll @>> \n<<Scene @ sipo_interro>>\n<<Act
+      @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @
+      Anna, anna, right, bottom>>\nFriday 12;10, Sicherheitspolizei, Interrogation
+      Room \n\nTom: Investigation 2.53, Saturday, just after 12:00, the 16th of January,
+      1943.\nTom: Interrogation on the charge of offending an officer in function.\nTom:
+      State your name and occupation please. \nAnna: Anna Koning, s-s-student.\nTom:
+      Miss, do you know why you are here?\nAnna: It... It was just something innocent,
+      there is no need to get so angry.\nTom: There is no need to cry.\nTom: If you
+      apologize, I'm sure he will forgive you. \nAnna: I'm not sorry, though.\nTom:
+      Don't waste a day in jail.\nPeter: You're a student, did you sign the loyalty
+      contract?\nAnna: Yes, I did, but most of my teachers are gone. My father works
+      as professor at Utrecht University, though. He teaches me some stuff every
+      now and then.\nTom: Well, you are lucky then.\nAnna: No, I am not. You took
+      all the students and teachers to work in Germany.\nPeter: You know what, why
+      don't you stay for the night? Let's see how you talk tomorrow?\nAnna: I...\nTom:
+      If you do not want to apologize for your actions, I will have to take you into
+      custody.\nAnna: ...\n\n[[Update Wiegmann on the current situation|updatewiegmann]]\n"
+    leafType: 0
+    nodePosition: {x: 1911, y: -5088}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 16
+    m_Name: updatewiegmann
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n// In the main office of the Sicherheitspolizei\n<<HideAll @>> \n<<Scene
+      @ sipo_office>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right,
+      bottom>>\n<<Act @ Wiegmann, wiegmann, right, bottom>>\n<<Act @ Rector, rector,
+      right, bottom>>\nFriday; 14:15, Sicherheitspolizei, General office \n\nWiegmann:
+      Meyer, De Wit, WHY ARE YOU HERE?!\nTom: This girl stuck out her tongue to Peter,
+      so we were interrogating her.\nWiegmann: Oh, you guys can't even focus on important
+      things. \nWiegmann: Just put her in a cell and call her parents!\nPeter: We
+      already called, sir.\nWiegmann: Then go on with the investigation of Mulder's
+      case!\n*BAM* The door slams open.\nTom: Put that girl in a cell, Peter. We
+      really have to get on before Wiegmann comes out of his office again.\nPeter:
+      Nothing I'd rather do.\nRector: Officer, I came here to request the release
+      of Anna Koning.\nTom: You are not allowed to see Herr Wiegmann, he is very
+      busy at the moment.\n*The door opens*\nWiegmann: What are you still doing here
+      Tom! Who is this man?\nTom: He is-\nRector: I am the rector magnificus of Utrecht
+      University and I am here to request the release of Anna Koning.\nWiegmann:
+      Follow me.\n*Wiegmann goes through the door*\nWiegmann: What ... you ... here?\nRector:
+      It's ridiculous ... you take ... Anna!\nWiegmann: Who ... you think ... you
+      are, leave ... I will arrest ...!\nRector: I ... not leave ... Anna is ...
+      free!\n*Muffled hitting sound*\n*KABLAM* - The door slams open!\nWiegmann:
+      GET THIS MAN OUT OF MY SIGHT AND IN A CELL.\nTom: Yes, sir.\n\n<<HideAll @>>
+      \n<<Scene @ sipo_office>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ Peter,
+      peter, right, bottom>>\nSaturday 18;15, Sicherheitspolizei, General Office
+      \n\nPeter: Ready to go to the church?\nTom: No, I'm sorry. We will have to
+      wait until tomorrow.\nPeter: How so?\nTom: My shift is over and I want to get
+      to the Winterhulp before all the coupons are gone.\nPeter: I understand. I
+      will finish up and see you tomorrow then.\nTom: Yes. Have a nice evening.\nPeter:
+      You too.\n[[Go to the Winterhulp building|Winterhulp]]\n"
+    leafType: 0
+    nodePosition: {x: 1929, y: -4833}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 17
+    m_Name: Winterhulp
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ maliebaan90>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ NSBmember, sipomember, right, bottom>>\n<<Act @ Woman, woman,
+      right, bottom>>\nFriday 18;25, Winterhulp building, front\n\nTom: Good evening,
+      I'm here for the Winterhulp coupons. \nNSBmember: Ah, a fellow SiPo member
+      I see.\nNSBmember: Here is the coupon for this week.\nTom: Thank you very much.\nNSBmember:
+      You are lucky, these are the last ones.\nWoman: That's unfair - we were earlier
+      than him! \nNSBmember: It is how it is. They protect us everyday. To ensure
+      that they can keep doing this, they must stay well fed.\nNSBmember: Don't you
+      agree?\nTom: Yes, I need them. You wouldn't want me to starve during a job
+      would you?\nWoman: You can't just do this... My family, they need food, new
+      clothes against-\n-> Everyone has a family. It doesn't make you special.\n  
+      Woman: You bastard!\n   NSBmember: Move along now or worse consequences will
+      follow ma'am....\n-> I know how you feel... Here, but only this time alright.
+      Keep your children well fed. \n   <<set $suspicion to $suspicion + 1>>\n  
+      Woman: Thank you so much kind man!\n   NSBmember: You will end up starving
+      your own mother to death if you keep believing in their exaggerated stories.
+      Everybody is hungry. \n\n// Add a line of tom praying or something here? why
+      would he go to the Easternchurch\n[[Go to the Easternchurch|Easternchurch]]\n"
+    leafType: 0
+    nodePosition: {x: 1932, y: -4575}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 18
+    m_Name: Easternchurch
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "<<HideAll @>> \n<<Scene @ blackscreen>>\nSaturday 7;45, Inside the
+      Easternchurch, Lime Tree Lane 90\nThird day...\n\n<<HideAll @>> \n<<Scene @
+      church>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act
+      @ Anna, anna, right, bottom>>\n<<Act @ Man, man, right, bottom>>\nSaturday
+      7;45, Inside the Easternchurch, Lime Tree Lane 90\n\nTom: I came to ask for
+      good fortune and for the health of my family, friends and colleagues. \nYou
+      hear a familiar voice; \"No.... look.... taken.... agreed.\"\nTom: ...\nAnna:
+      ...\nTom: Funny to see you here with such a large group.\nAnna: Oh, uhm, yes.
+      I-I didn't see you.\nTom: They let you out, I see.\nAnna: Yes... My father
+      persuaded your chief.\nTom: You're lucky, to have such a good father. \nAnna:
+      Yes, I know.\nTom: What brings you here exactly?\nMan: Come on Anna, we need
+      to go.\nTom: She hasn't answered the question yet.\nAnna: Just trying to make
+      me forget my sins.\nTom: You don't need an entire group for that.\nAnna: We
+      are a bible study group. So we discuss the bible for our studies and stuff.
+      As I already told you, I'm a student.\nAnna: I really need to get going now.
+      *paper falls out of her bible*\nTom: H\xE9 wait, you lost something!\nPeter:
+      You here again!?\nAnna: Please give it to me... *Tom looks at the content of
+      the paper*\nTom: Wait! What is this?\nPeter: What!? This is a resistance pamphlet.\nAnna:
+      *runs away*\n\n//Two choices once again: Let Anna go or take her in.\n// Choice
+      1: Let Anna escape\n[[Let Anna escape|letannago]]\n[[Grab Anna's arm|afteranna]]\n"
+    leafType: 0
+    nodePosition: {x: 1938, y: -4317}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 19
+    m_Name: letannago
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<set $suspicion to $suspicion + 6>>\n<<Scene @
+      church>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right, bottom>>\n\nTom:
+      ...\nPeter: Damnit, after her!\nTom: Let her go Peter, we have lost her already.\nPeter:
+      What was that? You just stood there.\nTom: They caught me off guard...\nPeter:
+      Nonsense, you better run next time. This pamplet just fell out of one of their
+      bibles.\nTom: So they aren't just a bible group?\nPeter: They are part of the
+      resistance!\nPeter: Let's just get back for now. Wiegmann has to know about
+      this.\n[[Go back to the SiPo|generalofficeanna]]\n"
+    leafType: 0
+    nodePosition: {x: 2284, y: -4120}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 20
+    m_Name: generalofficeanna
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act @ Wiegmann, wiegmann,
+      right, bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @ Tom, tom, left,
+      bottom>>\nSaturday; 9;10, Sicherheitspolizei, General Office \n\nWiegmann:
+      DE WIT, YOU LET A MEMBER OF THE RESISTANCE SLIP AWAY NEXT TO FAILING TO LOOK
+      IN MULDER'S OFFICE?\nWiegmann: THE WORD INCOMPETENCE IS TOO GOOD FOR YOU.\nWiegmann:
+      Meyer, at least you have something that resembles competence. I will send you
+      to investigate Mulder's office alone.\nWiegmann: As for you, De Wit: paperwork
+      duty. At least that's something you won't be able to screw up.\nTom: Sir.\n*Door
+      closes*\nTom: You were there too, you know. It's not only me that let Anna
+      escape. \nPeter: You were right next to her. I would almost think you did it
+      on purpose.\nPeter: Just be glad I didn't elaborate further.\nPeter: Have fun
+      with your paperwork.\nTom: Hope you find something in Mulder's office.\n\n<<HideAll
+      @>>\n<<Scene @ blackscreen>>\nLater that day\n\n<<HideAll @>>\n<<Scene @ sipo_office>>\n<<Act
+      @ Peter, peter, right, bottom>>\n<<Act @ Wiegmann, wiegmann, right, bottom>>\n<<Act
+      @ SiPomember, sipomember, right, bottom>>\n<<Act @ Tom, tom, left, bottom>>\nSaturday
+      13;10, Sicherheitspolizei, General Office \nPeter: Still stuck doing paperwork,
+      huh?\nTom: Yes.\nTom: I... I-\n*DOOR swings open*\nWiegmann: DE WIT, MEYER,
+      FOLLOW ME!!!\nPeter: Sir!\nTom: Sir!\nSiPoMember: Where is Herr Wiegmann running
+      off to with a gun?!\n\nYou hear some commotion coming from outside\n[[Go outside
+      and check it out|sipofrontanna]]\n"
+    leafType: 0
+    nodePosition: {x: 2300, y: -3859}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 21
+    m_Name: sipofrontanna
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ maliebaan74>>\n<<Act @ Wiegmann, wiegmann,
+      right, bottom>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ Man, pastoor, right,
+      bottom>>\n<<Act @ Anna, anna, right, bottom>>\nSaturday 13;12, Sicherheitspolizei,
+      SiPo front \n\nWiegmann: STOP! I arrest you on suspicion of espionage.\nPeter:
+      The girl's name is Anna Koning - she was the girl that stuck out her tongue
+      and ran out of the church, sir.\nTom: I saw our colleague Hans running after
+      another mann. This man is unknown.\nWiegmann: I see. I see.\nAnna: There is
+      no need for the gun.\nMan: We were just standing here.\nWiegmann: Doing what?
+      I know what you were doing. You were watching the backyard of the office. You
+      were spying, maybe even to plan an assassination on the SiPo office.\nWiegmann:
+      Officers, take them back to the office. I will keep them under shot.\n\n[[Go
+      back to the office|annainsidetheoffice]]\n"
+    leafType: 0
+    nodePosition: {x: 2292, y: -3544}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 22
+    m_Name: annainsidetheoffice
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act @ Wiegmann, wiegmann,
+      right, bottom>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right,
+      bottom>>\n<<Act @ Anna, anna, right, bottom>>\n<<Act @ SiPoMember, sipomember,
+      right, bottom>>\nSunday 13;17, Sicherheitspolizei, General Office\n\nWiegmann:
+      Search them!\nAnna: Keep your-\nWiegmann: The more you talk, the closer I am
+      to pulling the trigger.\nAnna: ...\nTom: There is nothing on her.\nPeter: I-I,
+      this man had a gun in his pocket!\nWiegmann: WHAT!\nSiPoMember: What?!\nWiegmann:
+      Take them into a cell.\n*Anna takes aim at the window!*\n*BANG!*\nNoise: Glass
+      shattering\nSiPomember: She jumped out of the window!\nWiegmann: GO GET HER!\nWiegmann:
+      She's too far away to chase - shoot her!\n\n<<HideAll @>> \n<<Scene @ blackscreen>>\n*running
+      sounds*\n\n//2 choices 1 shot Anna, 2 Let her go.\n//Choice 1/2    -     1      
+      -       1\n[[Take aim|shootanna]]\n[[Refuse to take the shot|letannagoagain]]\n"
+    leafType: 0
+    nodePosition: {x: 2283, y: -3235}
+    cachedParentID: 1
+    cachedSize: 103
+  - m_ID: 23
+    m_Name: shootanna
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ maliebaan53>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @ Anna, anna, right,
+      bottom>>\nSunday 13;20, Lime Tree Lane \n\n<<Scene @ church>>\n*BANG*\nAnna:
+      Aaaagh\nTom: You're hereby under arrest for possession of a espinoage and conspiracy.\nPeter:
+      Nice shot!\nAnna: ...\nPeter: Let's get her back.\nAnna: Shut up.\n*Peter kicks
+      Anna*\nTom: No need for that, she is already down. Let's get back.\n\n[[Take
+      Anna back to the General Office|woundedannageneraloffice]]\n"
+    leafType: 0
+    nodePosition: {x: 2697, y: -3142}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 24
+    m_Name: woundedannageneraloffice
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_interro>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @ Anna, anna, right,
+      bottom>>\n<<Act @ Wiegmann, wiegmann, right, bottom>>\nSaturday 13;27 Sicherheitspolizei,
+      Interrogation Room\n\nTom: Investigation 2.58, Sunday just before 13:27, the
+      16th of January, 1943. \nTom: Interrogation on the charge of possession of
+      guns and violence against members of the Sicherheitspolizei.\nAnna: I... I-\nWiegmann:
+      SHUT UP.\n*Wiegmann slaps Anna on her fingers with a ruler*\nAnna: Aaaagh.\nWiegmann:
+      Tell me the names off your \"friends\"!\nAnna: I-I won't.\n*Anna gets hit with
+      a ruler*\nAnna: Please stop. \nWiegmann: Tell. Me. The. Names.\nAnna: ...\nPeter:
+      We already heard you in the Easternchurch. \nPeter: You are conspiring against
+      us. You are spies trying to decipher how much men power and money we have.\nWiegmann:
+      I knew the moment I saw you, that you were up to no good. \nWiegmann: Your
+      father asked for you. He begged me to set you free, but I knew we would soon
+      meet again.\nTom: Maybe her father wants to talk in her stead?\nAnna: ....\nAnna:
+      Y-You disgust me.\nTom: What is it you came here to do today?\nAnna: I came
+      to save my friends who are held here unjustly.\nWiegmann: UNJUSTLY!\n*Wiegmann
+      slaps Anna on her fingers with a ruler*\nAnna: You disgust me. I will tell
+      you nothing. \nWiegmann: Nothing I can do?\nAnna: You failed to see us when
+      we were meeting right under your noses.\nAnna: You're just incompetent and
+      we all know it!\nWiegmann: THAT'S ENOUGH! You think you can just waltz in here
+      and kill us all, don't you?\n-> That's a little biased. It wasn't she who had
+      the pistol.\n   <<set $suspicion to $suspicion + 3>>\n   Wiegmann: Shut up!
+      They are all the same.\n-> And we had warned her before...\n*Wiegmann slaps
+      Anna in her face with a ruler*\nWiegmann: But I know just the remedy.\n*Wiegmann
+      leaves the room in a hurried pace*\nPeter: I suppose this was your last day.\n*Peter
+      leaves the room*\nAnna: I-I'm sorry... \n*Anna starts crying*\nAnna: Can you...
+      please contact my father and tell him to run?\n-> I will see what I can do
+      for you.\n   <<set $suspicion to $suspicion + 2>>\n   Anna: Please tell him
+      I beg you...\n-> No. \n   *Anna looks at the ground defeated*\n\n<<HideAll
+      @>> \n<<Scene @ blackscreen>>\n*You go outside to take a break and some time
+      passes*\nSaturday 14;17, Sicherheitspolizei, General Office \n\n<<HideAll @>>
+      \n<<Scene @ sipo_office>>\n<<Act @ Wiegmann, wiegmann, right, bottom>>\n<<Act
+      @ Tom, tom, left, bottom>>\n<<Act @ Peter, peter, right, bottom>>\n\nPeter:
+      The other officers caught the resistance member that ran away.\nPeter: Our
+      colleagues caught the resistance member that ran away earlier today.\nTom:
+      I wonder what Herr Wiegmann meant...\nPeter: What are you talking about?\nTom:
+      The \"remedy\"?\nPeter: I don't know. But I hope it's effective.\nPeter: They
+      were planning on killing us.  \nTom: Wiegmann has been in his office rather
+      long, hasn't he?\nWiegmann: BRING THE RESISTANCE PRISONERS TO THE GARDEN!\nPeter:
+      Sir!\nWiegmann: Follow me.\nTom: ...\n*Tom stays behind.*\n**BANG BANG BANG**\n\n[[Go
+      home for the day|Theend]]\n// This goes to an ending\n\n//Choice 1/2    -    
+      1       -       2"
+    leafType: 0
+    nodePosition: {x: 2297, y: -2662}
+    cachedParentID: 1
+    cachedSize: 133
+  - m_ID: 25
+    m_Name: letannagoagain
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ maliebaan53>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @ Wiegmann, wiegmann,
+      right, bottom>>\n<<set $suspicion to $suspicion + 5>>\nSaturday 13;20, Lime
+      Tree Lane  \n\nPeter: She is getting away!\nTom: I know, what way did she go?\nPeter:
+      You let her go!\nPeter: She and her mates had a gun!\nTom: We lost her... \nPeter:
+      I'm not taking the blame for this... you had her perfectly in shot as well.\nTom:
+      Let's go back.\n[[Go back to the office|wiegmannangry]]\n"
+    leafType: 0
+    nodePosition: {x: 2012, y: -3021}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 26
+    m_Name: wiegmannangry
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @ Wiegmann, wiegmann,
+      right, bottom>>\nSaturday 13:30, Sicherheitspolizei, General Office \n\nWiegmann:
+      De Wit. You imbecile.\nWiegmann: I hope for your sake, De Wit, that this girl
+      will be caught. Otherwise this might well be your last day at SiPo.\n*Peter
+      enters*\nPeter: The other member says nothing valuable at the moment. He does
+      claim that this thing was her idea.\nWiegmann: Find that girl, now! I don't
+      care how you do it!\nPeter: I heard that the third resistance member has been
+      shot two streets further by our officers. \nWiegmann: So the other officers
+      are doing good work, while you are just standing here. Get. That. Girl.\nPeter:
+      Sir!\nTom: Sir.\n[[Go search for Anna|searchanna]]\n"
+    leafType: 0
+    nodePosition: {x: 1779, y: -2731}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 27
+    m_Name: searchanna
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act @ Tom, tom, left,
+      bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act @ Anna, anna, right,
+      bottom>>\n<<Act @ Wiegmann, wiegmann, right, bottom>>\nSaturday 18;37, Sicherheitspolizei,
+      General Office \n\nPeter: We have searched Anna Koning for the whole afternoon,
+      but she still seems at large, sir.\nWiegmann: You guys *have* to find her.
+      Forget Mr. Mulder. \nWiegmann: I called with the main office in Amsterdam,
+      and I have permission.\nTom: What for?\nWiegmann: No questions, BRING THE RESISTANCE
+      PRISONERS TO THE GARDEN!\nPeter: Sir!\nTom: Sir!\nWiegmann: Follow me!\nTom:
+      ...\n*Tom stays behind.*\n*BANG BANG*\n\n[[Go home for the day|Theend]]\n//
+      Connect to an ending\n\n//Choice 1/2     -      2"
+    leafType: 0
+    nodePosition: {x: 1784, y: -2423}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 28
+    m_Name: afteranna
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ church>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act
+      @ Peter, peter, right, bottom>>\n<<Act @ Anna, anna, right, bottom>>\n\nTom:
+      Anna Koning, I will take you in because of posession of illegal pamphlets.\nAnna:
+      Damnit, let me go!\nTom: I don't think so.\nPeter: I was in front of the church
+      when a few guys ran away. Now I see why...\nPeter: Let's take her to the office.
+      Her father can't help her for a second time.\n\n[[Interrogate Anna|annainterrogationagain]]\n"
+    leafType: 0
+    nodePosition: {x: 1578, y: -4134}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 29
+    m_Name: annainterrogationagain
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n// Inside the general office\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act
+      @ Wiegmann, wiegmann, right, bottom>>\n<<Act @ Peter, peter, right, bottom>>\n<<Act
+      @ Tom, tom, left, bottom>>\n<<Act @ Anna, anna, right, bottom>>\nSaturday 9;10,
+      Sicherheitspolizei, General Office \n\nWiegmann: So, let's get this clear.
+      You again took this useless girl in, while you actually had to inspect Mulder's
+      office!\nPeter: This girl might be related to the resistance.\nWiegmann: She
+      better is, for your sake! Get out of my sight!\nBoth: Yes, sir!\nPeter: Shall
+      we interrogate her first, before we go look into that office?\nTom: Sure.\nPeter:
+      I saw her before you did. I hid behind a pillar and heard their entire conversation.
+      \n\n<<HideAll @>> \n<<Scene @ sipo_interro>>\n<<Act @ Peter, peter, right,
+      bottom>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ Anna, anna, right, bottom>>\nSaturday
+      10;10, Sicherheitspolizei, Interrogation Room\n\nAnna: ...\nPeter: It doesn't
+      look so good for you. \nTom: Investigation 2.58, Saturday just after 12:00,
+      the 16th of January, 1943. \nTom: Interrogation on charge of incorrect statements
+      during interrogation and suspected involvement with the resistance.\nTom: State
+      your name and occupation please.\nAnna: Anna Koning, Student.\nPeter: So can
+      you explain why you were in the Easternchurch?\nAnna: I have already told you
+      why. I was with my study group.\nPeter: Anyway, I don't have the patience to
+      talk in circles. I listened in on your little conversation in the church.\nPeter:
+      Trying to play spies, are you? Spying on the NSB and our manpower. \nAnna:
+      Wha- What are you taking about?\nPeter: You're involved in the resistance.\nAnna:
+      I'm not part of the resistance.\nPeter: Then prove it, give me the names of
+      the people in you're so-called bible group and I will go ask them.\nAnna: I...I-\nAnna:
+      Do you have proof?\nPeter: I don't need any. Unlike you, I'm not a liar.\nAnna:
+      You can't just make up evidence?\nPeter: ARE YOU CALLING ME A LIAR?\nTom: Anna,
+      it's over.\nAnna: I... I don't know what you are talking about. I swear. \nPeter:
+      Your father maybe does. I feel like we should pay him a visit.\nAnna: Leave
+      my father out of this, he has done nothing wrong.\nPeter: That is for us to
+      decide, not you. Maybe you can share a cell together. \nTom: It doesn't have
+      to be this way. If you give us the names of the other members. \nTom: You are
+      done for either way.\nTom: We will find the other members soon enough anyway.
+      \nPeter: You probably still have some contact information at home.\nTom: You
+      can save your father. \nAnna: No... I won't. \nPeter: Fine. I hoped you'd say
+      that. I will tell your father you said goodbye!\nTom: Anna, being noble isn't
+      worth it.\nAnna: We will see. Won't we.\n\n// Connect to an ending\n\n[[Go
+      home for the day|Theend]]\n"
+    leafType: 0
+    nodePosition: {x: 1266, y: -3984}
+    cachedParentID: 1
+    cachedSize: 118
+  - m_ID: 30
+    m_Name: Theend
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act @ Peter, peter, right,
+      bottom>>\n<<Act @ Tom, tom, left, bottom>>\n\n\nTom: Well, my shift is over.
+      I'm going home for today.\nPeter: Yeah, see you tomorrow.\n\n<<if $suspicion
+      >= 10>>\n   [[Go to the office|Susending]]\n<<elseif $sparehiders && $letannago>>\n  
+      [[Go to the office|resistance]]\n<<else>> \n   [[Go to the office|neutral]]\n<<endif>>\n"
+    leafType: 0
+    nodePosition: {x: 1682, y: -1906}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 31
+    m_Name: Susending
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "<<HideAll @>> \n<<Scene @ blackscreen>>\nSunday; 08;00, Sicherheitspolizei,
+      General Office \nFourth day...\n\n<<HideAll @>> \n<<Scene @ sipo_office>>\n<<Act
+      @ Peter, peter, right, bottom>>\n<<Act @ Tom, tom, left, bottom>>\n\nTom: Peter,
+      good morning!\nPeter: Yes, good morning... \nTom: So, today we'll need to go
+      to-\nPeter: Tom De Wit, you are hereby under arrest for conspiracy and sympathizing
+      with the Jews.\nTom: What?\nSiPoMember: Follow me.\nTom: This must be a misunderstanding.\n\n[[Get
+      dragged away|Interrogationtom]]\n"
+    leafType: 0
+    nodePosition: {x: 2161, y: -1483}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 32
+    m_Name: Interrogationtom
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ sipo_interro>>\n<<Act @ Peter, peter,
+      right, bottom>>\n<<Act @ Tom, tom, left, bottom>>\n<<Act @ Wiegmann, wiegmann,
+      right, bottom>>\n\nSunday; 08;15 Sicherheitspolizei, Interrogation Room\n\nPeter:
+      Investigation 2.58, Saturday just after 12:00, the 16th of January, 1943. \nPeter:
+      Interrogation of former SiPo officer on charge of treason and being a Jew sympathiser.\nWiegmann:
+      I always knew there was something off about you.\nTom: This is all one big
+      mistake.\nPeter: Is it? Carefully consider all the choices you made this week.\nWiegmann:
+      Meyer kept met up to date with your endeavours. Turns out you are not incompetent.
+      Just a traitor. \nTom: I- It's not true. You must believe me.\nWiegmann: Do
+      you think I'm stupid? Meyer told me you searched the house at Lime Tree Lane
+      40. \nPeter: I went there another time and searched the house. I found a Jewish
+      family.\nTom: ...\nWiegmann: I would also shut my mouth if I were you.\n\n<<HideAll
+      @>> \n<<Scene @ blackscreen>>\nEnd...\nYou got the Suspicion ending.\n\n....................."
+    leafType: 0
+    nodePosition: {x: 2149, y: -1145}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 33
+    m_Name: neutral
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ blackscreen>>\nSunday; 08;00, Sicherheitspolizei,
+      General Office \nFourth day...\n\n<<HideAll @>> \n<<Scene @ sipo_interro>>\n<<Act
+      @ Peter, peter, right, bottom>>\n<<Act @ Tom, tom, left, bottom>>\n\nSaturday;
+      08;00, Sicherheitspolizei, General Office \n \nPeter: Hello Tom.\nTom: Hello
+      Peter. \nPeter: Finally on time, I see.\n<<if $suspicion < 7>>\n   Tom: It
+      was a strange week. \n   Peter: It definitely was.\n   Tom: I finally got the
+      bonus I wanted, though.\n   Peter: We were just doing our jobs.\n   Tom: Maybe
+      I can give the spare coupons to my neighbour...\n   Tom: It would be the right
+      thing to do, right?\n   Peter: Indeed it would be.\n<<else>>\n   Tom: A week
+      full of missed chances.\n   Peter: No kidding. \n   Tom: Though, I guess in
+      the end, it was all worth it.\n   Peter: Sometimes you're a real weirdo, Tom.\n  
+      Peter: I've heard we've been assigned a new case. Time to go.\n   Tom: *sigh*\n  
+      Tom: Let's.\n<<endif>>\n\n<<HideAll @>> \n<<Scene @ blackscreen>>\nEnd...\nYou
+      got the neutral ending.\n\n.....................\n"
+    leafType: 0
+    nodePosition: {x: 1634, y: -1486}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 34
+    m_Name: resistance
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ blackscreen>>\n<<Act @ Dekker, aartsbisschop,
+      right, bottom>>\n<<Act @ Tom, tom, left, bottom>>\n\nSunday; 19;20, Tom's home.\nFourth
+      day...\n\nTom: What is this? I almost never receive mail.\nMail: *Meet me at
+      Line Tree Lane 40 round 20:00. Tell no one- Sam Dekker*\nTom: I wonder what
+      this is all about?\n\n[[Go to Archbishop Dekker's house|resistanceenddekker]]"
+    leafType: 0
+    nodePosition: {x: 1294, y: -1472}
+    cachedParentID: 1
+    cachedSize: 100
+  - m_ID: 35
+    m_Name: resistanceenddekker
+    m_Depth: 1
+    nodeTags: 
+    nodeBody: "\n<<HideAll @>> \n<<Scene @ bisschophuis>>\n<<Act @ Dekker, aartsbisschop,
+      right, bottom>>\n<<Act @ Tom, tom, left, bottom>>\nSunday; 20;03, Lime Tree
+      Lane 40, Dekker's Office.\n\nDekker: Hello Mr. De Wit.\nTom: Why did you call
+      on me? Are you in trouble?\nDekker: No, I am not. Though Wiegmann does try
+      to get me into trouble.\nTom: Then why the suspicious note?\nDekker: I realize
+      that you have had money problems, Mr. De Wit.\nDekker: I want to propose a
+      deal.\nTom: A deal?\nDekker: I need your help.\nTom: Why?\nDekker: Because
+      I think I can trust you. The family on number 80 vouched for your generosity.\nTom:
+      You mean that family that lives next to Mulder?\nDekker: The very same. You
+      see, I help more families just like them.\nDekker: Because you let these people
+      go, their child could be saved.\nTom: How do you know that?\nDekker: That's
+      my secret. You have shown courage and truly tried to save those who are unjustly
+      prosecuted. \nTom: ... I...\nDekker: Therefore, I humbly ask, can you help
+      me?\nDekker: I shall provide food for your family if so.\nDekker: It may ease
+      the guilt that you feel about doing your job.\nDekker: All I ask is that you
+      have to warn me about big razzia's and turn a blind eye to those who need it.\nDekker:
+      Do we have a deal?\n-> Yes.\n   Dekker: Excellent\n   Dekker: It's for an organisation
+      called Utrechts Kindercomit\xE9. \n   Dekker: The committee saves Jewish children
+      by giving them fake names and placing them with non-Jewish parents. \n   Dekker:
+      You already helped us by saving the child at Lime Tree Lane 80.\n-> No\n  
+      Dekker: That is disappointing, though, I can understand.\n   Dekker: You still
+      have a good heart.\n   Dekker: I know that you will keep this meeting down.\n\n<<HideAll
+      @>> \n<<Scene @ blackscreen>>\nEnd...\nYou got the resistance ending.\n\n....................."
+    leafType: 0
+    nodePosition: {x: 1211, y: -1118}
+    cachedParentID: 1
+    cachedSize: 103
