@@ -67,7 +67,7 @@ namespace Yarn.Unity.Example {
 
         /// How quickly to show the text, in seconds per character
         [Tooltip("How quickly to show the text, in seconds per character")]
-        public float textSpeed = 0.025f;
+        public float textSpeed = 0.75f;
 
         /// The buttons that let the user choose an option
         public List<Button> optionButtons;
@@ -166,8 +166,8 @@ namespace Yarn.Unity.Example {
                         }
                         yield return 0;
                     }
-                    ropework.StopAudio("speech");
-                    ropework.PlayAudio("speech");
+                   // ropework.StopAudio("speech");
+                   // ropework.PlayAudio("speech");
                     if ( earlyOut ) { break; }
                 }
             } else {
