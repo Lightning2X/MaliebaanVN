@@ -766,7 +766,7 @@ position: 2697,-3142
 <<Act @ Anna, anna, right, bottom>>
 Sunday 13;20, Lime Tree Lane 
 
-<<Scene @ Easternchurch>>
+<<Scene @ church>>
 *BANG*
 Anna: Aaaagh
 Tom: You're hereby under arrest for possession of a firearm and conspiracy.
