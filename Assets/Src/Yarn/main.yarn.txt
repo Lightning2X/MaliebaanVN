@@ -87,7 +87,7 @@ position: 1925,-7214
 ---
 
 <<HideAll @>> 
-<<Scene @ interrogationroom>>
+<<Scene @ sipo_interro>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Mulder, pastoor, right, bottom>>
@@ -215,7 +215,7 @@ Peter: Damn, this was our chance to prove ourselves to Herr Wiegmann.
 
 // No need for a new node here so we continue on the current node.
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
@@ -648,7 +648,6 @@ position: 2300,-3859
 <<Act @ Wiegmann, wiegmann, right, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, sipomember, right, bottom>>
 Saturday; 9;10, Sicherheitspolizei, General Office 
 
 Wiegmann: DE WIT, YOU LET A MEMBER OF THE RESISTANCE SLIP AWAY NEXT TO FAILING TO LOOK IN MULDER'S OFFICE?
