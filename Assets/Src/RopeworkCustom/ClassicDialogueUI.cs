@@ -287,6 +287,12 @@ namespace Yarn.Unity.Example {
             lastLines.Enqueue(line);
         }
 
+        public override IEnumerator NodeComplete(string nextNode) {
+            // Default implementation does nothing.
+            previousSpeaker = "";
+            yield break;
+        }
+
         public bool InputCheck
         {
             get

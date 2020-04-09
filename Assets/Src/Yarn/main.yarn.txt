@@ -3,7 +3,7 @@ tags:
 colorID: 0
 position: 1933,-7788
 ---
-
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 
 This story is based on real life events.
@@ -28,6 +28,7 @@ tags:
 colorID: 0
 position: 1933,-7788
 ---
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 <<set $suspicion to 0>>
 Thursday 08;19, Sicherheitspolizei, General Office 
