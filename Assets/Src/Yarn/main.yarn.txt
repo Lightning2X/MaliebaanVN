@@ -31,7 +31,6 @@ position: 1833,-7788
 <<HideAll @>> 
 <<Scene @ blackscreen>>
 <<set $suspicion to 0>>
-<<PlayAudio @ frontdooropen, 1.0>>
 Thursday 08;19, Sicherheitspolizei, General Office 
 First day...
 
@@ -108,8 +107,7 @@ Peter: You are not just helping poor people. You are helping Jews!
 Tom: This time you are not just helping them - you are giving them shelter. Or, at least, that's what I'm reading here. Is that true?!
 Mulder: ...
 Tom: Do you deny this?
-<<PlayAudio @ slamtable, 1.0>>
-Tom slams on the table
+*Slams on the table* 
 Peter: Answer the question!
 Mulder: I help poor people and do not make a distinction between them. However, I am not sheltering people. 
 Peter: You maintain this feeble lie?
@@ -157,10 +155,8 @@ Thursday 10;55, Lime Tree Lane 82, front doors
 Peter: Here we are.
 Tom: You can already go upstairs. I'll finish my cigarette and will join you in a bit. 
 Peter: Alright.
-<<PlayAudio @ doorswing, 1.0>>
 *BAM*
 Tom: ...
-<<PlayAudio @ doorswing, 1.0>>
 *BAM*
 Peter: HEY, CAN YOU CHECK NEXT DOOR, I THOUGHT I HEARED SOMETHING STRANGE!
 Tom: THAT'S JUST MRS. HOLLAND!
@@ -250,7 +246,6 @@ position: 1379,-6166
 <<Act @ Woman, woman, right, bottom>>
 Thursday 11;08, Lime Tree Lane 80, front doors
 
-<<PlayAudio @ slamtable, 1.0>>
 Tom puts his foot in the door opening.
 Tom: PETER!!!
 Tom: Please step outside and don't resist.
@@ -302,7 +297,6 @@ Wiegmann: Where is Meyer?
 Tom: Interrogating the witness.
 Tom: I'm instead focusing on the case of pastor Mulder, sir.
 Wiegmann: That's what I like to hear.
-<<PlayAudio @ frontdooropen, 1.0>>
 *Peter enters the room*
 Peter: Sir!
 Wiegmann: Meyer. Good work today. 
@@ -346,8 +340,7 @@ Tom: No, I am not. He has always refused to help the Winterhulp.
 Tom: My family is very dependent on that charity organization. During winters we always can get food and provisions there.
 Peter: Hmmm... I can understand you, but he is an important person of the church.
 Peter: I just hope we will find a new lead again, otherwise Wiegmann will be furious. Especially because the focus is now on Dekker.
-Tom: Yes, you are right.
-<<PlayAudio @ doorbell, 0.8>>
+Tom: Yes, I can understand that, Dekker always gets away with violations of the law while other people are taken in for that.
 *Doorbell*
 Dekker: Welcome. what can I do for you?
 Tom: We are here to ask you some questions.
@@ -437,8 +430,7 @@ Tom: Hey Hans, out of petrol?
 SiPoMember: Yes, it's our daily stop at this petrol station.
 SiPoMember: So, where are you heading?
 Tom: Mulder's office at the Easternchurch.
-*A girl sticks out her tongue and runs away*
-<<PlayAudio @ runningchase, 0.6>>
+A girl sticks out her tongue and runs away
 Peter: ... YOU COME BACK HERE.
 Girl: Aaaagh.
 Tom: What are you doing Peter!? Don't just grab a random girl of the street. 
@@ -509,27 +501,22 @@ Wiegmann: Oh, you guys can't even focus on important things.
 Wiegmann: Just put her in a cell and call her parents!
 Peter: We already called, sir.
 Wiegmann: Then go on with the investigation of Mulder's case!
-<<PlayAudio @ churchdoor, 1.0>>
 *BAM* The door slams open.
 Tom: Put that girl in a cell, Peter. We really have to get on before Wiegmann comes out of his office again.
 Peter: Nothing I'd rather do.
 Rector: Officer, I came here to request the release of Anna Koning.
 Tom: You are not allowed to see Herr Wiegmann, he is very busy at the moment.
-<<PlayAudio @ frontdooropen, 1.0>>
 *The door opens*
 Wiegmann: What are you still doing here Tom! Who is this man?
 Tom: He is-
 Rector: I am the rector magnificus of Utrecht University and I am here to request the release of Anna Koning.
 Wiegmann: Follow me.
-<<PlayAudio @ frontdooropen, 1.0>>
 *Wiegmann goes through the door*
 Wiegmann: What ... you ... here?
 Rector: It's ridiculous ... you take ... Anna!
 Wiegmann: Who ... you think ... you are, leave ... I will arrest ...!
 Rector: I ... not leave ... Anna is ... free!
-<<PlayAudio @ slap1, 0.4>>
 *Muffled hitting sound*
-<<PlayAudio @ slamtable, 1.0>>
 *KABLAM* - The door slams open!
 Wiegmann: GET THIS MAN OUT OF MY SIGHT AND IN A CELL.
 Tom: Yes, sir.
@@ -621,12 +608,11 @@ Tom: You don't need an entire group for that.
 Anna: We are a bible study group. So we discuss the bible for our studies and stuff. As I already told you, I'm a student.
 Anna: I really need to get going now. *paper falls out of her bible*
 Tom: Hé wait, you lost something!
+Peter: You here again!?
 Anna: Please give it to me... *Tom looks at the content of the paper*
-Tom: Wait! It's a resistance pamphlet.
-Peter: Hey, you here again?
-<<PlayAudio @ runningchase, 1.0>>
-Anna: Sorry, I have to go now *runs away*
-
+Tom: Wait! What is this?
+Peter: What!? This is a resistance pamphlet.
+Anna: *runs away*
 
 //Two choices once again: Let Anna go or take her in.
 // Choice 1: Let Anna escape
@@ -675,7 +661,6 @@ Wiegmann: THE WORD INCOMPETENCE IS TOO GOOD FOR YOU.
 Wiegmann: Meyer, at least you have something that resembles competence. I will send you to investigate Mulder's office alone.
 Wiegmann: As for you, De Wit: paperwork duty. At least that's something you won't be able to screw up.
 Tom: Sir.
-<<PlayAudio @ churchdoor, 1.0>>
 *Door closes*
 Tom: You were there too, you know. It's not only me that let Anna escape. 
 Peter: You were right next to her. I would almost think you did it on purpose.
@@ -697,7 +682,6 @@ Saturday 13;10, Sicherheitspolizei, General Office
 Peter: Still stuck doing paperwork, huh?
 Tom: Yes.
 Tom: I... I-
-<<PlayAudio @ churchdoor, 1.0>>
 *DOOR swings open*
 Wiegmann: DE WIT, MEYER, FOLLOW ME!!!
 Peter: Sir!
@@ -758,18 +742,15 @@ Peter: I-I, this man had a gun in his pocket!
 Wiegmann: WHAT!
 SiPoMember: What?!
 Wiegmann: Take them into a cell.
-*Anna takes aim at the window*
-<<PlayAudio @ silencedgun, 1.0>>
+*Anna takes aim at the window!*
 *BANG!*
-<<PlayAudio @ windowbreaking, 0.9>>
-*Glass shattering*
+Noise: Glass shattering
 SiPomember: She jumped out of the window!
 Wiegmann: GO GET HER!
 Wiegmann: She's too far away to chase - shoot her!
 
 <<HideAll @>> 
 <<Scene @ blackscreen>>
-<<PlayAudio @ runningchase, 1.0>>
 *running sounds*
 
 //2 choices 1 shot Anna, 2 Let her go.
@@ -792,15 +773,13 @@ position: 2697,-3142
 Sunday 13;20, Lime Tree Lane 
 
 <<Scene @ church>>
-<<PlayAudio @ gunshot, 0.5>>
 *BANG*
-Anna: AAAGH
-Tom: You're hereby under arrest for possession of a esponiage and conspiracy.
+Anna: Aaaagh
+Tom: You're hereby under arrest for possession of a espinoage and conspiracy.
 Peter: Nice shot!
 Anna: ...
 Peter: Let's get her back.
 Anna: Shut up.
-<<PlayAudio @ crying, 1.0>>
 *Peter kicks Anna*
 Tom: No need for that, she is already down. Let's get back.
 
@@ -829,7 +808,6 @@ Wiegmann: SHUT UP.
 Anna: Aaaagh.
 Wiegmann: Tell me the names off your "friends"!
 Anna: I-I won't.
-<<PlayAudio @ slap1, 1.0>>
 *Anna gets hit with a ruler*
 Anna: Please stop. 
 Wiegmann: Tell. Me. The. Names.
@@ -844,7 +822,6 @@ Anna: Y-You disgust me.
 Tom: What is it you came here to do today?
 Anna: I came to save my friends who are held here unjustly.
 Wiegmann: UNJUSTLY!
-<<PlayAudio @ slap2, 1.0>>
 *Wiegmann slaps Anna on her fingers with a ruler*
 Anna: You disgust me. I will tell you nothing. 
 Wiegmann: Nothing I can do?
@@ -855,16 +832,12 @@ Wiegmann: THAT'S ENOUGH! You think you can just waltz in here and kill us all, d
    <<set $suspicion to $suspicion + 3>>
    Wiegmann: Shut up! They are all the same.
 -> And we had warned her before...
-<<PlayAudio @ slap1, 1.0>>
 *Wiegmann slaps Anna in her face with a ruler*
 Wiegmann: But I know just the remedy.
-<<PlayAudio @ churchdoor, 1.0>>
 *Wiegmann leaves the room in a hurried pace*
 Peter: I suppose this was your last day.
-<<PlayAudio @ frontdooropen, 1.0>>
 *Peter leaves the room*
 Anna: I-I'm sorry... 
-<<PlayAudio @ crying, 1.0>>
 *Anna starts crying*
 Anna: Can you... please contact my father and tell him to run?
 -> I will see what I can do for you.
@@ -885,9 +858,9 @@ Saturday 14;17, Sicherheitspolizei, General Office
 <<Act @ Peter, peter, right, bottom>>
 
 Peter: The other officers caught the resistance member that ran away.
+Peter: Our colleagues caught the resistance member that ran away earlier today.
 Tom: I wonder what Herr Wiegmann meant...
 Peter: What are you talking about?
-<<PlayAudio @ partita, 0.4>>
 Tom: The "remedy"?
 Peter: I don't know. But I hope it's effective.
 Peter: They were planning on killing us.  
@@ -897,13 +870,7 @@ Peter: Sir!
 Wiegmann: Follow me.
 Tom: ...
 *Tom stays behind.*
-<<StopAudio @ partita>>
-<<PlayAudio @ gunshot, 0.7>>
-**BANG**
-<<PlayAudio @ gunshot, 0.7>>
-**BANG**
-<<PlayAudio @ gunshot, 0.7>>
-**BANG**
+**BANG BANG BANG**
 
 [[Go home for the day|Theend]]
 // This goes to an ending
@@ -928,7 +895,6 @@ Peter: She is getting away!
 Tom: I know, what way did she go?
 Peter: You let her go!
 Peter: She and her mates had a gun!
-Peter: She was planning on using it for an assassination at the SiPo office.
 Tom: We lost her... 
 Peter: I'm not taking the blame for this... you had her perfectly in shot as well.
 Tom: Let's go back.
@@ -950,11 +916,10 @@ Saturday 13:30, Sicherheitspolizei, General Office
 
 Wiegmann: De Wit. You imbecile.
 Wiegmann: I hope for your sake, De Wit, that this girl will be caught. Otherwise this might well be your last day at SiPo.
-<<PlayAudio @ frontdooropen, 1.0>>
 *Peter enters*
 Peter: The other member says nothing valuable at the moment. He does claim that this thing was her idea.
 Wiegmann: Find that girl, now! I don't care how you do it!
-Tom: I just heard that the third resistance member has been shot two streets further by our officers. 
+Peter: I heard that the third resistance member has been shot two streets further by our officers. 
 Wiegmann: So the other officers are doing good work, while you are just standing here. Get. That. Girl.
 Peter: Sir!
 Tom: Sir.
@@ -973,24 +938,19 @@ position: 1784,-2423
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
-Saturday 14;37, Sicherheitspolizei, General Office 
+Saturday 18;37, Sicherheitspolizei, General Office 
 
-Peter: Couldn't find Anna Koning, sir.
+Peter: We have searched Anna Koning for the whole afternoon, but she still seems at large, sir.
 Wiegmann: You guys *have* to find her. Forget Mr. Mulder. 
 Wiegmann: I called with the main office in Amsterdam, and I have permission.
 Tom: What for?
-<<PlayAudio @ partita, 0.4>>
 Wiegmann: No questions, BRING THE RESISTANCE PRISONERS TO THE GARDEN!
 Peter: Sir!
 Tom: Sir!
 Wiegmann: Follow me!
 Tom: ...
 *Tom stays behind.*
-<<StopAudio @ partita>>
-<<PlayAudio @ gunshot, 0.7>>
-*BANG*
-<<PlayAudio @ gunshot, 0.7>>
-*BANG*
+*BANG BANG*
 
 [[Go home for the day|Theend]]
 // Connect to an ending
@@ -1012,8 +972,6 @@ position: 1578,-4134
 Tom: Anna Koning, I will take you in because of posession of illegal pamphlets.
 Anna: Damnit, let me go!
 Tom: I don't think so.
-Peter: Tom!
-Tom: Peter?!
 Peter: I was in front of the church when a few guys ran away. Now I see why...
 Peter: Let's take her to the office. Her father can't help her for a second time.
 
@@ -1040,13 +998,8 @@ Peter: This girl might be related to the resistance.
 Wiegmann: She better is, for your sake! Get out of my sight!
 Both: Yes, sir!
 Peter: Shall we interrogate her first, before we go look into that office?
-Tom: Sure. 
-Tom: Why are you so sure that she is part of the resistance? I don't know for sure.
+Tom: Sure.
 Peter: I saw her before you did. I hid behind a pillar and heard their entire conversation. 
-Tom: What were you doing there anyway? 
-Peter: I can ask you the same thing? I always try to pray at least once a day, what's your excuse?
-Tom: Praying before work, I always try to do that. Although I usually sleep in. Hahaha.
-Peter: That's a step in the right direction. Who knows, maybe we will make a devout catholic of you yet.
 
 <<HideAll @>> 
 <<Scene @ sipo_interro>>
@@ -1165,7 +1118,6 @@ Tom: This is all one big mistake.
 Peter: Is it? Carefully consider all the choices you made this week.
 Wiegmann: Meyer kept met up to date with your endeavours. Turns out you are not incompetent. Just a traitor. 
 Tom: I- It's not true. You must believe me.
-Tom: I have worked for you for a long time.
 Wiegmann: Do you think I'm stupid? Meyer told me you searched the house at Lime Tree Lane 40. 
 Peter: I went there another time and searched the house. I found a Jewish family.
 Tom: ...
@@ -1270,10 +1222,8 @@ Dekker: Because I think I can trust you. The family on number 80 vouched for you
 Tom: You mean that family that lives next to Mulder?
 Dekker: The very same. You see, I help more families just like them.
 Dekker: Because you let these people go, their child could be saved.
-Dekker: You also released the resistance girl in the Easternchurch that day.
 Tom: How do you know that?
-Dekker: I was in the church that day. Happens to be part of being an archbishop.
-Dekker: You have shown courage and truly tried to save those who are unjustly prosecuted. 
+Dekker: That's my secret. You have shown courage and truly tried to save those who are unjustly prosecuted. 
 Tom: ... I...
 Dekker: Therefore, I humbly ask, can you help me?
 Dekker: I shall provide food for your family if so.
