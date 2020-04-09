@@ -762,6 +762,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: StartButton
       objectReference: {fileID: 0}
+    - target: {fileID: 7523851913871987088, guid: 9b5ffa583aa605f459078acfff0ebe10,
+        type: 3}
+      propertyPath: m_text
+      value: Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 7523851913871987088, guid: 9b5ffa583aa605f459078acfff0ebe10,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b5ffa583aa605f459078acfff0ebe10, type: 3}
 --- !u!1 &7523851913274546868 stripped
