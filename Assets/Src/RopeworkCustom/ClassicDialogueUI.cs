@@ -79,6 +79,8 @@ namespace Yarn.Unity.Example {
         private Queue<string> lastLines;
         // Amount of lines to remember in the lastLines queue
         private const int HistoryLength = 40;
+        private const string mainCharacterName = "Tom";
+        private string previousSpeaker = "";
         void Awake ()
         {
             // if Ropework manager is null, then find it
@@ -122,11 +124,17 @@ namespace Yarn.Unity.Example {
                 // change dialog nameplate text and, if applicable the BG color
                 nameText.transform.parent.gameObject.SetActive(true);
                 nameText.text = speakerName;
-                if ( ropework.actorColors.ContainsKey(speakerName) ) {
-                    nameText.transform.parent.GetComponent<Image>().color = ropework.actorColors[speakerName];
-                }
-                // Highlight actor's sprite (if on-screen) using RopeworkManager
                 if ( ropework.actors.ContainsKey(speakerName) ) {
+                    nameText.transform.parent.GetComponent<Image>().color = ropework.actorColors[speakerName];
+                    //Main character is always on the right and should be ignored for the hide code
+                    // Furthermore, previous speaker is "" in the beginning so that should be checked too
+                    if (speakerName != mainCharacterName && previousSpeaker != speakerName && previousSpeaker != "")
+                    {
+                       // ropework.HideSprite(ropework.actors[previousSpeaker].sprite.name);
+                       // ropework.SetSprite(speakerName, ropework.actors[speakerName].sprite.name, "right", "bottom");
+                        previousSpeaker = speakerName;
+                    }
+                    // Highlight actor's sprite (if on-screen) using RopeworkManager
                     ropework.HighlightSprite( ropework.actors[speakerName] );
                 }
             } else { // no speaker name found, so hide the nameplate

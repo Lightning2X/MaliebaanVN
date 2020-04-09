@@ -34,9 +34,10 @@ position: 1933,-7788
 Thursday 08;19, Sicherheitspolizei, General Office 
 First day...
 
-<<Scene @ insidesipooffice>>
-<<Act @ Tom, cool-girl>>
-<<Act @ SiPoMember, cool-girl>>
+<<HideAll @>> 
+<<Scene @ blackscreen>>
+<<Act @ Tom, tom, left, bottom>>
+<<Act @ SiPoMember, dio>>
 Thursday 08;19, Sicherheitspolizei, General Office 
 
 SiPoMember: Hey De Wit, there you are. Herr Wiegmann is looking for you.
@@ -53,8 +54,10 @@ colorID: 0
 position: 1934,-7494
 ---
 
-<<Scene @  insidesipooffice>>
-<<Act @ Tom, cool-girl>>
+
+<<HideAll @>> 
+<<Scene @  blackscreen>>
+<<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, cool-girl>>
 Thursday 08;25, Sicherheitspolizei, General Office
 
@@ -82,6 +85,7 @@ colorID: 0
 position: 1925,-7214
 ---
 
+<<HideAll @>> 
 <<Scene @ interrogationroom>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -116,6 +120,7 @@ colorID: 0
 position: 1874,-6996
 ---
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -138,6 +143,7 @@ colorID: 6
 position: 1861,-6711
 ---
 
+<<HideAll @>> 
 <<Scene @ maliebaan82>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -160,6 +166,7 @@ colorID: 0
 position: 1848,-6316
 ---
 
+<<HideAll @>> 
 <<Scene @ maliebaan82>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -185,6 +192,7 @@ colorID: 0
 position: 2182,-6263
 ---
 
+<<HideAll @>> 
 <<set $arrestedhiders to false>>
 <<set $suspicion to $suspicion + 5>>
 <<Scene @ maliebaan82>>
@@ -200,6 +208,7 @@ Peter: But first let's get back to the office and report our progress...
 Peter: Damn, this was our chance to proof ourselves to Herr Wiegmann. 
 
 // No need for a new node here so we continue on the current node.
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -221,6 +230,7 @@ colorID: 0
 position: 1379,-6166
 ---
 
+<<HideAll @>> 
 <<set $arrestedhiders to true>>
 <<Scene @ maliebaan82>>
 <<Act @ Tom, cool-girl>>
@@ -265,6 +275,7 @@ colorID: 0
 position: 1359,-5851
 ---
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -303,10 +314,12 @@ tags:
 colorID: 0
 position: 1960,-5866
 ---
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 Friday 09;00, Lime Tree Lane 40, Front
 Second day...
 
+<<HideAll @>> 
 <<Scene @ maliebaan40>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Dekker, cool-girl>>
@@ -332,6 +345,7 @@ colorID: 0
 position: 1912,-5599
 ---
 
+<<HideAll @>> 
 <<Scene @ dekkerhouseinside>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Dekker, cool-girl>>
@@ -381,6 +395,7 @@ position: 1911,-5348
 ---
 
 // After the interview
+<<HideAll @>> 
 <<Scene @ maliebaan40>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -391,6 +406,7 @@ Tom: You are right! I think your suggestion is right.
 Tom: Both suspects are connected to the church, so maybe the Easternchurch will give us some new info.
 
 // At the Garage
+<<HideAll @>> 
 <<Scene @ maliebaan71>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -424,6 +440,7 @@ position: 1911,-5088
 ---
 
 // Interrogation room
+<<HideAll @>> 
 <<Scene @ interrogationroom>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -461,6 +478,7 @@ position: 1929,-4833
 ---
 
 // In the main office of the Sicherheitspolizei
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -490,6 +508,7 @@ Tom: ...
 Wiegmann: GET THIS MAN OUT OF MY SIGHT AND IN A CELL.
 Tom: Yes, sir.
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -511,6 +530,7 @@ colorID: 0
 position: 1932,-4575
 ---
 
+<<HideAll @>> 
 <<Scene @ maliebaan90>>
 <<Act @ Tom, cool-girl>>
 <<Act @ NSBmember, cool-girl>>
@@ -544,10 +564,12 @@ tags:
 colorID: 0
 position: 1938,-4317
 ---
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 Saturday 7;45, Inside the Easternchurch, Lime Tree Lane 90
 Third day...
 
+<<HideAll @>> 
 <<Scene @ insideeasternchurch>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -588,6 +610,7 @@ colorID: 0
 position: 2284,-4120
 ---
 
+<<HideAll @>> 
 <<Scene @ insideeasternchurch>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -608,6 +631,7 @@ colorID: 0
 position: 2300,-3859
 ---
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Wiegmann, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -627,9 +651,16 @@ Peter: Just be glad I didn't elaborate further.
 Peter: Have fun with your paper work.
 Tom: Hope you find something in Mulder's office.
 
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 Later that day...
+
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
+<<Act @ SiPoMember, cool-girl>>
+<<Act @ Wiegmann, cool-girl>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Tom, cool-girl>>
 Saturday 13;10, Sicherheitspolizei, General Office 
 Peter: Still stuck doing paper work, huh?
 Tom: Yes.
@@ -650,6 +681,7 @@ colorID: 0
 position: 2292,-3544
 ---
 
+<<HideAll @>> 
 <<Scene @ maliebaan74>>
 <<Act @ Wiegmann, cool-girl>>
 <<Act @ Tom, cool-girl>>
@@ -675,6 +707,7 @@ colorID: 0
 position: 2283,-3235
 ---
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Wiegmann, cool-girl>>
 <<Act @ Tom, cool-girl>>
@@ -683,7 +716,6 @@ position: 2283,-3235
 <<Act @ SiPoMember, cool-girl>>
 Saturday 13;17, Sicherheitspolizei, General Office
 
-<<Scene @ General Office>>
 Wiegmann: Search them!
 Anna: Keep your-
 Wiegmann: The more you talk, the closer I am to pulling the trigger.
@@ -700,6 +732,7 @@ SiPomember: She jumped out of the window!
 Wiegmann: GO GET HER!
 Wiegmann: She's too far away to chase, shoot her!
 
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 *running sounds*
 
@@ -715,6 +748,7 @@ colorID: 0
 position: 2697,-3142
 ---
 
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -741,6 +775,7 @@ colorID: 0
 position: 2297,-2662
 ---
 
+<<HideAll @>> 
 <<Scene @ interrogationroom>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -793,6 +828,11 @@ Anna: Can you please contact my father and tell him to run
    *Anna looks at the ground defeated*
 *You go outside to take a break and some time passes*
 
+<<HideAll @>> 
+<<Scene @ insidesipooffice>>
+<<Act @ Wiegmann, cool-girl>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Peter, cool-girl>>
 Saturday 14;17, Sicherheitspolizei, General Office 
 Peter: The other officers caught the resistance member that ran away.
 Tom: I wonder what Herr Wiegmann meant...
@@ -818,6 +858,7 @@ colorID: 0
 position: 2012,-3021
 ---
 
+<<HideAll @>> 
 <<Scene @ maliebaan53>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -842,6 +883,7 @@ colorID: 0
 position: 1779,-2731
 ---
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -866,6 +908,7 @@ colorID: 0
 position: 1784,-2423
 ---
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -896,6 +939,7 @@ colorID: 0
 position: 1578,-4134
 ---
 
+<<HideAll @>> 
 <<Scene @ insideeasternchurch>>
 <<Act @ Tom, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -919,6 +963,7 @@ position: 1266,-3984
 ---
 
 // Inside the general office
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Wiegmann, cool-girl>>
 <<Act @ Peter, cool-girl>>
@@ -939,8 +984,11 @@ Peter: I can ask you the same thing? I always try to pray at least once a day, w
 Tom: Praying before work, I always try to do that. Although I usually sleep in. Hahaha.
 Peter: That's a step in the right direction. Who knows, maybe we will make a devout catholic of you yet.
 
+<<HideAll @>> 
 <<Scene @ interrogationroom>>
-<<Hide @ Wiegmann>>
+<<Act @ Peter, cool-girl>>
+<<Act @ Tom, cool-girl>>
+<<Act @ Anna, cool-girl>>
 Saturday 10;10, Sicherheitspolizei, Interrogation Room
 
 Anna: ...
@@ -989,6 +1037,7 @@ colorID: 0
 position: 1682,-1906
 ---
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Tom, cool-girl>>
@@ -1010,10 +1059,12 @@ tags:
 colorID: 0
 position: 2161,-1483
 ---
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 Sunday; 08;00, Sicherheitspolizei, General Office 
 Fourth day...
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Tom, cool-girl>>
@@ -1036,6 +1087,7 @@ colorID: 0
 position: 2149,-1145
 ---
 
+<<HideAll @>> 
 <<Scene @ interrogationroom>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Tom, cool-girl>>
@@ -1056,6 +1108,7 @@ Peter: I went there another time and searched the house. I found a Jewish family
 Tom: ...
 Wiegmann: I would also shut my mouth if I were you.
 
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 End...
 You got the Suspicion ending.
@@ -1068,10 +1121,12 @@ colorID: 0
 position: 1634,-1486
 ---
 
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 Sunday; 08;00, Sicherheitspolizei, General Office 
 Fourth day...
 
+<<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Peter, cool-girl>>
 <<Act @ Tom, cool-girl>>
@@ -1091,6 +1146,7 @@ peter: Finally in time I see.
    Tom: I guess in the end It was all worth it.
 <<endif>>
 
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 End...
 You got the neutral ending.
@@ -1104,6 +1160,7 @@ colorID: 0
 position: 1294,-1472
 ---
 
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 <<Act @ Dekker, cool-girl>>
 <<Act @ Tom, cool-girl>>
@@ -1122,6 +1179,7 @@ colorID: 6
 position: 1211,-1118
 ---
 
+<<HideAll @>> 
 <<Scene @ dekkerhouseinside>>
 <<Act @ Dekker, cool-girl>>
 <<Act @ Tom, cool-girl>>
@@ -1160,6 +1218,7 @@ Dekker: Do we have a deal?
    Dekker: You still have a good heart.
    Dekker: I know that you will keep this meeting down.
 
+<<HideAll @>> 
 <<Scene @ blackscreen>>
 End...
 You got the resistance ending.

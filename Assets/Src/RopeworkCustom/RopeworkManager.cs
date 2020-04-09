@@ -159,9 +159,10 @@ namespace Ropework {
 			}
 
 			// there's probably a better way to do this
-			if ( keyToRemove.Length > 0 ) {
+            if ( keyToRemove.Length > 0 ) {
 				actors.Remove(keyToRemove);
-			}
+                actorColors.Remove(keyToRemove);
+            }
 
 			// don't forget to actually destroy the sprite object
 			if ( toDestroy != null ) {
@@ -172,10 +173,11 @@ namespace Ropework {
 		}
 
 		// hides all sprites (but doesn't clear the background image)
-		[YarnCommand("HideAll")]
-		public void HideAllSprites() {
-			foreach ( var spr in sprites ) {
-				HideSprite( spr.name );
+        [YarnCommand("HideAll")]
+		public void HideAllSprites()
+        {
+            for (int x = sprites.Count - 1; x >= 0; x--) {
+				HideSprite( sprites[x].name );
 			}
 		}
 
