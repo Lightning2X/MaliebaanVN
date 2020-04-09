@@ -31,6 +31,7 @@ using UnityEngine.UI;
 using System.Text;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 namespace Yarn.Unity.Example {
     /// Displays dialogue lines to the player, and sends
@@ -67,7 +68,7 @@ namespace Yarn.Unity.Example {
 
         /// How quickly to show the text, in seconds per character
         [Tooltip("How quickly to show the text, in seconds per character")]
-        public float textSpeed = 0.025f;
+        public float textSpeed = 0.75f;
 
         /// The buttons that let the user choose an option
         public List<Button> optionButtons;
@@ -79,6 +80,8 @@ namespace Yarn.Unity.Example {
         private Queue<string> lastLines;
         // Amount of lines to remember in the lastLines queue
         private const int HistoryLength = 40;
+        
+        private string previousSpeaker = "";
         void Awake ()
         {
             // if Ropework manager is null, then find it
@@ -122,11 +125,21 @@ namespace Yarn.Unity.Example {
                 // change dialog nameplate text and, if applicable the BG color
                 nameText.transform.parent.gameObject.SetActive(true);
                 nameText.text = speakerName;
-                if ( ropework.actorColors.ContainsKey(speakerName) ) {
-                    nameText.transform.parent.GetComponent<Image>().color = ropework.actorColors[speakerName];
-                }
-                // Highlight actor's sprite (if on-screen) using RopeworkManager
                 if ( ropework.actors.ContainsKey(speakerName) ) {
+                    nameText.transform.parent.GetComponent<Image>().color = ropework.actorColors[speakerName];
+                    //Main character is always on the right and should be ignored for the hide code
+                    // Furthermore, previous speaker is "" in the beginning so that should be checked too
+                    if (speakerName != ropework.mainCharacterName && previousSpeaker != speakerName)
+                    {
+                        // Previous speaker might have been from another scene or might just be "" as it was an inbetween message. Can probably be done cleaner.
+                        if (ropework.actors.ContainsKey(previousSpeaker))
+                        {
+                            ropework.actors[previousSpeaker].gameObject.SetActive(false);
+                        }
+                        ropework.actors[speakerName].gameObject.SetActive(true);
+                        previousSpeaker = speakerName;
+                    }
+                    // Highlight actor's sprite (if on-screen) using RopeworkManager
                     ropework.HighlightSprite( ropework.actors[speakerName] );
                 }
             } else { // no speaker name found, so hide the nameplate
@@ -154,8 +167,8 @@ namespace Yarn.Unity.Example {
                         }
                         yield return 0;
                     }
-                    ropework.StopAudio("speech");
-                    ropework.PlayAudio("speech");
+                   // ropework.StopAudio("speech");
+                   // ropework.PlayAudio("speech");
                     if ( earlyOut ) { break; }
                 }
             } else {
@@ -265,6 +278,7 @@ namespace Yarn.Unity.Example {
                 gameControlsContainer.gameObject.SetActive(true);
             }
 
+            SceneManager.LoadScene("credits");
             yield break;
         }
 
@@ -273,6 +287,12 @@ namespace Yarn.Unity.Example {
             if (lastLines.Count + 1 > HistoryLength)
                 lastLines.Dequeue();
             lastLines.Enqueue(line);
+        }
+
+        public override IEnumerator NodeComplete(string nextNode) {
+            // Default implementation does nothing.
+            previousSpeaker = "";
+            yield break;
         }
 
         public bool InputCheck

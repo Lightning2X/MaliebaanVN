@@ -24,6 +24,7 @@ namespace Ropework {
 		public Image bgImage, fadeBG;
 		public Image genericSprite; // local prefab, used for instantiating sprites
 		public AudioSource myAudioSource; // local prefab, used for instantiating sounds
+        public readonly string mainCharacterName = "Tom";
 
 		// big lists to keep track of all instantiated objects
 		List<AudioSource> sounds = new List<AudioSource>(); // big list of all instantiated sounds
@@ -36,6 +37,7 @@ namespace Ropework {
 
 		string[] separ = new string[] {","}; // stores the separator value, usually a comma
 
+        
 		void Awake () {
 			// always rename this gameObject to "@" so that Yarn commands will work
 			this.name = "@";
@@ -106,7 +108,12 @@ namespace Ropework {
 			// save actor data
 			actors.Add( actorName, newActor );
 			actorColors.Add( actorName, actorColor );
-		}
+
+			// For our game only: disable the actor automagically if it is not the main character.
+            if (actorName != mainCharacterName)
+                newActor.gameObject.SetActive(false);
+
+        }
 
 		// SetSprite(spriteName,positionX,positionY)
 		// generic function for sprite drawing
@@ -159,9 +166,10 @@ namespace Ropework {
 			}
 
 			// there's probably a better way to do this
-			if ( keyToRemove.Length > 0 ) {
+            if ( keyToRemove.Length > 0 ) {
 				actors.Remove(keyToRemove);
-			}
+                actorColors.Remove(keyToRemove);
+            }
 
 			// don't forget to actually destroy the sprite object
 			if ( toDestroy != null ) {
@@ -172,10 +180,11 @@ namespace Ropework {
 		}
 
 		// hides all sprites (but doesn't clear the background image)
-		[YarnCommand("HideAll")]
-		public void HideAllSprites() {
-			foreach ( var spr in sprites ) {
-				HideSprite( spr.name );
+        [YarnCommand("HideAll")]
+		public void HideAllSprites()
+        {
+            for (int x = sprites.Count - 1; x >= 0; x--) {
+				HideSprite( sprites[x].name );
 			}
 		}
 
@@ -407,7 +416,7 @@ namespace Ropework {
 			newSpriteObject.sprite = FetchAsset<Sprite>( spriteName );
 			newSpriteObject.SetNativeSize();
 			newSpriteObject.rectTransform.anchoredPosition = Vector2.Scale( position, new Vector2( 1280f, 720f ) );
-			return newSpriteObject;
+            return newSpriteObject;
 		}
 
 		// TODO: change to Image[] and grab all valid results
