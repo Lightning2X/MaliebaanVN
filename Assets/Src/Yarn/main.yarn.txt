@@ -707,11 +707,11 @@ Saturday 13;12, Sicherheitspolizei, SiPo front
 
 Wiegmann: STOP! I arrest you on suspicion of espionage.
 Peter: The girl's name is Anna Koning - she was the girl that stuck out her tongue and ran out of the church, sir.
-Tom: Another ran away, but officers are after him. This man is unknown.
+Tom: I saw our colleague Hans running after another mann. This man is unknown.
 Wiegmann: I see. I see.
 Anna: There is no need for the gun.
 Man: We were just standing here.
-Wiegmann: Doing what? I know what you were doing. You were spying, maybe even to plan an assassination on me.
+Wiegmann: Doing what? I know what you were doing. You were watching the backyard of the office. You were spying, maybe even to plan an assassination on the SiPo office.
 Wiegmann: Officers, take them back to the office. I will keep them under shot.
 
 [[Go back to the office|annainsidetheoffice]]
@@ -774,7 +774,7 @@ Sunday 13;20, Lime Tree Lane
 <<Scene @ church>>
 *BANG*
 Anna: Aaaagh
-Tom: You're hereby under arrest for possession of a firearm and conspiracy.
+Tom: You're hereby under arrest for possession of a espinoage and conspiracy.
 Peter: Nice shot!
 Anna: ...
 Peter: Let's get her back.
@@ -814,7 +814,6 @@ Anna: ...
 Peter: We already heard you in the Easternchurch. 
 Peter: You are conspiring against us. You are spies trying to decipher how much men power and money we have.
 Wiegmann: I knew the moment I saw you, that you were up to no good. 
-Peter: She has a father doesn't she?
 Wiegmann: Your father asked for you. He begged me to set you free, but I knew we would soon meet again.
 Tom: Maybe her father wants to talk in her stead?
 Anna: ....
@@ -823,22 +822,25 @@ Tom: What is it you came here to do today?
 Anna: I came to save my friends who are held here unjustly.
 Wiegmann: UNJUSTLY!
 *Wiegmann slaps Anna on her fingers with a ruler*
-Anna: You disgust me. There is nothing you can do about this. I will tell you nothing. 
+Anna: You disgust me. I will tell you nothing. 
 Wiegmann: Nothing I can do?
 Anna: You failed to see us when we were meeting right under your noses.
 Anna: You're just incompetent and we all know it!
 Wiegmann: THAT'S ENOUGH! You think you can just waltz in here and kill us all, don't you?
+-> That's a little biased. It wasn't she who had the pistol.
+   <<set $suspicion to $suspicion + 3>>
+   Wiegmann: Shut up! They are all the same.
+-> And we had warned her before...
 *Wiegmann slaps Anna in her face with a ruler*
 Wiegmann: But I know just the remedy.
 *Wiegmann leaves the room in a hurried pace*
 Peter: I suppose this was your last day.
 *Peter leaves the room*
-Tom: You tried to kill us. 
 Anna: I-I'm sorry... 
 *Anna starts crying*
 Anna: Can you... please contact my father and tell him to run?
--> Perhaps.
-   <<set $suspicion to $suspicion + 1>>
+-> I will see what I can do for you.
+   <<set $suspicion to $suspicion + 2>>
    Anna: Please tell him I beg you...
 -> No. 
    *Anna looks at the ground defeated*
