@@ -99,7 +99,7 @@ Mulder: Jan Mulder, pastor at the local church here at the Lime Tree Lane.
 Tom: Mr. Mulder? Do you know why you are here again?
 Mulder: No, not really. Just like the last time.
 Peter: Don't act innocent! You know what you have done. The fact that you are a pastor does not mean that you are untouchable!
-Tom: Are you aware, Mr. Mulder, that you are suspected of involvement with the Dutch resistance.
+Tom: Are you aware, Mr. Mulder, that you are suspected of involvement with the resistance.
 Mulder: That's news to me. Last time I was also imprisoned under false accusation. I think this is - once again - a misunderstanding.
 Peter: I am sorry!? Last time you were imprisoned for two months because of helping Jews. That's not a false accusation, that's just a fact.
 Mulder: I am only helping poor people to survive these cold winters.
@@ -367,12 +367,12 @@ Tom: We'd rather stand.
 Dekker: If that is what you want.
 Peter: Let's get to business, shall we?
 Peter: We are here to ask you some questions about Jan Mulder.
-Peter: As you probably know by now, Mulder has been arrested, because of suspicion of involvement with the Dutch resistance.
+Peter: As you probably know by now, Mulder has been arrested, because of suspicion of involvement with the resistance.
 Tom: He claims he has no connection.
 Peter: You are a close friend of him, we've heard. Do you meet often?
 Dekker: Yes, we do actually. He is truly a good person.
 Peter: You know he was arrested and convicted for helping Jews, spending two months in prison?
-Dekker: I can assure you that he has no connection to the dutch resistance. 
+Dekker: I can assure you that he has no connection to the resistance. 
 Dekker: He is a very busy man, despite always making time for me.
 Dekker: I don't see how he could juggle both his obligations as pastor and working for the resistance.
 Peter: Then, how do you explain the tip leading to Mulder?
@@ -1012,7 +1012,7 @@ Saturday 10;10, Sicherheitspolizei, Interrogation Room
 Anna: ...
 Peter: It doesn't look so good for you. 
 Tom: Investigation 2.58, Saturday just after 12:00, the 16th of January, 1943. 
-Tom: Interrogation on charge of incorrect statements during interrogation and suspected involvement with the Dutch resistance.
+Tom: Interrogation on charge of incorrect statements during interrogation and suspected involvement with the resistance.
 Tom: State your name and occupation please.
 Anna: Anna Koning, Student.
 Peter: So can you explain why you were in the Easternchurch?
@@ -1021,8 +1021,8 @@ Peter: We have a clip of you stating that you are not religious.
 Peter: Anyway, I don't have the patience to talk in circles. I listened in on your little conversation in the church.
 Peter: Trying to play spies, are you? Spying on the NSB and our manpower. 
 Anna: Wha- What are you taking about?
-Peter: You're involved in the Dutch resistance.
-Anna: I'm not part of the Dutch resistance.
+Peter: You're involved in the resistance.
+Anna: I'm not part of the resistance.
 Peter: Then prove it, give me the names of the people in you're so-called bible group and I will go ask them.
 Anna: I...I-
 Anna: Do you have proof?
