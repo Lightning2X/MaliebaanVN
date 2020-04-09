@@ -31,6 +31,7 @@ using UnityEngine.UI;
 using System.Text;
 using System.Collections.Generic;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 
 namespace Yarn.Unity.Example {
     /// Displays dialogue lines to the player, and sends
@@ -277,6 +278,7 @@ namespace Yarn.Unity.Example {
                 gameControlsContainer.gameObject.SetActive(true);
             }
 
+            SceneManager.LoadScene("credits");
             yield break;
         }
 
