@@ -26,7 +26,7 @@ Choose wisely.
 title: ready
 tags: 
 colorID: 0
-position: 1933,-7788
+position: 1833,-7788
 ---
 <<HideAll @>> 
 <<Scene @ blackscreen>>
@@ -45,6 +45,7 @@ Tom: Great, another preach. Just what I needed. First no breakfast, now this...
 SiPoMember: I don't think he realizes you are too late. 
 SiPoMember: Meyer is already in Herr Wiegmann's office though, probably flirting with the secretary again.
 Tom: Yeah, hahaha! Thanks for the info. 
+
 [[Go to your desk|Generaloffice74]]
 
 ===
@@ -56,7 +57,7 @@ position: 1934,-7494
 
 
 <<HideAll @>> 
-<<Scene @  blackscreen>>
+<<Scene @ sipo_office>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 Thursday 08;25, Sicherheitspolizei, General Office
@@ -122,7 +123,7 @@ position: 1874,-6996
 ---
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 Thursday 09;14, Sicherheitspolizei, General Office
@@ -171,7 +172,7 @@ position: 1848,-6316
 ---
 
 <<HideAll @>> 
-<<Scene @ maliebaan82>>
+<<Scene @ maliebaan80>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Voice, voice, right, bottom>>
@@ -200,7 +201,7 @@ position: 2182,-6263
 <<HideAll @>> 
 <<set $arrestedhiders to false>>
 <<set $suspicion to $suspicion + 5>>
-<<Scene @ maliebaan82>>
+<<Scene @ maliebaan80>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 Thursday 11;08, Lime Tree Lane 82, front doors
@@ -237,7 +238,7 @@ position: 1379,-6166
 
 <<HideAll @>> 
 <<set $arrestedhiders to true>>
-<<Scene @ maliebaan82>>
+<<Scene @ maliebaan80>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Huffelman, huffelman, right, bottom>>
@@ -282,7 +283,7 @@ position: 1359,-5851
 ---
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
@@ -354,7 +355,7 @@ position: 1912,-5599
 ---
 
 <<HideAll @>> 
-<<Scene @ dekkerhouseinside>>
+<<Scene @ bisschophuis>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Dekker, aartsbisschop, right, bottom>>
 <<Act @ Peter, peter, right, bottom>>
@@ -451,7 +452,7 @@ position: 1911,-5088
 
 // Interrogation room
 <<HideAll @>> 
-<<Scene @ interrogationroom>>
+<<Scene @ sipo_interro>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
@@ -489,12 +490,12 @@ position: 1929,-4833
 
 // In the main office of the Sicherheitspolizei
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
 <<Act @ Rector, rector, right, bottom>>
-Friday; 14:15, Sicherheitspolizei, main office 
+Friday; 14:15, Sicherheitspolizei, General office 
 
 Wiegmann: Meyer, De Wit, WHY ARE YOU HERE?!
 Tom: This girl stuck out her tongue to Peter, so we were interrogating her.
@@ -519,7 +520,7 @@ Wiegmann: GET THIS MAN OUT OF MY SIGHT AND IN A CELL.
 Tom: Yes, sir.
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 Saturday 18;15, Sicherheitspolizei, General Office 
@@ -580,7 +581,7 @@ Saturday 7;45, Inside the Easternchurch, Lime Tree Lane 90
 Third day...
 
 <<HideAll @>> 
-<<Scene @ insideeasternchurch>>
+<<Scene @ church>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
@@ -622,7 +623,7 @@ position: 2284,-4120
 ---
 
 <<HideAll @>> 
-<<Scene @ insideeasternchurch>>
+<<Scene @ church>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 
@@ -643,7 +644,7 @@ position: 2300,-3859
 ---
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
@@ -664,12 +665,13 @@ Tom: Hope you find something in Mulder's office.
 
 <<HideAll @>>
 <<Scene @ blackscreen>>
-Later that day...
+Later that day
 
-<<Scene @ insidesipooffice>>
-<<Act @ Peter, sipomember, right, bottom>>
-<<Act @ Wiegmann, wiegmann, right, bottom>>
+<<HideAll @>>
+<<Scene @ sipo_office>>
 <<Act @ Peter, peter, right, bottom>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
+<<Act @ SiPomember, sipomember, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 Saturday 13;10, Sicherheitspolizei, General Office 
 Peter: Still stuck doing paperwork, huh?
@@ -718,7 +720,7 @@ position: 2283,-3235
 ---
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
@@ -786,7 +788,7 @@ position: 2297,-2662
 ---
 
 <<HideAll @>> 
-<<Scene @ interrogationroom>>
+<<Scene @ sipo_interro>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
@@ -843,7 +845,7 @@ Anna: Can you... please contact my father and tell him to run?
 Saturday 14;17, Sicherheitspolizei, General Office 
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
@@ -900,7 +902,7 @@ position: 1779,-2731
 ---
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
@@ -925,7 +927,7 @@ position: 1784,-2423
 ---
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
@@ -956,7 +958,7 @@ position: 1578,-4134
 ---
 
 <<HideAll @>> 
-<<Scene @ insideeasternchurch>>
+<<Scene @ church>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
@@ -980,7 +982,7 @@ position: 1266,-3984
 
 // Inside the general office
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
@@ -1001,7 +1003,7 @@ Tom: Praying before work, I always try to do that. Although I usually sleep in. 
 Peter: That's a step in the right direction. Who knows, maybe we will make a devout catholic of you yet.
 
 <<HideAll @>> 
-<<Scene @ interrogationroom>>
+<<Scene @ sipo_interro>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Anna, anna, right, bottom>>
@@ -1054,7 +1056,7 @@ position: 1682,-1906
 ---
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 
@@ -1082,7 +1084,7 @@ Sunday; 08;00, Sicherheitspolizei, General Office
 Fourth day...
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_office>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 
@@ -1104,7 +1106,7 @@ position: 2149,-1145
 ---
 
 <<HideAll @>> 
-<<Scene @ interrogationroom>>
+<<Scene @ sipo_interro>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
@@ -1143,7 +1145,7 @@ Sunday; 08;00, Sicherheitspolizei, General Office
 Fourth day...
 
 <<HideAll @>> 
-<<Scene @ insidesipooffice>>
+<<Scene @ sipo_interro>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 
@@ -1205,7 +1207,7 @@ position: 1211,-1118
 ---
 
 <<HideAll @>> 
-<<Scene @ dekkerhouseinside>>
+<<Scene @ bisschophuis>>
 <<Act @ Dekker, aartsbisschop, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 Sunday; 20;03, Lime Tree Lane 40, Dekker's Office.
