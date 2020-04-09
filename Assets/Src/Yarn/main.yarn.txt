@@ -35,9 +35,9 @@ Thursday 08;19, Sicherheitspolizei, General Office
 First day...
 
 <<HideAll @>> 
-<<Scene @ blackscreen>>
+<<Scene @ sipo_office>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ SiPoMember, dio>>
+<<Act @ SiPoMember, sipomember, right, bottom>>
 Thursday 08;19, Sicherheitspolizei, General Office 
 
 SiPoMember: De Wit, there you are. Herr Wiegmann is looking for you.
@@ -58,7 +58,7 @@ position: 1934,-7494
 <<HideAll @>> 
 <<Scene @  blackscreen>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 Thursday 08;25, Sicherheitspolizei, General Office
 
 Peter: Hey Tom, there you are.
@@ -88,8 +88,8 @@ position: 1925,-7214
 <<HideAll @>> 
 <<Scene @ interrogationroom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, anna, right, bottom>>
-<<Act @ Mulder, cool-girl, right, bottom>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Mulder, pastoor, right, bottom>>
 Thursday 08;35, Sicherheitspolizei, Interrogation Room 
 
 Peter: Investigation 2.39. Thursday morning around 08;35, the 14th of December, 1943.
@@ -124,7 +124,7 @@ position: 1874,-6996
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 Thursday 09;14, Sicherheitspolizei, General Office
 
 Peter: Why were you so easy on him?
@@ -148,7 +148,7 @@ position: 1861,-6711
 <<HideAll @>> 
 <<Scene @ maliebaan82>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 Thursday 10;55, Lime Tree Lane 82, front doors
 
 Peter: Here we are.
@@ -173,8 +173,9 @@ position: 1848,-6316
 <<HideAll @>> 
 <<Scene @ maliebaan82>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Voice, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Voice, voice, right, bottom>>
+<<Act @ Man, huffelman, right, bottom>>
 <<Hide @ Voice>>
 Thursday 11;01, Lime Tree Lane 80, front doors
 
@@ -201,7 +202,7 @@ position: 2182,-6263
 <<set $suspicion to $suspicion + 5>>
 <<Scene @ maliebaan82>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 Thursday 11;08, Lime Tree Lane 82, front doors
 
 Peter: And?
@@ -215,8 +216,8 @@ Peter: Damn, this was our chance to prove ourselves to Herr Wiegmann.
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 Thursday 14;23, Sicherheitspolizei, General Office 
 
 Wiegmann: De Wit, Meyer, both in my office. NOW.
@@ -238,10 +239,10 @@ position: 1379,-6166
 <<set $arrestedhiders to true>>
 <<Scene @ maliebaan82>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Huffelman, cool-girl>>
-<<Act @ Man, cool-girl>>
-<<Act @ Woman, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Huffelman, huffelman, right, bottom>>
+<<Act @ Man, man, right, bottom>>
+<<Act @ Woman, woman, right, bottom>>
 Thursday 11;08, Lime Tree Lane 80, front doors
 
 Tom puts his foot in the door opening.
@@ -283,8 +284,8 @@ position: 1359,-5851
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 Thursday 12;13, Sicherheitspolizei, General Office
 
 Wiegmann: De Wit, I heard you and Meyer caught some Jews.
@@ -328,7 +329,8 @@ Second day...
 <<HideAll @>> 
 <<Scene @ maliebaan40>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Dekker, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Dekker, aartsbisschop, right, bottom>>
 Friday 09;00, Lime Tree Lane 40, Front
 
 Tom: Let's get this over with.
@@ -354,8 +356,8 @@ position: 1912,-5599
 <<HideAll @>> 
 <<Scene @ dekkerhouseinside>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Dekker, cool-girl>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Dekker, aartsbisschop, right, bottom>>
+<<Act @ Peter, peter, right, bottom>>
 Friday 09;03, Lime Tree Lane 40, Dekker's Office.
 
 Dekker: Take a seat.
@@ -404,7 +406,7 @@ position: 1911,-5348
 <<HideAll @>> 
 <<Scene @ maliebaan40>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 Friday 10;30, Lime Tree Lane 40, Front
 
 Peter: We can't get back to Wiegmann without new leads or evidence.
@@ -415,8 +417,9 @@ Tom: Both suspects are connected to the church, so maybe the Easternchurch will 
 <<HideAll @>> 
 <<Scene @ maliebaan71>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ SiPoMember, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Girl, anna, right, bottom>>
+<<Act @ SiPoMember, sipomember, right, bottom>>
 Friday 10;40, garage, Lime Tree Lane 71
 
 SiPoMember: Peter! Tom!
@@ -450,8 +453,8 @@ position: 1911,-5088
 <<HideAll @>> 
 <<Scene @ interrogationroom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Anna, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Anna, anna, right, bottom>>
 Friday 12;10, Sicherheitspolizei, Interrogation Room 
 
 Tom: Investigation 2.53, Saturday, just after 12:00, the 16th of January, 1943.
@@ -488,9 +491,9 @@ position: 1929,-4833
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Wiegmann, cool-girl>>
-<<Act @ Rector, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
+<<Act @ Rector, rector, right, bottom>>
 Friday; 14:15, Sicherheitspolizei, main office 
 
 Wiegmann: Meyer, De Wit, WHY ARE YOU HERE?!
@@ -518,7 +521,7 @@ Tom: Yes, sir.
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 Saturday 18;15, Sicherheitspolizei, General Office 
 
 Peter: Ready to go to the church?
@@ -540,8 +543,8 @@ position: 1932,-4575
 <<HideAll @>> 
 <<Scene @ maliebaan90>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ NSBmember, cool-girl>>
-<<Act @ Woman, cool-girl>>
+<<Act @ NSBmember, sipomember, right, bottom>>
+<<Act @ Woman, woman, right, bottom>>
 Friday 18;25, Winterhulp building, front
 
 Tom: Good evening, I'm here for the Winterhulp coupons. 
@@ -579,8 +582,9 @@ Third day...
 <<HideAll @>> 
 <<Scene @ insideeasternchurch>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Anna, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Anna, anna, right, bottom>>
+<<Act @ Man, man, right, bottom>>
 Saturday 7;45, Inside the Easternchurch, Lime Tree Lane 90
 
 Tom: I came to ask for good fortune and for the health of my family, friends and colleagues. 
@@ -620,7 +624,7 @@ position: 2284,-4120
 <<HideAll @>> 
 <<Scene @ insideeasternchurch>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 
 Tom: ...
 Peter: Damnit, after her!
@@ -640,10 +644,10 @@ position: 2300,-3859
 
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
-<<Act @ Wiegmann, cool-girl>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
+<<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ SiPoMember, cool-girl>>
+<<Act @ Peter, sipomember, right, bottom>>
 Saturday; 9;10, Sicherheitspolizei, General Office 
 
 Wiegmann: DE WIT, YOU LET A MEMBER OF THE RESISTANCE SLIP AWAY NEXT TO FAILING TO LOOK IN MULDER'S OFFICE?
@@ -658,15 +662,14 @@ Peter: Just be glad I didn't elaborate further.
 Peter: Have fun with your paperwork.
 Tom: Hope you find something in Mulder's office.
 
-<<HideAll @>> 
+<<HideAll @>>
 <<Scene @ blackscreen>>
 Later that day...
 
-<<HideAll @>> 
 <<Scene @ insidesipooffice>>
-<<Act @ SiPoMember, cool-girl>>
-<<Act @ Wiegmann, cool-girl>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, sipomember, right, bottom>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
+<<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 Saturday 13;10, Sicherheitspolizei, General Office 
 Peter: Still stuck doing paperwork, huh?
@@ -690,10 +693,10 @@ position: 2292,-3544
 
 <<HideAll @>> 
 <<Scene @ maliebaan74>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Man, cool-girl>>
-<<Act @ Anna, cool-girl>>
+<<Act @ Man, pastoor, right, bottom>>
+<<Act @ Anna, anna, right, bottom>>
 Saturday 13;12, Sicherheitspolizei, SiPo front 
 
 Wiegmann: STOP! I arrest you on suspicion of espionage.
@@ -716,11 +719,11 @@ position: 2283,-3235
 
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Anna, cool-girl>>
-<<Act @ SiPoMember, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Anna, anna, right, bottom>>
+<<Act @ Peter, sipomember, right, bottom>>
 Sunday 13;17, Sicherheitspolizei, General Office
 
 Wiegmann: Search them!
@@ -758,8 +761,8 @@ position: 2697,-3142
 <<HideAll @>> 
 <<Scene @ maliebaan53>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Anna, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Anna, anna, right, bottom>>
 Sunday 13;20, Lime Tree Lane 
 
 <<Scene @ Easternchurch>>
@@ -785,9 +788,9 @@ position: 2297,-2662
 <<HideAll @>> 
 <<Scene @ interrogationroom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Anna, cool-girl>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Anna, anna, right, bottom>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 Saturday 13;27 Sicherheitspolizei, Interrogation Room
 
 Tom: Investigation 2.58, Sunday just before 13:27, the 16th of January, 1943. 
@@ -841,9 +844,9 @@ Saturday 14;17, Sicherheitspolizei, General Office
 
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 
 Peter: The other officers caught the resistance member that ran away.
 Peter: Our colleagues caught the resistance member that ran away earlier today.
@@ -874,8 +877,8 @@ position: 2012,-3021
 <<HideAll @>> 
 <<Scene @ maliebaan53>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 <<set $suspicion to $suspicion + 5>>
 Saturday 13;20, Lime Tree Lane  
 
@@ -899,8 +902,8 @@ position: 1779,-2731
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 Saturday 13:30, Sicherheitspolizei, General Office 
 
 Wiegmann: De Wit. You imbecile.
@@ -924,9 +927,9 @@ position: 1784,-2423
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Anna, cool-girl>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Anna, anna, right, bottom>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 Saturday 14;37, Sicherheitspolizei, General Office 
 
 Peter: Couldn't find Anna Koning, sir.
@@ -955,8 +958,8 @@ position: 1578,-4134
 <<HideAll @>> 
 <<Scene @ insideeasternchurch>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Peter, cool-girl>>
-<<Act @ Anna, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
+<<Act @ Anna, anna, right, bottom>>
 
 Tom: Anna Koning, I'm taking you in because of incorrect statements during interrogation.
 Anna: Damnit, let me go!
@@ -978,10 +981,10 @@ position: 1266,-3984
 // Inside the general office
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
-<<Act @ Wiegmann, cool-girl>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
+<<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Anna, cool-girl>>
+<<Act @ Anna, anna, right, bottom>>
 Saturday 9;10, Sicherheitspolizei, General Office 
 
 Wiegmann: So, let's get this clear. You again took this useless girl in, while you actually had to inspect Mulder's office!
@@ -999,9 +1002,9 @@ Peter: That's a step in the right direction. Who knows, maybe we will make a dev
 
 <<HideAll @>> 
 <<Scene @ interrogationroom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Anna, cool-girl>>
+<<Act @ Anna, anna, right, bottom>>
 Saturday 10;10, Sicherheitspolizei, Interrogation Room
 
 Anna: ...
@@ -1052,7 +1055,7 @@ position: 1682,-1906
 
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 
 
@@ -1080,7 +1083,7 @@ Fourth day...
 
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 
 Tom: Peter, good morning!
@@ -1102,9 +1105,9 @@ position: 2149,-1145
 
 <<HideAll @>> 
 <<Scene @ interrogationroom>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
-<<Act @ Wiegmann, cool-girl>>
+<<Act @ Wiegmann, wiegmann, right, bottom>>
 
 Sunday; 08;15 Sicherheitspolizei, Interrogation Room
 
@@ -1141,7 +1144,7 @@ Fourth day...
 
 <<HideAll @>> 
 <<Scene @ insidesipooffice>>
-<<Act @ Peter, cool-girl>>
+<<Act @ Peter, peter, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 
 Saturday; 08;00, Sicherheitspolizei, General Office 
@@ -1183,7 +1186,7 @@ position: 1294,-1472
 
 <<HideAll @>> 
 <<Scene @ blackscreen>>
-<<Act @ Dekker, cool-girl>>
+<<Act @ Dekker, aartsbisschop, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 
 Sunday; 19;20, Tom's home.
@@ -1203,7 +1206,7 @@ position: 1211,-1118
 
 <<HideAll @>> 
 <<Scene @ dekkerhouseinside>>
-<<Act @ Dekker, cool-girl>>
+<<Act @ Dekker, aartsbisschop, right, bottom>>
 <<Act @ Tom, tom, left, bottom>>
 Sunday; 20;03, Lime Tree Lane 40, Dekker's Office.
 
