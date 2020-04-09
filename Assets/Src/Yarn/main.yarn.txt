@@ -72,8 +72,8 @@ Tom: What is he arrested for this time?
 Peter: Have you already heard of the anonymous tip that we received yesterday?
 Tom: No, what is it about?
 Peter: The person that tipped us about pastor Mulder thinks he has a connection with the resistance.
-Tom: Good gracious me! That vague tip must have come from a desperate person of the NSB or Dutch police looking for some money.
-Peter: Hey, don’t talk about our mates like that. Take the case serious Tom. We can prove ourselves here!
+Tom: Why would you make it worse for yourself after you have been arrested once?
+Peter: I don't understand it either. Take the case serious Tom. We can prove ourselves here!
 Tom: Alright, alright, I will. I only hope Mulder stops making it so difficult for himself.
 Peter: Hahaha, if he did we wouldn't have a job. And we do need those food rations...
 [[Go interrogate pastor Mulder|InterroRoom74]]
@@ -158,7 +158,9 @@ Peter: Alright.
 Tom: ...
 *BAM*
 Peter: HEY, CAN YOU CHECK NEXT DOOR, I THOUGHT I HEARED SOMETHING STRANGE!
-Tom: YEAH, SURE. I WILL TAKE A LOOK!
+Tom: THAT'S JUST MRS. HOLLAND!
+peter: NO, I HEARD SOMETHING STRANGE! GO AND TAKE A LOOK!
+Tom: FINE, I WILL TAKE A LOOK!
 [[Go to the neighbours|NeighboursofMrMulder107]]
 
 ===
@@ -178,7 +180,7 @@ Thursday 11;01, Lime Tree Lane 80, front doors
 
 Man: ...
 Tom: ...
-Tom: Who are you?
+Tom: Who are you? Where is Mrs. Holland?
 Man: I... I...
 Voice: Hurry, they are already busy next door.
 
@@ -249,13 +251,11 @@ Man: You don't understand, this is just a big misunderstanding.
 Tom: Is it?
 Huffelman: My name is Boris Huffelman. This is my wife Marie. She is just a little upset because of the war.
 Woman: ...
-Tom: Can you explain what you are doing? And where are you going to in such a hurry?
-Huffelman: We were just going out for a walk.
-Tom: Then there is no need for all the panic, is there?
-Huffelman: We just didn't want to bother you.
+Tom: Can you explain what you are doing here?
+Huffelman: Why should I explain what I am doing here? It's my house.
+Tom: I know for sure that it is not. I know the lady who lives here. You don't look like Mrs. Holland.
 Tom: Show me your identity card.
 Huffelman: I don't have it with me.
-Tom: Well, what are you waiting for? Go and get it!
 Huffelman: I lost it...
 Tom: I'm afraid I'll need to arrest you for not showing an identity card.
 Huffelman: No, No, please. I have a child. A little girl. Please don't do this. Don't you have a family?
@@ -265,7 +265,9 @@ Huffelman: No, No, please. I have a child. A little girl. Please don't do this. 
    Tom: Peter? Are you already here?
    Peter: Yes, don't let that man go! Either you will arrest him or I will.
 -> That's not my business. I am arresting you and the rest of your family for not showing an identity card.
-   Peter: I see you managed to earn yourself a promotion, while I was gone.
+   Peter: Who are these people?
+   Tom: I think they are hiders, but we have to find out.
+   Peter: Good job Tom, I knew there was something strage.
    Tom: I'm just doing my job, Peter.
 
 [[Go to general office|generalofficearrest]]
