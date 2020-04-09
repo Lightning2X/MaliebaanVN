@@ -533,8 +533,8 @@ Woman: You can't just do this... My family, they need food, new clothes against-
    Woman: Thank you so much kind man!
    NSBmember: You will end up starving your own mother to death if you keep believing in their exaggerated stories. Everybody is hungry. 
 
-// Add a line of tom praying or something here? why would he go to the western church
-[[Go to the Western Church|Easternchurch]]
+// Add a line of tom praying or something here? why would he go to the Easternchurch
+[[Go to the Easternchurch|Easternchurch]]
 
 ===
 title: Easternchurch
@@ -714,7 +714,7 @@ position: 2697,-3142
 <<Act @ Anna, cool-girl>>
 Sunday 13;20, Lime Tree Lane 
 
-<<Scene @ Westernchurch>>
+<<Scene @ Easternchurch>>
 *BANG*
 Anna: Aaaagh
 Tom: You're hereby under arrest for possession of a firearm and conspiracy.
