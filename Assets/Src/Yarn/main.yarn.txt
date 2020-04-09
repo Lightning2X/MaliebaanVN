@@ -426,9 +426,8 @@ Friday 10;40, garage, Lime Tree Lane 71
 
 SiPoMember: Peter! Tom!
 SiPoMember: Over here!
-Tom: Hey, out of petrol?
-SiPoMember: Yes, it's our daily stop at this petrol station. That guy's always here to refill our car.
-Tom: Hahaha, boy you could use a new pen - your hands are completely blue!
+Tom: Hey Hans, out of petrol?
+SiPoMember: Yes, it's our daily stop at this petrol station.
 SiPoMember: So, where are you heading?
 Tom: Mulder's office at the Easternchurch.
 A girl sticks out her tongue and runs away
@@ -515,7 +514,11 @@ Tom: He is-
 Rector: I am the rector magnificus of Utrecht University and I am here to request the release of Anna Koning.
 Wiegmann: Follow me.
 *Wiegmann goes through the door*
-Tom: ...
+Wiegmann: What ... you ... here?
+Rector: It's ridiculous ... you take ... Anna!
+Wiegmann: Who ... you think ... you are, leave ... I will arrest ...!
+Rector: I ... not leave ... Anna is ... free!
+*Muffled hitting sound*
 *KABLAM* - The door slams open!
 Wiegmann: GET THIS MAN OUT OF MY SIGHT AND IN A CELL.
 Tom: Yes, sir.
