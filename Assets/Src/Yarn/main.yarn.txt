@@ -724,7 +724,7 @@ position: 2283,-3235
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
-<<Act @ Peter, sipomember, right, bottom>>
+<<Act @ SiPoMember, sipomember, right, bottom>>
 Sunday 13;17, Sicherheitspolizei, General Office
 
 Wiegmann: Search them!
