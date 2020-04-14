@@ -1177,16 +1177,27 @@ MonoBehaviour:
       m_Calls: []
   m_text: '<b>Images:</b>
 
-    Utrechts Archief
+    Utrechts Archief / 603100
 
-    Google maps
+    Utrechts Archief / 
+    63045
 
+    Utrechts Archief /  4407
+
+    Utrechts Archief / 63233
+
+    Utrechts
+    Archief / 815020
+
+    Utrechts Archief / 63229
+
+    Google Maps
 
     <b>Sources:</b>
 
     https://aandemaliebaan.nl
 
-    https://hetutrechtsarchief.nl'
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1231,7 +1242,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 47
+  m_firstOverflowCharacterIndex: 110
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1255,12 +1266,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1316354223}
-    characterCount: 102
+    characterCount: 208
     spriteCount: 0
-    spaceCount: 8
-    wordCount: 12
+    spaceCount: 31
+    wordCount: 25
     linkCount: 0
-    lineCount: 7
+    lineCount: 10
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
