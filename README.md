@@ -6,6 +6,11 @@ A virtual novel made with ropework and Unity for Utrecht University. Play as a m
 
 Screenshot:
 ![alt text](https://i.imgur.com/CQjGYzd.png "Game Picture")
+
 ## Credits
 Ropework framework: https://github.com/radiatoryang/ropework  
 Yarn language: https://github.com/YarnSpinnerTool
+
+# License
+Game code is licensed under MIT.
+Art/assets that were made specifically for this project are licensed under CC attribution.
