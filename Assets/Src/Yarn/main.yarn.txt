@@ -12,12 +12,12 @@ This story is based on real life events.
 However, all characters appearing in this work - while inspired by history - are fictitious.
 After the story ends, we will tell you what really happened.
 
-It's the winter of 1943. A little more than three years ago, the German forces invaded the Netherlands in what is now described as World War II.
-Resources are scarce and your mother fell ill last winter. Her recovery is slow. The only chance to provide her with the medicine and food she needs is to throw others to the very wolves that feed you.
+It's the winter of 1943. A little more than three years ago, Germany invaded the Netherlands in what is now described as World War II.
+Resources are scarce, and your mother fell ill last winter. Her recovery is slow. The only chance to provide her with the medicine and food she needs is to throw others to the very wolves that feed you.
 This is the situation of Tom De Wit, a member of the Sicherheitspolizei.
 The Sicherheitspolizei was the state's security agency for political and criminal investigation.
-Tom is rather conflicted. He primarily joined the SiPo because of the lifesaving-perks it offered in these cold winters, but also found his work to be to the detriment of prosecuted minorities.
-In this coming week your actions will decide the fate of various people, including your own and you mother's...
+Tom is rather conflicted. He primarily joined the SiPo because of the lifesaving perks it offered in these cold winters, but also found his work to be to the detriment of persecuted minorities.
+In this coming week, your actions will decide the fate of various people, including your own and your mother's...
 In life there is no good ending, there are only choices. And we decide if the consequences are worth it.
 Choose wisely.
 
@@ -45,10 +45,10 @@ First day...
 Thursday 08;19, Sicherheitspolizei, General Office 
 
 SiPoMember: De Wit, there you are. Herr Wiegmann is looking for you.
-Tom: Great, another preach. Just what I needed. First no breakfast, now this...
+Tom: Great, another sermon. Just what I needed. First no breakfast, now this...
 SiPoMember: I don't think he realizes you are too late. 
 SiPoMember: Meyer is already in Herr Wiegmann's office though, probably flirting with the secretary again.
-Tom: Yeah, hahaha! Thanks for the info. 
+Tom: Yeah, ha ha ha! Thanks for the info. 
 
 [[Go to your desk|Generaloffice74]]
 
@@ -68,10 +68,10 @@ parent:
 Thursday 08;25, Sicherheitspolizei, General Office
 
 Peter: Hey Tom, there you are.
-Tom: Hi Peter, back from Herr Wiegmann I see.
+Tom: Hi Peter, back from Herr Wiegmann, I see?
 Peter: No, actually... We got a new case.
 Tom: We do? What is our task?
-Peter: Apparently pastor Mulder is taken in again.
+Peter: Apparently pastor Mulder has been brought in again.
 Tom: That's his second arrest, isn't it?
 Peter: Well, well. You can count! However, it's our turn to interrogate him.
 Tom: What is he arrested for this time?
@@ -79,9 +79,9 @@ Peter: Have you already heard of the anonymous tip that we received yesterday?
 Tom: No, what is it about?
 Peter: The person that tipped us about pastor Mulder thinks he has a connection with the resistance.
 Tom: Why would you make it worse for yourself after you have been arrested once?
-Peter: I don't understand it either. Take the case serious Tom. We can prove ourselves here!
+Peter: I don't understand it either. Take the case seriously, Tom. We can prove ourselves here!
 Tom: Alright, alright, I will. I only hope Mulder stops making it so difficult for himself.
-Peter: Hahaha, if he did we wouldn't have a job. And we do need those food rations...
+Peter: Ha ha ha, if he did we wouldn't have a job. And we do need those food rations...
 [[Go interrogate pastor Mulder|InterroRoom74]]
 
 ===
@@ -100,7 +100,7 @@ parent:
 Thursday 08;35, Sicherheitspolizei, Interrogation Room 
 
 Peter: Investigation 2.39. Thursday morning around 08;35, the 14th of December, 1943.
-Peter: State your name and occupation please. You probably know the drill by now.
+Peter: State your name and occupation, please. You probably know the drill by now.
 Mulder: Jan Mulder, pastor at the local church here at the Lime Tree Lane.
 Tom: Mr. Mulder? Do you know why you are here again?
 Mulder: No, not really. Just like the last time.
@@ -144,7 +144,7 @@ Peter: How is your mom doing?
 Tom: Fine, same as usual. 
 Peter: Still ill, is she? If you need me to jump in, just say it. 
 Tom: Thanks!
-Peter: If we actually find something in Mulder's house and finish this case properly we might receive a reward. 
+Peter: If we actually find something in Mulder's house and finish this case properly, we might receive a reward. 
 [[Research at Mr. Mulder's house|HouseofMrMulder82]]
 
 ===
@@ -237,7 +237,7 @@ Thursday 14;23, Sicherheitspolizei, General Office
 Wiegmann: De Wit, Meyer, both in my office. NOW.
 Both: Yes, Herr Wiegmann.
 Peter: We did not find anything that is valuable as evidence or as a lead. But I think we should take a look at his room in the church.
-Wiegmann: Let me do the thinking, Meyer! We received new intel about Mr. Mulder. He is a really close friend of archbishop Dekker. So you both get out of my office and go question him.
+Wiegmann: Let me do the thinking, Meyer! We received new intel about Mr. Mulder. He is a really close friend of archbishop Dekker. So, you both get out of my office and go question him.
 Both: Yes, Herr Wiegmann.
 [[Walk to house of archbishop Dekker|timelineconverge1]]
 
@@ -284,7 +284,7 @@ Huffelman: No, No, please. I have a child. A little girl. Please don't do this. 
 -> That's not my business. I am arresting you and the rest of your family for not showing an identity card.
    Peter: Who are these people?
    Tom: I think they are hiders, but we have to find out.
-   Peter: Good job Tom, I knew there was something strage.
+   Peter: Good job Tom, I knew there was something strange.
    Tom: I'm just doing my job, Peter.
 
 [[Go to general office|generalofficearrest]]
@@ -327,7 +327,7 @@ Peter: However, the Jews said they heard the pastor talk to someone very often. 
 Tom: Oh, I just received more info about Mr. Mulder. He is a really close friend of archbishop Dekker.
 Wiegmann: That would be very likely, yes!
 Tom: We are not certain that it is Mr. Dekker, though, sir. 
-Wiegmann: I give the orders! Go question Dekker. Tommorow morning, first thing!
+Wiegmann: I give the orders! Go question Dekker. Tomorrow morning, first thing!
 Peter: Yes, sir.
 
 //Timelines converges (1. & 2. come together)
@@ -356,9 +356,9 @@ Tom: Let's get this over with.
 Peter: Not a fan of Dekker, are you?
 Tom: No, I am not. He has always refused to help the Winterhulp.
 Tom: My family is very dependent on that charity organization. During winters we always can get food and provisions there.
-Peter: Hmmm... I can understand you, but he is an important person of the church.
+Peter: Hmmm... I can understand you, but he is an important person in the church.
 Peter: I just hope we will find a new lead again, otherwise Wiegmann will be furious. Especially because the focus is now on Dekker.
-Tom: Yes, I can understand that, Dekker always gets away with violations of the law while other people are taken in for that.
+Tom: Yes, I can understand that, Dekker always gets away with violations of the law while other people are arrested for them.
 <<PlayAudio @ doorbell, 0.8>>
 *Doorbell*
 Dekker: Welcome. what can I do for you?
@@ -397,7 +397,7 @@ Dekker: He is a very busy man, despite always making time for me.
 Dekker: I don't see how he could juggle both his obligations as pastor and working for the resistance.
 Peter: Then, how do you explain the tip leading to Mulder?
 Dekker: Whoever sent that tip, the pastor is an easy target. He has been arrested before.
-Dekker: He helps the poor, like he always has done. It's a pity that he is suspected instead of rewarded for helping the poors.
+Dekker: He helps the poor, like he always has done. It's a pity that he is suspected instead of rewarded for helping the poor.
 Peter: He is not the victim here!
 Dekker: All he is trying to do is help people. He does not mean to offend anybody.
 Tom: Unlike you. 
@@ -413,7 +413,7 @@ Tom: According to the family they could hear you talk, quite frequently.
 Dekker: What are you insinuating? We are just friends.
 Peter: We will watch you. Know which side you are on...
 <<endif>>
-Peter: This will be all for now. We will take a look in the Easternchurch.
+Peter: This will be all for now. We will take a look in the Eastern church.
 Dekker: Go ahead. God's house is always open everyone.
 [[Walk to house of archbishop Dekker|garagegirl]]
 
@@ -434,7 +434,7 @@ Friday 10;30, Lime Tree Lane 40, Front
 
 Peter: We can't get back to Wiegmann without new leads or evidence.
 Tom: You are right! I think your suggestion is right.
-Tom: Both suspects are connected to the church, so maybe the Easternchurch will give us some new info.
+Tom: Both suspects are connected to the church, so maybe the Eastern church will give us some new info.
 
 // At the Garage
 <<HideAll @>> 
@@ -450,7 +450,7 @@ SiPoMember: Over here!
 Tom: Hey Hans, out of petrol?
 SiPoMember: Yes, it's our daily stop at this petrol station.
 SiPoMember: So, where are you heading?
-Tom: Mulder's office at the Easternchurch.
+Tom: Mulder's office at the Eastern church.
 <<PlayAudio @ runningchase, 0.6>>
 A girl sticks out her tongue and runs away
 Peter: ... YOU COME BACK HERE.
@@ -492,7 +492,7 @@ Tom: If you apologize, I'm sure he will forgive you.
 Anna: I'm not sorry, though.
 Tom: Don't waste a day in jail.
 Peter: You're a student, did you sign the loyalty contract?
-Anna: Yes, I did, but most of my teachers are gone. My father works as professor at Utrecht University, though. He teaches me some stuff every now and then.
+Anna: Yes, I did, but most of my teachers are gone. My father works as a professor at Utrecht University, though. He teaches me some stuff every now and then.
 Tom: Well, you are lucky then.
 Anna: No, I am not. You took all the students and teachers to work in Germany.
 Peter: You know what, why don't you stay for the night? Let's see how you talk tomorrow?
@@ -586,19 +586,19 @@ NSBmember: Here is the coupon for this week.
 Tom: Thank you very much.
 NSBmember: You are lucky, these are the last ones.
 Woman: That's unfair - we were earlier than him! 
-NSBmember: It is how it is. They protect us everyday. To ensure that they can keep doing this, they must stay well fed.
+NSBmember: It is how it is. They protect us every day. To ensure that they can keep doing this, they must stay well fed.
 NSBmember: Don't you agree?
 Tom: Yes, I need them. You wouldn't want me to starve during a job would you?
 Woman: You can't just do this... My family, they need food, new clothes against-
 -> Everyone has a family. It doesn't make you special.
    Woman: You bastard!
-   NSBmember: Move along now or worse consequences will follow ma'am....
+   NSB member: Move along now or worse consequences will follow ma'am....
 -> I know how you feel... Here, but only this time alright. Keep your children well fed. 
    <<set $suspicion to $suspicion + 1>>
-   Woman: Thank you so much kind man!
-   NSBmember: You will end up starving your own mother to death if you keep believing in their exaggerated stories. Everybody is hungry. 
+   Woman: Thank you so much, kind man!
+   NSB member: You will end up starving your own mother to death if you keep believing in their exaggerated stories. Everybody is hungry. 
 
-// Add a line of tom praying or something here? why would he go to the Easternchurch
+// Add a line of tom praying or something here? why would he go to the Eastern church
 [[Go to the Easternchurch|Easternchurch]]
 
 ===
@@ -610,7 +610,7 @@ parent:
 ---
 <<HideAll @>> 
 <<Scene @ blackscreen>>
-Saturday 7;45, Inside the Easternchurch, Lime Tree Lane 90
+Saturday 7;45, Inside the Eastern church, Lime Tree Lane 90
 Third day...
 
 <<HideAll @>> 
@@ -619,7 +619,7 @@ Third day...
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
 <<Act @ Man, man, right, bottom>>
-Saturday 7;45, Inside the Easternchurch, Lime Tree Lane 90
+Saturday 7;45, Inside the Eastern church, Lime Tree Lane 90
 
 Tom: I came to ask for good fortune and for the health of my family, friends and colleagues. 
 You hear a familiar voice; "No.... look.... taken.... agreed."
@@ -638,7 +638,7 @@ Anna: Just trying to make me forget my sins.
 Tom: You don't need an entire group for that.
 Anna: We are a bible study group. So we discuss the bible for our studies and stuff. As I already told you, I'm a student.
 Anna: I really need to get going now. *paper falls out of her bible*
-Tom: Hé wait, you lost something!
+Tom: Hey wait, you lost something!
 Peter: You here again!?
 Anna: Please give it to me... *Tom looks at the content of the paper*
 Tom: Wait! What is this?
@@ -670,8 +670,8 @@ Peter: Damnit, after her!
 Tom: Let her go Peter, we have lost her already.
 Peter: What was that? You just stood there.
 Tom: They caught me off guard...
-Peter: Nonsense, you better run next time. This pamplet just fell out of one of their bibles.
-Tom: So they aren't just a bible group?
+Peter: Nonsense, you better run next time. This pamphlet just fell out of one of their bibles.
+Tom: So, they aren't just a bible group?
 Peter: They are part of the resistance!
 Peter: Let's just get back for now. Wiegmann has to know about this.
 [[Go back to the SiPo|generalofficeanna]]
@@ -746,12 +746,12 @@ Saturday 13;12, Sicherheitspolizei, SiPo front
 
 Wiegmann: STOP! I arrest you on suspicion of espionage.
 Peter: The girl's name is Anna Koning - she was the girl that stuck out her tongue and ran out of the church, sir.
-Tom: I saw our colleague Hans running after another mann. This man is unknown.
+Tom: I saw our colleague Hans running after another man. This man is unknown.
 Wiegmann: I see. I see.
 Anna: There is no need for the gun.
 Man: We were just standing here.
 Wiegmann: Doing what? I know what you were doing. You were watching the backyard of the office. You were spying, maybe even to plan an assassination on the SiPo office.
-Wiegmann: Officers, take them back to the office. I will keep them under shot.
+Wiegmann: Officers, take them back to the office. I will keep them at gunpoint.
 
 [[Go back to the office|annainsidetheoffice]]
 
@@ -820,7 +820,7 @@ Sunday 13;20, Lime Tree Lane
 <<PlayAudio @ gunshot, 0.5>>
 *BANG*
 Anna: Aaaagh
-Peter: You're hereby under arrest for possession of a espinoage and conspiracy.
+Peter: You're hereby under arrest for espionage and conspiracy.
 SiPoMember: Nice shot Peter!
 Anna: ...
 Peter: Let's get her back.
@@ -854,16 +854,16 @@ Wiegmann: SHUT UP.
 <<PlayAudio @ slap1, 1.0>>
 *Wiegmann slaps Anna on her fingers with a ruler*
 Anna: Aaaagh.
-Wiegmann: Tell me the names off your "friends"!
+Wiegmann: Tell me the names of your "friends"!
 Anna: I-I won't.
 <<PlayAudio @ slap2, 1.0>>
 *Anna gets hit with a ruler*
 Anna: Please stop. 
 Wiegmann: Tell. Me. The. Names.
 Anna: ...
-Peter: We already heard you in the Easternchurch. 
+Peter: We already heard you in the Eastern church. 
 Peter: You are conspiring against us. You are spies trying to decipher how much men power and money we have.
-Wiegmann: I knew the moment I saw you, that you were up to no good. 
+Wiegmann: I knew the moment I saw you that you were up to no good. 
 Wiegmann: Your father asked for you. He begged me to set you free, but I knew we would soon meet again.
 Tom: Maybe her father wants to talk in her stead?
 Anna: ....
@@ -951,14 +951,14 @@ parent:
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
 <<set $suspicion to $suspicion + 10>>
-Saturday 13;20, Lime Tree Lane  
 
-Peter: She is getting away!
+*Tom slams into Peter*
+Peter: What did you do that for?! She is getting away!
 Tom: I know, what way did she go?
 Peter: You let her go!
 Peter: She and her mates had a gun!
 Tom: We lost her... 
-Peter: I'm not taking the blame for this... you had her perfectly in shot as well.
+Peter: I'm not taking the blame for this... I had her perfectly targeted as well.
 Tom: Let's go back.
 [[Go back to the office|wiegmannangry]]
 
@@ -984,7 +984,7 @@ Wiegmann: I hope for your sake, De Wit, that this girl will be caught. Otherwise
 Peter: The other member says nothing valuable at the moment. He does claim that this thing was her idea.
 Wiegmann: Find that girl, now! I don't care how you do it!
 Peter: I heard that the third resistance member has been shot two streets further by our officers. 
-Wiegmann: So the other officers are doing good work, while you are just standing here. Get. That. Girl.
+Wiegmann: So, the other officers are doing good work, while you are just standing here. Get. That. Girl.
 Peter: Sir!
 Tom: Sir.
 [[Go search for Anna|searchanna]]
@@ -1005,10 +1005,10 @@ parent:
 <<Act @ Wiegmann, wiegmann, right, bottom>>
 Saturday 18;37, Sicherheitspolizei, General Office 
 
-Peter: We have searched Anna Koning for the whole afternoon, but she still seems at large, sir.
+Peter: We have searched for Anna Koning the whole afternoon, but she still seems at large, sir.
 Wiegmann: You guys *have* to find her. Forget Mr. Mulder. 
-Wiegmann: I called with the main office in Amsterdam, and I have permission.
-Tom: What for?
+Wiegmann: I called the main office in Amsterdam, and I have permission.
+Tom: For what?
 <<PlayAudio @ partita, 0.4>>
 Wiegmann: No questions, BRING THE RESISTANCE PRISONERS TO THE GARDEN!
 Peter: Sir!
@@ -1040,11 +1040,11 @@ parent:
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Anna, anna, right, bottom>>
 
-Tom: Anna Koning, I will take you in because of posession of illegal pamphlets.
+Tom: Anna Koning, I will take you in for possession of illegal pamphlets.
 Anna: Damnit, let me go!
 Tom: I don't think so.
-Peter: I was in front of the church when a few guys ran away. Now I see why...
-Peter: Let's take her to the office. Her father can't help her for a second time.
+Peter: I was in front of the church when some guys ran away. Now I see why...
+Peter: Let's take her to the office. Her father can't help her a second time.
 
 [[Interrogate Anna|annainterrogationagain]]
 
@@ -1066,8 +1066,8 @@ parent:
 Saturday 9;10, Sicherheitspolizei, General Office 
 
 Wiegmann: So, let's get this clear. You again took this useless girl in, while you actually had to inspect Mulder's office!
-Peter: This girl might be related to the resistance.
-Wiegmann: She better is, for your sake! Get out of my sight!
+Peter: This girl might be linked to the resistance.
+Wiegmann: She better be, for your sake! Get out of my sight!
 Both: Yes, sir!
 Peter: Shall we interrogate her first, before we go look into that office?
 Tom: Sure.
@@ -1084,16 +1084,16 @@ Anna: ...
 Peter: It doesn't look so good for you. 
 Tom: Investigation 2.58, Saturday just after 12:00, the 16th of January, 1943. 
 Tom: Interrogation on charge of incorrect statements during interrogation and suspected involvement with the resistance.
-Tom: State your name and occupation please.
-Anna: Anna Koning, Student.
-Peter: So can you explain why you were in the Easternchurch?
+Tom: State your name and occupation, please.
+Anna: Anna Koning, student.
+Peter: So, can you explain why you were in the Eastern church?
 Anna: I have already told you why. I was with my study group.
 Peter: Anyway, I don't have the patience to talk in circles. I listened in on your little conversation in the church.
 Peter: Trying to play spies, are you? Spying on the NSB and our manpower. 
 Anna: Wha- What are you taking about?
 Peter: You're involved in the resistance.
 Anna: I'm not part of the resistance.
-Peter: Then prove it, give me the names of the people in you're so-called bible group and I will go ask them.
+Peter: Then prove it, give me the names of the people in your so-called bible group and I will go ask them.
 Anna: I...I-
 Anna: Do you have proof?
 Peter: I don't need any. Unlike you, I'm not a liar.
@@ -1194,7 +1194,7 @@ Peter: Is it? Carefully consider all the choices you made this week.
 Wiegmann: Meyer kept met up to date with your endeavours. Turns out you are not incompetent. Just a traitor. 
 Tom: I- It's not true. You must believe me.
 Wiegmann: Do you think I'm stupid? Meyer told me you searched the house at Lime Tree Lane 40. 
-Peter: I went there another time and searched the house. I found a Jewish family.
+Peter: I went there again and searched the house. I found a Jewish family.
 Tom: ...
 Wiegmann: I would also shut my mouth if I were you.
 
@@ -1234,7 +1234,7 @@ Peter: Finally on time, I see.
    Peter: We were just doing our jobs.
    Tom: Maybe I can give the spare coupons to my neighbour...
    Tom: It would be the right thing to do, right?
-   Peter: Indeed it would be.
+   Peter: Indeed, it would be.
 <<else>>
    Tom: A week full of missed chances.
    Peter: No kidding. 
@@ -1301,12 +1301,12 @@ Tom: You mean that family that lives next to Mulder?
 Dekker: The very same. You see, I help more families just like them.
 Dekker: Because you let these people go, their child could be saved.
 Tom: How do you know that?
-Dekker: That's my secret. You have shown courage and truly tried to save those who are unjustly prosecuted. 
+Dekker: That's my secret. You have shown courage and truly tried to save those who are unjustly persecuted. 
 Tom: ... I...
 Dekker: Therefore, I humbly ask, can you help me?
 Dekker: I shall provide food for your family if so.
 Dekker: It may ease the guilt that you feel about doing your job.
-Dekker: All I ask is that you have to warn me about big razzia's and turn a blind eye to those who need it.
+Dekker: All I ask is that you have to warn me about big razzias and turn a blind eye to those who need it.
 Dekker: Do we have a deal?
 -> Yes.
    Dekker: Excellent
@@ -1316,7 +1316,7 @@ Dekker: Do we have a deal?
 -> No
    Dekker: That is disappointing, though, I can understand.
    Dekker: You still have a good heart.
-   Dekker: I know that you will keep this meeting down.
+   Dekker: I know that you will keep this meeting quiet.
 
 <<HideAll @>> 
 <<Scene @ blackscreen>>
