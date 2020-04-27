@@ -947,12 +947,15 @@ parent:
 
 <<HideAll @>> 
 <<Scene @ maliebaan53>>
+
+<<PlayAudio @ shovevoice, 1.0>>
+*Tom slams into Peter*
+
 <<Act @ Tom, tom, left, bottom>>
 <<Act @ Peter, peter, right, bottom>>
 <<Act @ Wiegmann, wiegmann, right, bottom>>
 <<set $suspicion to $suspicion + 10>>
 
-*Tom slams into Peter*
 Peter: What did you do that for?! She is getting away!
 Tom: I know, what way did she go?
 Peter: You let her go!
